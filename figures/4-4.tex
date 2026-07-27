@@ -1,0 +1,209 @@
+\begin{figure}[H]
+\begin{LTR}
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.96\textwidth,
+    height=10.2cm,
+    ybar=0pt,
+    bar width=17pt,
+    xmin=0.15,
+    xmax=14.85,
+    ymin=0,
+    ymax=108,
+    ytick={0,20,40,60,80,100},
+    ylabel={\rl{درصد}},
+    ylabel style={
+        font=\bfseries\small,
+        text=Ink,
+        yshift=-2pt
+    },
+    title={\rl{سلامت روانشناختی} \lr{(n=69)}},
+    title style={
+        font=\bfseries\large,
+        text=Ink,
+        at={(axis description cs:0.5,1.16)},
+        anchor=south
+    },
+    axis background/.style={
+        fill=Canvas
+    },
+    axis x line*=bottom,
+    axis y line*=left,
+    axis line style={
+        draw=Ink,
+        line width=0.75pt
+    },
+    tick style={
+        draw=Ink,
+        line width=0.6pt
+    },
+    tick label style={
+        font=\small,
+        text=Ink
+    },
+    scaled ticks=false,
+    ymajorgrids=true,
+    xmajorgrids=false,
+    grid style={
+        draw=Border,
+        line width=0.55pt
+    },
+    axis on top,
+    clip=false,
+    xtick={1,2,4,5,7,8,10,11,13,14},
+    xticklabels={
+        {\rl{مرد}},
+        {\rl{زن}},
+        {\rl{مجرد}},
+        {\rl{متاهل}},
+        {\rl{شاغل}},
+        {\makecell[c]{\rl{غیر}\\\rl{شاغل}}},
+        {\rl{پایه}},
+        {\rl{دانشگاهی}},
+        {\makecell[c]{\rl{سطح}\\\rl{کافی}}},
+        {\makecell[c]{\rl{سطح}\\\rl{ناکافی}}}
+    },
+    xticklabel style={
+        font=\footnotesize,
+        text=Ink,
+        align=center,
+        yshift=-3pt
+    },
+    legend style={
+        at={(axis description cs:0.5,1.045)},
+        anchor=south,
+        legend columns=2,
+        draw=Border,
+        fill=SurfaceOne,
+        rounded corners=2pt,
+        inner xsep=8pt,
+        inner ysep=4pt,
+        column sep=12pt,
+        font=\footnotesize,
+        text=Ink,
+        /tikz/every even column/.append style={
+            column sep=14pt
+        }
+    },
+    legend image code/.code={
+        \draw[#1,draw=none]
+            (0cm,-0.10cm)
+            rectangle
+            (0.38cm,0.10cm);
+    },
+    nodes near coords={
+        \pgfmathprintnumber[
+            fixed,
+            precision=1,
+            zerofill=false
+        ]{\pgfplotspointmeta}٪
+    },
+    nodes near coords style={
+        font=\bfseries\footnotesize,
+        text=Ink,
+        anchor=south,
+        yshift=2pt
+    },
+    point meta=y
+]
+% ردهٔ نخست هر گروه
+\addplot+[
+    draw=PrimaryPurple,
+    fill=PrimaryPurple
+]
+coordinates {
+    (1,56.2)
+    (4,23.3)
+    (7,56)
+    (10,39.5)
+    (13,59.1)
+};
+\addlegendentry{\rl{ردهٔ نخست هر گروه}}
+% ردهٔ دوم هر گروه
+\addplot+[
+    draw=SecondaryTeal,
+    fill=SecondaryTeal
+]
+coordinates {
+    (2,22.2)
+    (5,51.7)
+    (8,38.1)
+    (11,71)
+    (14,35.7)
+};
+\addlegendentry{\rl{ردهٔ دوم هر گروه}}
+% جداکننده‌های ظریف میان متغیرهای مستقل
+\draw[
+    Border,
+    line width=0.6pt
+]
+    (axis cs:3,0) -- (axis cs:3,103);
+\draw[
+    Border,
+    line width=0.6pt
+]
+    (axis cs:6,0) -- (axis cs:6,103);
+\draw[
+    Border,
+    line width=0.6pt
+]
+    (axis cs:9,0) -- (axis cs:9,103);
+\draw[
+    Border,
+    line width=0.6pt
+]
+    (axis cs:12,0) -- (axis cs:12,103);
+% نام گروه‌ها و مقادیر p در ردیف دوم محور افقی
+\node[
+    anchor=north,
+    align=center,
+    font=\small,
+    text=Ink
+]
+    at (axis cs:1.5,-15)
+    {\rl{جنسیت}\\[-1pt]\lr{$p<0.001$}};
+\node[
+    anchor=north,
+    align=center,
+    font=\small,
+    text=Ink
+]
+    at (axis cs:4.5,-15)
+    {\rl{تاهل}\\[-1pt]\lr{$p=0.005$}};
+\node[
+    anchor=north,
+    align=center,
+    font=\small,
+    text=Ink
+]
+    at (axis cs:7.5,-15)
+    {\rl{اشتغال}\\[-1pt]\lr{$p=0.029$}};
+\node[
+    anchor=north,
+    align=center,
+    font=\small,
+    text=Ink
+]
+    at (axis cs:10.5,-15)
+    {\rl{تحصیلات}\\[-1pt]\lr{$p=0.003$}};
+\node[
+    anchor=north,
+    align=center,
+    font=\small,
+    text=Ink
+]
+    at (axis cs:13.5,-15)
+    {\rl{سواد سلامت}\\[-1pt]\lr{$p=0.007$}};
+\end{axis}
+\end{tikzpicture}
+\end{LTR}
+\caption{
+مقایسهٔ درصد سلامت روانشناختی بر حسب جنسیت، تاهل، اشتغال،
+تحصیلات و سواد سلامت در ۶۹ شرکت‌کننده. درصد دقیق روی هر
+ستون و مقدار \lr{p} زیر هر گروه مستقل نمایش داده شده است.
+ستون بنفش ردهٔ نخست و ستون فیروزه‌ای ردهٔ دوم هر گروه را
+نشان می‌دهد.
+}
+\label{fig:psychological-health-grouped-bar-chart}
+\end{figure}

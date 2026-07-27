@@ -1,0 +1,253 @@
+%==============================================================================
+% config.tex — تنظیمات مشترک پایان‌نامه دانشگاه‌های علوم پزشکی 
+% موتور الزامی: XeLaTeX
+%==============================================================================
+\usepackage{geometry}
+\geometry{a4paper,inner=3.5cm,outer=2.5cm,top=2.5cm,bottom=2.5cm,includefoot,footskip=1.25cm}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,positioning,calc}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,array,multirow,longtable}
+\usepackage{pdflscape}
+\usepackage{float}
+\usepackage{xltabular}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{titlesec}
+    \usepackage[normalem]{ulem}
+    \usepackage{makecell}
+    \usepackage{booktabs}
+    \usepackage{diagbox}
+    \usepackage{multirow}
+    \usepackage{longtable}
+    \usepackage{pifont}
+    \usepackage{indentfirst}
+    \usepackage{titlesec}
+\usepackage{fontsetup}
+\usepackage{pdfpages}
+
+\usepackage[
+  backend=biber,
+  style=vancouver,
+  sorting=none,
+  maxbibnames=99,
+  giveninits=true,
+  doi=true,
+  url=true
+]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{fancyhdr}
+\usepackage{fontsetup}
+\usepackage{pdfpages}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{xepersian}
+\settextfont[
+  Path=fonts/,
+  Extension=.ttf,
+  Script=Arabic,
+  Scale=1,
+  BoldFont=IRNazanin-Bold,
+  ItalicFont=IRNazanin-Italic
+]{IRNazanin-Regular}
+
+\newfontfamily\XTitr[
+  Path=fonts/,
+  Extension=.ttf,
+  Script=Arabic
+]{IRTitr}
+\setstretch{1.15}
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\AtBeginBibliography{\setlength{\emergencystretch}{5em}}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\titleformat{\chapter}[display]
+  {\centering\normalfont}
+  {\XTitr\fontsize{18pt}{22pt}\selectfont فصل \tartibi{chapter}}
+  {1.2em}
+  {\XTitr\fontsize{22pt}{28pt}\selectfont}
+\titlespacing*{\chapter}{0pt}{0.27\textheight}{3.5em}
+%\titleformat{\section}{\XTitr\fontsize{16pt}{20pt}\selectfont}{\thesection}{0.7em}{}
+%\titleformat{\subsection}{\XTitr\fontsize{14pt}{18pt}\selectfont}{\thesubsection}{0.7em}{}
+%\titleformat{\subsubsection}{\XTitr\fontsize{12pt}{16pt}\selectfont}{\thesubsubsection}{0.7em}{}
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+\renewcommand{\thetable}{\thechapter-\arabic{table}}
+\captionsetup{font={small,bf},justification=centering,singlelinecheck=false,skip=0.55cm}
+\captionsetup[table]{position=top}
+\captionsetup[figure]{position=bottom}
+\setlength{\textfloatsep}{1cm plus 2pt minus 2pt}
+\setlength{\intextsep}{1cm plus 2pt minus 2pt}
+\fancypagestyle{thesis}{%
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+\pagestyle{thesis}
+% Keep automatically inserted verso pages completely blank in duplex output.
+\makeatletter
+\renewcommand{\cleardoublepage}{%
+  \clearpage
+  \if@twoside
+    \ifodd\c@page\else
+      \hbox{}\thispagestyle{empty}\newpage
+      \if@twocolumn\hbox{}\newpage\fi
+    \fi
+  \fi
+}
+\makeatother
+\newcommand{\FrontMatterNumbering}{\pagenumbering{harfi}\pagestyle{thesis}}
+\newcommand{\MainMatterNumbering}{\pagenumbering{arabic}\pagestyle{thesis}}
+\newcommand{\ChapterStart}{\cleardoublepage}
+\renewcommand{\contentsname}{فهرست مطالب}
+\renewcommand{\listtablename}{فهرست جدول‌ها}
+\renewcommand{\listfigurename}{فهرست شکل‌ها و نمودارها}
+\renewcommand{\bibname}{فهرست منابع و مأخذ}
+\newcommand{\ThesisTitleFA}{بررسی میزان پایبندی به اقدامات پیشگیری ثانویه غیردارویی و عوامل مرتبط با آن در بیماران سکته قلبی مراجعه کننده به درمانگاه قلب شهید مدنی شهر خرم آباد در نیمسال دوم 1404}
+\newcommand{\ThesisTitleEN}{Investigating Adherence Rate to Non-pharmacological Secondary Prevention Measures and Associated Factors Among Myocardial Infarction Patients at Shahid Madani Cardiology Clinic, Khorramabad, Iran, in the Second Half of 2025}
+\newcommand{\StudentNameFA}{رومینا بیاطی}
+\newcommand{\StudentNameEN}{Romina Bayati}
+\newcommand{\StudentID}{971410}
+\newcommand{\StudentDegreeFA}{دکتری حرفه‌ای}
+\newcommand{\StudentDegreeEN}{Doctorate}
+\newcommand{\StudentFieldFA}{پزشکی}
+\newcommand{\StudentFieldEN}{Medicine}
+\newcommand{\FacultyFA}{دانشکده پزشکی}
+\newcommand{\FacultyEN}{Faculty of Medicine}
+\newcommand{\UniversityFA}{دانشگاه علوم پزشکی و خدمات بهداشتی، درمانی لرستان}
+\newcommand{\UniversityEN}{Lorestan University of Medical Sciences}
+\newcommand{\SupervisorOneTitleFA}{استاد راهنما}
+\newcommand{\SupervisorOneFA}{دکتر مصطفی چراغی}
+\newcommand{\SupervisorOneEN}{Dr. Mostafa Cheraghi}
+\newcommand{\SupervisorTwoTitleFA}{استادان مشاور}
+\newcommand{\AdvisorOneFA}{دکتر بهروز بیرانوند}
+\newcommand{\AdvisorOneEN}{Dr. Behrooz Beyranvand}
+\newcommand{\AdvisorTwoFA}{}
+\newcommand{\AdvisorTwoEN}{}
+\newcommand{\AdvisorThreeFA}{}
+\newcommand{\AdvisorThreeEN}{}
+\newcommand{\ThesisYearFA}{1405}
+\newcommand{\ThesisYearEN}{2026}
+\newcommand{\ThesisMonthFA}{مرداد}
+\newcommand{\ThesisMonthEN}{August}
+\newcommand{\KeywordsFA}{انفارکتوس میوکارد، پیشگیری ثانویه، پایبندی به درمان، سبک زندگی، بازتوانی قلبی}
+\newcommand{\KeywordsEN}{Myocardial Infarction, Secondary Prevention, Treatment Adherence and Compliance, Healthy Lifestyle, Cardiac Rehabilitation}
+
+
+%-------Chart design system-------
+ \definecolor{PrimaryPurple}{HTML}{7B2FBE}
+ \definecolor{SecondaryTeal}{HTML}{00C4CC}
+ \definecolor{Ink}{HTML}{2D2D2D}
+ \definecolor{InkMuted}{HTML}{737373}
+ \definecolor{Canvas}{HTML}{FFFFFF}
+ \definecolor{SurfaceOne}{HTML}{F5F0FF}
+ \definecolor{SurfaceTwo}{HTML}{EDE4FF}
+ \definecolor{Border}{HTML}{E0D5F0}
+\definecolor{AccentMagenta}{HTML}{FF6B9D}
+
+\captionsetup[figure]{
+    font=small,
+    labelfont=bf,
+    textfont={color=Ink},
+    justification=justified,
+    singlelinecheck=false
+}
+
+
+% Percentage label with the Persian percent sign.
+\newcommand{\PercentLabel}[1]{%
+    \mbox{\lr{#1}\rl{٪}}%
+}
+
+% Group labels: variable name on the first line
+% and the p-value on the second line.
+\newcommand{\GenderGroupLabel}{%
+    \shortstack[c]{%
+        \rl{جنسیت}\\[-1pt]
+        {\scriptsize\lr{\textit{p} = 0.024}}%
+    }%
+}
+
+\newcommand{\MaritalGroupLabel}{%
+    \shortstack[c]{%
+        \rl{تاهل}\\[-1pt]
+        {\scriptsize\lr{\textit{p} = 0.024}}%
+    }%
+}
+
+\newcommand{\EducationGroupLabel}{%
+    \shortstack[c]{%
+        \rl{تحصیلات}\\[-1pt]
+        {\scriptsize\lr{\textit{p} < 0.001}}%
+    }%
+}
+
+\newcommand{\LiteracyGroupLabel}{%
+    \shortstack[c]{%
+        \rl{سواد سلامت}\\[-1pt]
+        {\scriptsize\lr{\textit{p} = 0.016}}%
+    }%
+}
+
+\newcommand{\MedicationGroupLabel}{%
+    \shortstack[c]{%
+        \rl{پایبندی دارویی}\\[-1pt]
+        {\scriptsize\lr{\textit{p} = 0.008}}%
+    }%
+}
+
+\DeclareRobustCommand{\faText}[1]{\rl{#1}}
+
+
+
+
+
+\newcommand{\ForestRow}[5]{%
+  \node[anchor=east,align=right,text width=5.6cm,font=\fontsize{8.2}{8.8}\selectfont]
+    at ([xshift=-2mm]axis cs:0.02,#1) {#2};
+  \node[anchor=west,align=left,text width=3.7cm,font=\fontsize{8.0}{8.5}\selectfont]
+    at ([xshift=2mm]axis cs:100,#1) {\lr{#3 [#4]}};
+  \node[anchor=west,font=\fontsize{8.0}{8.5}\selectfont]
+    at ([xshift=4.1cm]axis cs:100,#1) {\lr{#5}};
+}
+\newcommand{\ForestRowSig}[5]{%
+  \node[anchor=east,align=right,text width=5.6cm,font=\fontsize{8.2}{8.8}\selectfont]
+    at ([xshift=-2mm]axis cs:0.02,#1) {#2};
+  \node[anchor=west,align=left,text width=3.7cm,font=\fontsize{8.0}{8.5}\selectfont\bfseries]
+    at ([xshift=2mm]axis cs:100,#1) {\lr{#3 [#4]}};
+  \node[anchor=west,font=\fontsize{8.0}{8.5}\selectfont\bfseries]
+    at ([xshift=4.1cm]axis cs:100,#1) {\lr{#5}};
+}
+\newcommand{\ForestGroup}[2]{%
+  \node[anchor=east,align=center,text width=2.4cm,font=\bfseries\fontsize{9.0}{9.5}\selectfont]
+    at ([xshift=-6.1cm]axis cs:0.02,#1) {#2};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% Enforce right-to-left typesetting independently on every line in a node.
+\newcommand{\TikzRTL}[1]{\beginR#1\endR}

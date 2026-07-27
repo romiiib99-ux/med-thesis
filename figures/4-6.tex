@@ -1,0 +1,126 @@
+\begin{landscape}
+\begin{figure}[p]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+  xmode=log,
+  log basis x=10,
+  xmin=0.02,xmax=100,
+  ymin=0.35,ymax=30.45,
+  width=8.6cm,height=10.4cm,
+  scale only axis,
+  axis y line=none,
+  axis x line*=bottom,
+  ytick=\empty,
+  xtick={0.02,0.05,0.1,0.2,0.5,1,2,5,10,20,50,100},
+  xticklabels={0.02,0.05,0.1,0.2,0.5,1,2,5,10,20,50,100},
+  tick label style={font=\scriptsize},
+  xlabel={\rl{نسبت شانس (مقیاس لگاریتمی)} },
+  xlabel style={font=\fontsize{8.7}{9.2}\selectfont,yshift=-1mm},
+  xmajorgrids,
+  major grid style={gray!25,line width=0.3pt},
+  tick style={black,line width=0.5pt},
+  clip=false
+]
+\draw[densely dashed,line width=0.9pt] (axis cs:1,0.5) -- (axis cs:1,29.5);
+\node[anchor=south,fill=white,inner sep=1pt,font=\fontsize{7.8}{8.2}\selectfont]
+  at (axis cs:1,29.55) {خط عدم اثر};
+\draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,26.5) -- ([xshift=5.0cm]axis cs:100,26.5);
+\draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,18.5) -- ([xshift=5.0cm]axis cs:100,18.5);
+\draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,13.5) -- ([xshift=5.0cm]axis cs:100,13.5);
+\draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,6.5) -- ([xshift=5.0cm]axis cs:100,6.5);
+\node[anchor=south east,align=center,text width=2.4cm,font=\bfseries\fontsize{9.0}{9.5}\selectfont]
+  at ([xshift=-6.1cm]axis cs:0.02,30.15) {متغیر وابسته};
+\node[anchor=south east,align=center,text width=5.6cm,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+  at ([xshift=-2mm]axis cs:0.02,30.15) {متغیر مستقل};
+\node[anchor=south,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+  at (axis cs:1,30.15) {نسبت شانس و فاصله اطمینان ۹۵ درصد};
+\node[anchor=south west,align=center,text width=3.7cm,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+  at ([xshift=2mm]axis cs:100,30.15) {نسبت شانس؛ فاصله اطمینان ۹۵ درصد};
+\node[anchor=south west,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+  at ([xshift=4.1cm]axis cs:100,30.15) {مقدار \lr{p}};
+\addplot[
+  only marks,mark=square*,mark size=2.1pt,
+  draw=black,fill=white,line width=0.7pt,
+  error bars/.cd,x dir=both,x explicit,
+  error bar style={line width=0.7pt},
+  error mark options={rotate=90,mark size=2.0pt,line width=0.7pt}
+] coordinates {
+(0.98,29) += (0.070,0) -= (0.070,0)
+(0.90,27) += (2.540,0) -= (0.670,0)
+(0.96,26) += (0.090,0) -= (0.080,0)
+(0.20,25) += (1.070,0) -= (0.180,0)
+(2.84,24) += (19.050,0) -= (2.460,0)
+(0.87,22) += (0.910,0) -= (0.440,0)
+(0.30,21) += (1.750,0) -= (0.270,0)
+(1.19,20) += (0.280,0) -= (0.200,0)
+(0.40,19) += (1.500,0) -= (0.330,0)
+(2.658,18) += (8.525,0) -= (2.026,0)
+(1.062,17) += (1.731,0) -= (0.658,0)
+(0.830,15) += (1.244,0) -= (0.498,0)
+(0.585,14) += (0.790,0) -= (0.336,0)
+(0.986,13) += (0.055,0) -= (0.051,0)
+(2.109,10) += (4.077,0) -= (1.390,0)
+(0.646,9) += (1.049,0) -= (0.400,0)
+(0.878,8) += (1.777,0) -= (0.587,0)
+(0.368,6) += (1.056,0) -= (0.273,0)
+(7.824,5) += (61.899,0) -= (6.946,0)
+(1.403,3) += (3.587,0) -= (1.009,0)
+(0.941,2) += (0.160,0) -= (0.136,0)
+(0.386,1) += (1.280,0) -= (0.297,0)
+};
+\addplot[
+  only marks,mark=square*,mark size=2.4pt,
+  draw=black,fill=black,line width=0.7pt,
+  error bars/.cd,x dir=both,x explicit,
+  error bar style={line width=0.9pt},
+  error mark options={rotate=90,mark size=2.1pt,line width=0.9pt}
+] coordinates {
+(0.28,28) += (0.640,0) -= (0.210,0)
+(0.19,23) += (0.670,0) -= (0.160,0)
+(4.546,16) += (7.579,0) -= (2.842,0)
+(0.232,12) += (0.415,0) -= (0.149,0)
+(3.249,11) += (7.129,0) -= (2.232,0)
+(0.797,7) += (0.115,0) -= (0.101,0)
+(6.574,4) += (15.718,0) -= (4.635,0)
+};
+\ForestGroup{28}{قطع سیگار}
+\ForestGroup{22.5}{فعالیت بدنی}
+\ForestGroup{16}{رژیم غذایی}
+\ForestGroup{10}{سلامت روان‌شناختی}
+\ForestGroup{3.5}{پایبندی کلی}
+\ForestRow{29}{سن}{0.98}{0.91--1.05}{0.587}
+\ForestRowSig{28}{اشتغال (شاغل)}{0.28}{0.07--0.92}{0.037}
+\ForestRow{27}{سواد سلامت (ناکافی)}{0.90}{0.23--3.44}{0.886}
+\ForestRow{26}{سن}{0.96}{0.88--1.05}{0.451}
+\ForestRow{25}{تأهل (متأهل)}{0.20}{0.02--1.27}{0.089}
+\ForestRow{24}{تحصیلات (دانشگاهی)}{2.84}{0.38--21.89}{0.298}
+\ForestRowSig{23}{نوع درمان (دارویی در برابر آنژیوپلاستی)}{0.19}{0.03--0.86}{0.031}
+\ForestRow{22}{بیماری‌های همراه}{0.87}{0.43--1.78}{0.707}
+\ForestRow{21}{سواد سلامت (ناکافی)}{0.30}{0.03--2.05}{0.220}
+\ForestRow{20}{درک بیماری}{1.19}{0.99--1.47}{0.062}
+\ForestRow{19}{پایبندی دارویی (پایین)}{0.40}{0.07--1.90}{0.257}
+\ForestRow{18}{تحصیلات (دانشگاهی)}{2.658}{0.632--11.183}{0.182}
+\ForestRow{17}{سکونت (شهری)}{1.062}{0.404--2.793}{0.903}
+\ForestRowSig{16}{وضعیت اقتصادی (ضعیف)}{4.546}{1.704--12.125}{0.002}
+\ForestRow{15}{سواد سلامت (ناکافی)}{0.830}{0.332--2.074}{0.690}
+\ForestRow{14}{پایبندی دارویی (پایین)}{0.585}{0.249--1.375}{0.219}
+\ForestRow{13}{سن}{0.986}{0.935--1.041}{0.609}
+\ForestRowSig{12}{جنسیت (زن)}{0.232}{0.083--0.647}{0.005}
+\ForestRowSig{11}{تأهل (متأهل)}{3.249}{1.017--10.378}{0.047}
+\ForestRow{10}{تحصیلات (دانشگاهی)}{2.109}{0.719--6.186}{0.174}
+\ForestRow{9}{اشتغال (شاغل)}{0.646}{0.246--1.695}{0.374}
+\ForestRow{8}{سواد سلامت (ناکافی)}{0.878}{0.291--2.655}{0.818}
+\ForestRowSig{7}{درک بیماری}{0.797}{0.696--0.912}{0.001}
+\ForestRow{6}{جنسیت (زن)}{0.368}{0.095--1.424}{0.148}
+\ForestRow{5}{تأهل (متأهل)}{7.824}{0.878--69.723}{0.065}
+\ForestRowSig{4}{تحصیلات (دانشگاهی)}{6.574}{1.939--22.292}{0.003}
+\ForestRow{3}{سواد سلامت (ناکافی)}{1.403}{0.394--4.990}{0.601}
+\ForestRow{2}{درک بیماری}{0.941}{0.805--1.101}{0.450}
+\ForestRow{1}{پایبندی دارویی (پایین)}{0.386}{0.089--1.666}{0.202}
+\end{axis}
+\end{tikzpicture}
+\caption{نمودار جنگلی نتایج تحلیل رگرسیون لجستیک چندمتغیره. مربع‌ها برآورد نسبت شانس تعدیل‌شده و خطوط افقی فاصله اطمینان ۹۵ درصد را نشان می‌دهند. خط‌چین عمودی نشان‌دهنده نسبت شانس برابر با یک است. مربع‌های توپر و مقادیر پررنگ بیانگر معنی‌داری آماری در سطح \lr{p<0.05} هستند.}
+\label{fig:multivariable-forest}
+\end{figure}
+\end{landscape}

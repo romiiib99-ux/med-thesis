@@ -1,0 +1,3926 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Palaniappan2026HeartStats}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=68586cb1f2186d2a71d08591b728e09b}{%
+           family={Palaniappan},
+           familyi={P\bibinitperiod},
+           given={LP},
+           giveni={L\bibinitperiod}}}%
+        {{hash=76a138ec4ebb92efb12d9599ac1768f1}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={NB},
+           giveni={N\bibinitperiod}}}%
+        {{hash=48f5214b421374978ff6409c57edef9f}{%
+           family={Almarzooq},
+           familyi={A\bibinitperiod},
+           given={ZI},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=574c9cadbaf11dbc8d36f57950f8a69b}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={CAM},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8a73f7373e721c9e7829bf13adae3090}{%
+           family={Arora},
+           familyi={A\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=016c9504cea57945c60556614d965ff5}{%
+           family={Avery},
+           familyi={A\bibinitperiod},
+           given={CL},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc4db6da20f528f5f24101f8646b97ba}
+      \strng{fullhash}{d4a97009d1b22031b43aaad828912b0a}
+      \strng{bibnamehash}{d4a97009d1b22031b43aaad828912b0a}
+      \strng{authorbibnamehash}{d4a97009d1b22031b43aaad828912b0a}
+      \strng{authornamehash}{dc4db6da20f528f5f24101f8646b97ba}
+      \strng{authorfullhash}{d4a97009d1b22031b43aaad828912b0a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Circulation}
+      \field{number}{9}
+      \field{title}{2026 Heart Disease and Stroke Statistics: A Report of {US} and Global Data From the American Heart Association}
+      \field{volume}{153}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.1161/CIR.0000000000001412
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1161/CIR.0000000000001412
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1161/CIR.0000000000001412
+      \endverb
+    \endentry
+    \entry{WHO2014NCD}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{editorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{editornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{editorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Status Report on Noncommunicable Diseases 2014: Attaining the Nine Global Noncommunicable Diseases Targets, a Shared Responsibility}
+      \field{year}{2014}
+    \endentry
+    \entry{Beyranvand2023IranMI}{article}{}
+      \name{author}{4}{}{%
+        {{hash=59ac47b6644dc0a9ef888a32511ad51e}{%
+           family={Beyranvand},
+           familyi={B\bibinitperiod},
+           given={MR},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb6e4737b68192de81d36cc9996a8a10}{%
+           family={Manhoobi},
+           familyi={M\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d87de421bb17e6ac332715db12f89798}{%
+           family={Shahraz},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f67ba27519b3143679aee62c9bf9bac3}{%
+           family={Kolahi},
+           familyi={K\bibinitperiod},
+           given={AA},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e5062e989b585f2c8a682c95f1324af}
+      \strng{fullhash}{54276e78999f3456a2c36e12eaa678ac}
+      \strng{bibnamehash}{54276e78999f3456a2c36e12eaa678ac}
+      \strng{authorbibnamehash}{54276e78999f3456a2c36e12eaa678ac}
+      \strng{authornamehash}{8e5062e989b585f2c8a682c95f1324af}
+      \strng{authorfullhash}{54276e78999f3456a2c36e12eaa678ac}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Tehran University Heart Center}
+      \field{number}{2}
+      \field{title}{Myocardial Infarction in Iran: Epidemiology, Management, and Prognosis}
+      \field{volume}{18}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.18502/jthc.v18i2.13316
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.18502/jthc.v18i2.13316
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.18502/jthc.v18i2.13316
+      \endverb
+    \endentry
+    \entry{Byrne2023ESC}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=7e6c61ffb23b95966de01ef6f750840c}{%
+           family={Byrne},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4efb7ea565a85f28739d2105e92d05fd}{%
+           family={Rossello},
+           familyi={R\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2620be3444cd0cbb41916e9be722335b}{%
+           family={Coughlan},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{be0d86265225e2b6638e6380138fadc5}
+      \strng{fullhash}{be0d86265225e2b6638e6380138fadc5}
+      \strng{bibnamehash}{be0d86265225e2b6638e6380138fadc5}
+      \strng{authorbibnamehash}{be0d86265225e2b6638e6380138fadc5}
+      \strng{authornamehash}{be0d86265225e2b6638e6380138fadc5}
+      \strng{authorfullhash}{be0d86265225e2b6638e6380138fadc5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Heart Journal}
+      \field{number}{38}
+      \field{title}{2023 {ESC} Guidelines for the Management of Acute Coronary Syndromes}
+      \field{volume}{44}
+      \field{year}{2023}
+      \field{pages}{3720\bibrangedash 3826}
+      \range{pages}{107}
+      \verb{doi}
+      \verb 10.1093/eurheartj/ehad191
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/eurheartj/ehad191
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/eurheartj/ehad191
+      \endverb
+    \endentry
+    \entry{Virani2023ChronicCoronary}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=f1680485b882e5090448dadca51804d2}{%
+           family={Virani},
+           familyi={V\bibinitperiod},
+           given={SS},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fe7aaa6936f0b82e0ae9382a90123bf5}{%
+           family={Newby},
+           familyi={N\bibinitperiod},
+           given={LK},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9adf4796c6cae528aabaa5ab06ce0565}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={SV},
+           giveni={S\bibinitperiod}}}%
+        {{hash=32a2a74b32460797eee05b61fe7e51ca}{%
+           family={Bittner},
+           familyi={B\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d5522bb8da2e1867c428eb3729fc73b1}{%
+           family={Brewer},
+           familyi={B\bibinitperiod},
+           given={LC},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3e16c999b016ed1213f1d270a0682828}{%
+           family={Demeter},
+           familyi={D\bibinitperiod},
+           given={SH},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d4e9bb55c50d630244c33c90ebbfe6a}
+      \strng{fullhash}{c0b2ba7d3a6dad136ffcd1b484e28e59}
+      \strng{bibnamehash}{c0b2ba7d3a6dad136ffcd1b484e28e59}
+      \strng{authorbibnamehash}{c0b2ba7d3a6dad136ffcd1b484e28e59}
+      \strng{authornamehash}{0d4e9bb55c50d630244c33c90ebbfe6a}
+      \strng{authorfullhash}{c0b2ba7d3a6dad136ffcd1b484e28e59}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American College of Cardiology}
+      \field{number}{9}
+      \field{title}{2023 {AHA/ACC/ACCP/ASPC/NLA/PCNA} Guideline for the Management of Patients With Chronic Coronary Disease}
+      \field{volume}{82}
+      \field{year}{2023}
+      \field{pages}{833\bibrangedash 955}
+      \range{pages}{123}
+      \verb{doi}
+      \verb 10.1016/j.jacc.2023.04.003
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jacc.2023.04.003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jacc.2023.04.003
+      \endverb
+    \endentry
+    \entry{Keenan2017Adherence}{article}{}
+      \name{author}{1}{}{%
+        {{hash=542bf72e567acaf47eaa5d29a47d5733}{%
+           family={Keenan},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{542bf72e567acaf47eaa5d29a47d5733}
+      \strng{fullhash}{542bf72e567acaf47eaa5d29a47d5733}
+      \strng{bibnamehash}{542bf72e567acaf47eaa5d29a47d5733}
+      \strng{authorbibnamehash}{542bf72e567acaf47eaa5d29a47d5733}
+      \strng{authornamehash}{542bf72e567acaf47eaa5d29a47d5733}
+      \strng{authorfullhash}{542bf72e567acaf47eaa5d29a47d5733}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Preventive Cardiology}
+      \field{number}{3 Suppl}
+      \field{title}{Improving Adherence to Medication for Secondary Cardiovascular Disease Prevention}
+      \field{volume}{24}
+      \field{year}{2017}
+      \field{pages}{29\bibrangedash 35}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1177/2047487317708145
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/2047487317708145
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/2047487317708145
+      \endverb
+    \endentry
+    \entry{Kotseva2019EUROASPIRE}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=5d732d1858a57ad4b9c733bb05988d42}{%
+           family={Kotseva},
+           familyi={K\bibinitperiod},
+           given={Kornelia},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0a8a343630131ae69af54c2020b1beb0}{%
+           family={De\bibnamedelima Backer},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0d22918f6eccbf6fa292042bb886d5f1}{%
+           family={De\bibnamedelima Bacquer},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=11e992fa1672607f9b05790d54a44b59}{%
+           family={Ryden},
+           familyi={R\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2403d7e83f506eea7ea5f27aabda975e}{%
+           family={Hoes},
+           familyi={H\bibinitperiod},
+           given={Arno},
+           giveni={A\bibinitperiod}}}%
+        {{hash=52e40600b7aa868856c0bf568a5263e7}{%
+           family={Grobbee},
+           familyi={G\bibinitperiod},
+           given={Diederick},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4285ac850f4a1a01335e053cab4a8375}{%
+           family={Maggioni},
+           familyi={M\bibinitperiod},
+           given={Aldo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fbd79f9113b452be597a90e2c37e7e2e}{%
+           family={Marques-Vidal},
+           familyi={M\bibinithyphendelim V\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f3772d6a5772749e0f17b0a32630b992}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={Catriona},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ad0aae768a1174aba9738b6d2719985b}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d777eee5a819301cf614f294eb7b1b87}
+      \strng{fullhash}{abc7230e6ce061f7b49f034cff818f8b}
+      \strng{bibnamehash}{abc7230e6ce061f7b49f034cff818f8b}
+      \strng{authorbibnamehash}{abc7230e6ce061f7b49f034cff818f8b}
+      \strng{authornamehash}{d777eee5a819301cf614f294eb7b1b87}
+      \strng{authorfullhash}{abc7230e6ce061f7b49f034cff818f8b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Preventive Cardiology}
+      \field{number}{8}
+      \field{title}{Lifestyle and Impact on Cardiovascular Risk Factor Control in Coronary Patients across 27 Countries: Results from the European Society of Cardiology {ESC-EORP EUROASPIRE V} Registry}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{824\bibrangedash 835}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1177/2047487318825350
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/2047487318825350
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/2047487318825350
+      \endverb
+    \endentry
+    \entry{Hammer2024Adherence}{article}{}
+      \name{author}{9}{}{%
+        {{hash=b3ef7b2ed1053c06e1512bea4a18e59b}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c889193e99e2b3a99a4b1b385c837adb}{%
+           family={Sinkovec},
+           familyi={S\bibinitperiod},
+           given={Hana},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ad3c60bc539b140224b001f40d854077}{%
+           family={Todorovic},
+           familyi={T\bibinitperiod},
+           given={Marko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=63d2fd71cc3cd95f26e695364ac88774}{%
+           family={Katsch},
+           familyi={K\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=448dac73ad9362092cc1b7b6889d2340}{%
+           family={Gall},
+           familyi={G\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8a1efcb22687fa998a62493d7b873821}{%
+           family={Duftschmid},
+           familyi={D\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=977d90c9d1dbbd26118646b8ff04c073}{%
+           family={Heinze},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bfc418553beee9fdb6a317e35c27ec91}{%
+           family={Niessner},
+           familyi={N\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25cc5717fec134e2fe7f609376fc2718}{%
+           family={Sulzgruber},
+           familyi={S\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3efaaab5f1bad81e9d57431ecb2db0dc}
+      \strng{fullhash}{59d352785bc07998e7e2504ceb63a0ac}
+      \strng{bibnamehash}{59d352785bc07998e7e2504ceb63a0ac}
+      \strng{authorbibnamehash}{59d352785bc07998e7e2504ceb63a0ac}
+      \strng{authornamehash}{3efaaab5f1bad81e9d57431ecb2db0dc}
+      \strng{authorfullhash}{59d352785bc07998e7e2504ceb63a0ac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Clinical Medicine}
+      \field{number}{16}
+      \field{title}{Adherence to Secondary Prevention Measures after Acute Myocardial Infarction and Its Impact on Patient Outcome: A Nationwide Perspective}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{4964}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jcm13164964
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/jcm13164964
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/jcm13164964
+      \endverb
+    \endentry
+    \entry{Mohandas2025RecurrentMI}{article}{}
+      \name{author}{5}{}{%
+        {{hash=bea5f2cd0a4f5ea318be4d933616913c}{%
+           family={Mohandas},
+           familyi={M\bibinitperiod},
+           given={Neeraj\bibnamedelima Vinod},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=e2d239a77ff4f747a8e8478e82ecf826}{%
+           family={Krishnapillai},
+           familyi={K\bibinitperiod},
+           given={Vijayakumar},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4ee9465d4ef7d9e186231838a4656166}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Neethu},
+           giveni={N\bibinitperiod}}}%
+        {{hash=841ac3478945a03b43186207e42fa5de}{%
+           family={Dinesh},
+           familyi={D\bibinitperiod},
+           given={Avani},
+           giveni={A\bibinitperiod}}}%
+        {{hash=61b46aab8c17524f19c2f67403be6a55}{%
+           family={Mohandas},
+           familyi={M\bibinitperiod},
+           given={Vinod},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{1351cdddf5b27ccd750c2953c4e5f25f}
+      \strng{fullhash}{0e29e0f7c5ddffffc1bb7915ff75dbf6}
+      \strng{bibnamehash}{0e29e0f7c5ddffffc1bb7915ff75dbf6}
+      \strng{authorbibnamehash}{0e29e0f7c5ddffffc1bb7915ff75dbf6}
+      \strng{authornamehash}{1351cdddf5b27ccd750c2953c4e5f25f}
+      \strng{authorfullhash}{0e29e0f7c5ddffffc1bb7915ff75dbf6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Public Health}
+      \field{number}{1}
+      \field{title}{Recurrent Myocardial Infarction and Adherence to Secondary Prevention Strategies among Adults with Coronary Artery Disease in Rural Aluva, South India: A Nested Case-Control Study}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{pages}{4253}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12889-025-25571-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12889-025-25571-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12889-025-25571-2
+      \endverb
+    \endentry
+    \entry{Foxwell2013IllnessPerceptions}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0a7687634d948eaa437cb12d583645fc}{%
+           family={Foxwell},
+           familyi={F\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=88e0693107186878493ba0508cc1f993}{%
+           family={Morley},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9f52190e059e8fd3ff60363a14dee813}{%
+           family={Frizelle},
+           familyi={F\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cf29188f786ae79dc1cc32e1bbc0fff}
+      \strng{fullhash}{1cf29188f786ae79dc1cc32e1bbc0fff}
+      \strng{bibnamehash}{1cf29188f786ae79dc1cc32e1bbc0fff}
+      \strng{authorbibnamehash}{1cf29188f786ae79dc1cc32e1bbc0fff}
+      \strng{authornamehash}{1cf29188f786ae79dc1cc32e1bbc0fff}
+      \strng{authorfullhash}{1cf29188f786ae79dc1cc32e1bbc0fff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Psychosomatic Research}
+      \field{number}{3}
+      \field{title}{Illness Perceptions, Mood and Quality of Life: A Systematic Review of Coronary Heart Disease Patients}
+      \field{volume}{75}
+      \field{year}{2013}
+      \field{pages}{211\bibrangedash 222}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.jpsychores.2013.05.003
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jpsychores.2013.05.003
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jpsychores.2013.05.003
+      \endverb
+    \endentry
+    \entry{Estruch2018Mediterranean}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=06aa6bffd8ca086efb32539021b50887}{%
+           family={Estruch},
+           familyi={E\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c4f84b687d7c33ee6ab7557e079a11e8}{%
+           family={Ros},
+           familyi={R\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=39b45064ca4b3579272f1e5782615ac5}{%
+           family={Salas-Salvado},
+           familyi={S\bibinithyphendelim S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=76f4e993b9060d63fb0b02738525ecd3}{%
+           family={Covas},
+           familyi={C\bibinitperiod},
+           given={MI},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb263fb15ff8f096864b1211275b9c60}{%
+           family={Corella},
+           familyi={C\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5ebad5b37578791793fe4ab5bae3f9a8}{%
+           family={Aros},
+           familyi={A\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f58f28a0722525b474fd07c9ecb53a0c}
+      \strng{fullhash}{c51ef9b28bd979b15a4011a5b5292379}
+      \strng{bibnamehash}{c51ef9b28bd979b15a4011a5b5292379}
+      \strng{authorbibnamehash}{c51ef9b28bd979b15a4011a5b5292379}
+      \strng{authornamehash}{f58f28a0722525b474fd07c9ecb53a0c}
+      \strng{authorfullhash}{c51ef9b28bd979b15a4011a5b5292379}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New England Journal of Medicine}
+      \field{number}{25}
+      \field{title}{Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts}
+      \field{volume}{378}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1056/NEJMoa1800389
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1056/NEJMoa1800389
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1056/NEJMoa1800389
+      \endverb
+    \endentry
+    \entry{Gao2025SmokingCessation}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5cf86aa089365e0f57ae461a4358e065}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6d4d76d3dacb90eb76d32a306c6c87fd}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4b44bba1743c2ad874f7d960887af663}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod}}}%
+        {{hash=21d1791a2489aa00afe04a317c714ae6}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0d4a8cff3cc7aa7cf7a8e2b46e93005e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{10e54184116a610bf894e1d94dad1e6d}
+      \strng{fullhash}{d8ff4b00f8a2a3dbb4e50ecae40a3b92}
+      \strng{bibnamehash}{d8ff4b00f8a2a3dbb4e50ecae40a3b92}
+      \strng{authorbibnamehash}{d8ff4b00f8a2a3dbb4e50ecae40a3b92}
+      \strng{authornamehash}{10e54184116a610bf894e1d94dad1e6d}
+      \strng{authorfullhash}{d8ff4b00f8a2a3dbb4e50ecae40a3b92}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Preventive Cardiology}
+      \field{title}{Impact of Smoking Cessation on Cardiovascular Outcomes in Patients with Myocardial Infarction with Nonobstructive Coronary Arteries}
+      \field{volume}{23}
+      \field{year}{2025}
+      \field{pages}{101080}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ajpc.2025.101080
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ajpc.2025.101080
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ajpc.2025.101080
+      \endverb
+    \endentry
+    \entry{Vaccarino2020Depression}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=a0efdb1aeedaf08e1c962b93914ba578}{%
+           family={Vaccarino},
+           familyi={V\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5800547c8dea34be2994db5d815d17c4}{%
+           family={Badimon},
+           familyi={B\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=56b6baa34ae4550693705a98f3130076}{%
+           family={Bremner},
+           familyi={B\bibinitperiod},
+           given={JD},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aeb8b3effcabf961c5f9499d6c58a2fa}{%
+           family={Cenko},
+           familyi={C\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=699764736a43b01485a00edbd0de4b60}{%
+           family={Cubedo},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f54614eead7ff4980b90ccc87a8fcca7}{%
+           family={Dorobantu},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1993b4157e2734c3471fe8afd912ce93}
+      \strng{fullhash}{964d44b91057ece90582309e301ea64f}
+      \strng{bibnamehash}{964d44b91057ece90582309e301ea64f}
+      \strng{authorbibnamehash}{964d44b91057ece90582309e301ea64f}
+      \strng{authornamehash}{1993b4157e2734c3471fe8afd912ce93}
+      \strng{authorfullhash}{964d44b91057ece90582309e301ea64f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Heart Journal}
+      \field{number}{17}
+      \field{title}{Depression and Coronary Heart Disease: 2018 Position Paper of the {ESC} Working Group on Coronary Pathophysiology and Microcirculation}
+      \field{volume}{41}
+      \field{year}{2020}
+      \field{pages}{1687\bibrangedash 1696}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1093/eurheartj/ehy913
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/eurheartj/ehy913
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/eurheartj/ehy913
+      \endverb
+    \endentry
+    \entry{Chaudri2004AdherenceWHO}{article}{}
+      \name{author}{1}{}{%
+        {{hash=edb590be2df3b4a5f613eff820c13bd1}{%
+           family={Chaudri},
+           familyi={C\bibinitperiod},
+           given={NA},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{edb590be2df3b4a5f613eff820c13bd1}
+      \strng{fullhash}{edb590be2df3b4a5f613eff820c13bd1}
+      \strng{bibnamehash}{edb590be2df3b4a5f613eff820c13bd1}
+      \strng{authorbibnamehash}{edb590be2df3b4a5f613eff820c13bd1}
+      \strng{authornamehash}{edb590be2df3b4a5f613eff820c13bd1}
+      \strng{authorfullhash}{edb590be2df3b4a5f613eff820c13bd1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Saudi Medicine}
+      \field{number}{3}
+      \field{title}{Adherence to Long-Term Therapies: Evidence for Action, World Health Organization ({WHO}). 2003, 216 Pages}
+      \field{volume}{24}
+      \field{year}{2004}
+      \field{pages}{221\bibrangedash 222}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.5144/0256-4947.2004.221
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5144/0256-4947.2004.221
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5144/0256-4947.2004.221
+      \endverb
+    \endentry
+    \entry{He2026CardiacRehab}{article}{}
+      \name{author}{6}{}{%
+        {{hash=b5fceee09cbf412999a05dbeffc3dd5b}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3702f1c146e64a6c91fc47b81ea59fc7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=236290de3ce6ef20473b24385d5a23dc}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b2ff85d118c95088c7ca004045563aa8}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d539746d8c6dcf5a0d1f2b4c4a9f59de}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=db78cb9680889168cd377cb6775b53dc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{827d0fcb541b59c93a4c0bd6a518b6d7}
+      \strng{fullhash}{d3991a423cff1ca0386a2cab5947b3e8}
+      \strng{bibnamehash}{d3991a423cff1ca0386a2cab5947b3e8}
+      \strng{authorbibnamehash}{d3991a423cff1ca0386a2cab5947b3e8}
+      \strng{authornamehash}{827d0fcb541b59c93a4c0bd6a518b6d7}
+      \strng{authorfullhash}{d3991a423cff1ca0386a2cab5947b3e8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Patient Preference and Adherence}
+      \field{title}{Associated Factors of Different Cardiac Rehabilitation Adherence Profiles Post-{PCI}: A Latent Profile Analysis}
+      \field{volume}{20}
+      \field{year}{2026}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.2147/PPA.S589177
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2147/PPA.S589177
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2147/PPA.S589177
+      \endverb
+    \endentry
+    \entry{Sorensen2015HealthLiteracy}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=590ca0e199bd03a4bbc7a75c9034ace3}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=cd4238550b1108195436fb4319bfeeca}{%
+           family={Pelikan},
+           familyi={P\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ef0bbe9e6290353db28a6588613322d6}{%
+           family={Rothlin},
+           familyi={R\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9f2b7b2664bcd6b1711395e595eac034}{%
+           family={Ganahl},
+           familyi={G\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=258f21863114fd376b3f27b78b2eae97}{%
+           family={Slonska},
+           familyi={S\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=87bd72926b563a486a829fa04e0c9358}{%
+           family={Doyle},
+           familyi={D\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a1183a4ae623f553c5da99f7ff1b5f8}
+      \strng{fullhash}{4808fbf70cf106c1777aa948f9a81903}
+      \strng{bibnamehash}{4808fbf70cf106c1777aa948f9a81903}
+      \strng{authorbibnamehash}{4808fbf70cf106c1777aa948f9a81903}
+      \strng{authornamehash}{2a1183a4ae623f553c5da99f7ff1b5f8}
+      \strng{authorfullhash}{4808fbf70cf106c1777aa948f9a81903}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Public Health}
+      \field{number}{6}
+      \field{title}{Health Literacy in Europe: Comparative Results of the European Health Literacy Survey ({HLS-EU})}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{pages}{1053\bibrangedash 1058}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/eurpub/ckv043
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/eurpub/ckv043
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/eurpub/ckv043
+      \endverb
+    \endentry
+    \entry{Zakeri2023HealthLiteracy}{article}{}
+      \name{author}{6}{}{%
+        {{hash=164b69d3b28abed31bbb9ce271087f01}{%
+           family={Zakeri},
+           familyi={Z\bibinitperiod},
+           given={MA},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7a119d2d1613fc05df71e435a5dfa72c}{%
+           family={Tavan},
+           familyi={T\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=825987dba34921ee65f5ddf4d11196f3}{%
+           family={Nadimi},
+           familyi={N\bibinitperiod},
+           given={AE},
+           giveni={A\bibinitperiod}}}%
+        {{hash=85d87874f10815f8e8023237700bdd00}{%
+           family={Bazmandegan},
+           familyi={B\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=753872c7ee71963b3a29d8ed9c5c09dd}{%
+           family={Zakeri},
+           familyi={Z\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d6405ee028ac1052c1afba478b6d9552}{%
+           family={Sedri},
+           familyi={S\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1dbb6e76a9d7f3ab7f746e78aaf6c97}
+      \strng{fullhash}{9a6fa0b63118bbd62deda846e973e788}
+      \strng{bibnamehash}{9a6fa0b63118bbd62deda846e973e788}
+      \strng{authorbibnamehash}{9a6fa0b63118bbd62deda846e973e788}
+      \strng{authornamehash}{c1dbb6e76a9d7f3ab7f746e78aaf6c97}
+      \strng{authorfullhash}{9a6fa0b63118bbd62deda846e973e788}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Literacy Research and Practice}
+      \field{number}{2}
+      \field{title}{Relationship Between Health Literacy, Quality of Life, and Treatment Adherence in Patients with Acute Coronary Syndrome}
+      \field{volume}{7}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.3928/24748307-20230320-01
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3928/24748307-20230320-01
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3928/24748307-20230320-01
+      \endverb
+    \endentry
+    \entry{Leventhal2016CSM}{article}{}
+      \name{author}{3}{}{%
+        {{hash=86929f885356cf2f0d8ec5f06ce1a896}{%
+           family={Leventhal},
+           familyi={L\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=87619f67231f17c8646241b7259bf9f7}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={LA},
+           giveni={L\bibinitperiod}}}%
+        {{hash=570d26d412bcc4d554c342b3fd7c5316}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d01ecf0b2356896e952a10cdbd89a02a}
+      \strng{fullhash}{d01ecf0b2356896e952a10cdbd89a02a}
+      \strng{bibnamehash}{d01ecf0b2356896e952a10cdbd89a02a}
+      \strng{authorbibnamehash}{d01ecf0b2356896e952a10cdbd89a02a}
+      \strng{authornamehash}{d01ecf0b2356896e952a10cdbd89a02a}
+      \strng{authorfullhash}{d01ecf0b2356896e952a10cdbd89a02a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Behavioral Medicine}
+      \field{number}{6}
+      \field{title}{The Common-Sense Model of Self-Regulation ({CSM}): A Dynamic Framework for Understanding Illness Self-Management}
+      \field{volume}{39}
+      \field{year}{2016}
+      \field{pages}{935\bibrangedash 946}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s10865-016-9782-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10865-016-9782-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10865-016-9782-2
+      \endverb
+    \endentry
+    \entry{Broadbent2015BriefIPQ}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6261126ab3ab260bd0078bda5615ddd0}{%
+           family={Broadbent},
+           familyi={B\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ebd08b4bb799c4bce3160612eb1a59f7}{%
+           family={Wilkes},
+           familyi={W\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=abd6662a3e7a63342ce02a5bf26f0296}{%
+           family={Koschwanez},
+           familyi={K\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=162b39fd41500d4f88e438dfa21622dd}{%
+           family={Weinman},
+           familyi={W\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dc780a32ae6864c0f3587911ac5ed82c}{%
+           family={Norton},
+           familyi={N\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a5f4ef233387ac789c90c9c31753ee5c}{%
+           family={Petrie},
+           familyi={P\bibinitperiod},
+           given={KJ},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8641d95bd0158c71171731c2dca39e7b}
+      \strng{fullhash}{036db429801aa2d7225756a9cbe937d2}
+      \strng{bibnamehash}{036db429801aa2d7225756a9cbe937d2}
+      \strng{authorbibnamehash}{036db429801aa2d7225756a9cbe937d2}
+      \strng{authornamehash}{8641d95bd0158c71171731c2dca39e7b}
+      \strng{authorfullhash}{036db429801aa2d7225756a9cbe937d2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology and Health}
+      \field{number}{11}
+      \field{title}{A Systematic Review and Meta-Analysis of the Brief Illness Perception Questionnaire}
+      \field{volume}{30}
+      \field{year}{2015}
+      \field{pages}{1361\bibrangedash 1385}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1080/08870446.2015.1070851
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/08870446.2015.1070851
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/08870446.2015.1070851
+      \endverb
+    \endentry
+    \entry{French2006CardiacRehab}{article}{}
+      \name{author}{3}{}{%
+        {{hash=daa3a33d56fdbd2d812f78c25108eb30}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={DP},
+           giveni={D\bibinitperiod}}}%
+        {{hash=15d0e70ca47f0ede684279057ae9f034}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=162b39fd41500d4f88e438dfa21622dd}{%
+           family={Weinman},
+           familyi={W\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d9f3278caebf8252f500fff98d2ae77}
+      \strng{fullhash}{2d9f3278caebf8252f500fff98d2ae77}
+      \strng{bibnamehash}{2d9f3278caebf8252f500fff98d2ae77}
+      \strng{authorbibnamehash}{2d9f3278caebf8252f500fff98d2ae77}
+      \strng{authornamehash}{2d9f3278caebf8252f500fff98d2ae77}
+      \strng{authorfullhash}{2d9f3278caebf8252f500fff98d2ae77}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Psychosomatic Research}
+      \field{number}{6}
+      \field{title}{Illness Perceptions Predict Attendance at Cardiac Rehabilitation Following Acute Myocardial Infarction: A Systematic Review with Meta-Analysis}
+      \field{volume}{61}
+      \field{year}{2006}
+      \field{pages}{757\bibrangedash 767}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.jpsychores.2006.07.029
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jpsychores.2006.07.029
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jpsychores.2006.07.029
+      \endverb
+    \endentry
+    \entry{Mobini2023IllnessPerception}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c7c9578c37d3dba8bd485da0486ebb8e}{%
+           family={Mobini},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2729119d08ed1dd5f6ca76b29f7e95ec}{%
+           family={Allahbakhshian},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d4a37272d09d50b2aa0aa27281168ff}{%
+           family={Shabanloei},
+           familyi={S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=01cc570c16b441e55c6c10d52045648e}{%
+           family={Sarbakhsh},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f98de84436f8a989b217edc5257618e4}
+      \strng{fullhash}{808d5ffc1c1ba54c13cbcf384bbeb75d}
+      \strng{bibnamehash}{808d5ffc1c1ba54c13cbcf384bbeb75d}
+      \strng{authorbibnamehash}{808d5ffc1c1ba54c13cbcf384bbeb75d}
+      \strng{authornamehash}{f98de84436f8a989b217edc5257618e4}
+      \strng{authorfullhash}{808d5ffc1c1ba54c13cbcf384bbeb75d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAGE Open Nursing}
+      \field{title}{Illness Perception, Self-Efficacy, and Medication Adherence in Patients With Coronary Artery Disease: A Path Analysis of Conceptual Model}
+      \field{volume}{9}
+      \field{year}{2023}
+      \field{pages}{23779608231171772}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/23779608231171772
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/23779608231171772
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/23779608231171772
+      \endverb
+    \endentry
+    \entry{Aujla2016IllnessBeliefs}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3a43f135af60eeff366727a8009b35b1}{%
+           family={Aujla},
+           familyi={A\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=725f408ad4476a0c9389f5ed0493cf18}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2e02ff18a6e2b1562b2df822136212dd}{%
+           family={Sprigg},
+           familyi={S\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4c608b6a9316fc0e2c9dfe5452d393c3}{%
+           family={Abrams},
+           familyi={A\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8965bb308aa713c2e1f2ae89feb91458}{%
+           family={Massey},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5469bc74cd337499e0ef378026304d60}{%
+           family={Vedhara},
+           familyi={V\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{c54325186cde43ca1725c9f96ac3fce0}
+      \strng{fullhash}{79c261e5880ab844b6a00c1f7ffc7904}
+      \strng{bibnamehash}{79c261e5880ab844b6a00c1f7ffc7904}
+      \strng{authorbibnamehash}{79c261e5880ab844b6a00c1f7ffc7904}
+      \strng{authornamehash}{c54325186cde43ca1725c9f96ac3fce0}
+      \strng{authorfullhash}{79c261e5880ab844b6a00c1f7ffc7904}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychology and Health}
+      \field{number}{8}
+      \field{title}{Can Illness Beliefs, from the Common-Sense Model, Prospectively Predict Adherence to Self-Management Behaviours? A Systematic Review and Meta-Analysis}
+      \field{volume}{31}
+      \field{year}{2016}
+      \field{pages}{931\bibrangedash 958}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1080/08870446.2016.1153640
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/08870446.2016.1153640
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/08870446.2016.1153640
+      \endverb
+    \endentry
+    \entry{GBD2021Causes2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b8f5f2c2605e68717216c28155e934ab}{%
+           family={{GBD 2021 Causes of Death Collaborators}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{fullhash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{bibnamehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authorbibnamehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authornamehash}{b8f5f2c2605e68717216c28155e934ab}
+      \strng{authorfullhash}{b8f5f2c2605e68717216c28155e934ab}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet}
+      \field{number}{10440}
+      \field{title}{Global Burden of 288 Causes of Death and Life Expectancy Decomposition in 204 Countries and Territories and 811 Subnational Locations, 1990--2021: A Systematic Analysis for the Global Burden of Disease Study 2021}
+      \field{volume}{403}
+      \field{year}{2024}
+      \field{pages}{2100\bibrangedash 2132}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/S0140-6736(24)00367-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/S0140-6736(24)00367-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/S0140-6736(24)00367-2
+      \endverb
+    \endentry
+    \entry{HeidariForoozan2025Iran}{article}{}
+      \name{author}{11}{}{%
+        {{hash=04d7811e1114790c0f5ce787a39b98b5}{%
+           family={Heidari-Foroozan},
+           familyi={H\bibinithyphendelim F\bibinitperiod},
+           given={Mahsa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9badfe2d69101fb1b528097620927c98}{%
+           family={Farshbafnadi},
+           familyi={F\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=11a48fb2d6cdd2c64dd50fb551cfec06}{%
+           family={Golestani},
+           familyi={G\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=79f097f2b24e10bc8fa145c54b926c00}{%
+           family={Younesian},
+           familyi={Y\bibinitperiod},
+           given={Sima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0c23ca963a05a0a15d67c2fe0c582849}{%
+           family={Jafary},
+           familyi={J\bibinitperiod},
+           given={Hanieh},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f97cb518bfaea9771550491d6f4d73ba}{%
+           family={Rashidi},
+           familyi={R\bibinitperiod},
+           given={Mohammad\bibnamedelima Mehdi},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=dafadb1ef76700c8f13b9abd4115b7e7}{%
+           family={Tabatabaei-Malazy},
+           familyi={T\bibinithyphendelim M\bibinitperiod},
+           given={Ozra},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a52675cbc719acf04c8016786b5573fa}{%
+           family={Rezaei},
+           familyi={R\bibinitperiod},
+           given={Nima},
+           giveni={N\bibinitperiod}}}%
+        {{hash=86f08d1148b24a2afedc71368333d6bf}{%
+           family={Kheirabady},
+           familyi={K\bibinitperiod},
+           given={Mohammad\bibnamedelima Mahdi},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e60449fd28053571f33548cce05d6ca0}{%
+           family={Ghotbi},
+           familyi={G\bibinitperiod},
+           given={Afsaneh\bibnamedelima Bahrami},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=34bdf8a875398b98c11b05be15d771d6}{%
+           family={Ghamari},
+           familyi={G\bibinitperiod},
+           given={Seyed\bibnamedelima Hamidreza},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dae9af1c4b6347caa562c22340c2ab4}
+      \strng{fullhash}{103d7b8c4e0cba32670bd53714101ebf}
+      \strng{bibnamehash}{103d7b8c4e0cba32670bd53714101ebf}
+      \strng{authorbibnamehash}{103d7b8c4e0cba32670bd53714101ebf}
+      \strng{authornamehash}{7dae9af1c4b6347caa562c22340c2ab4}
+      \strng{authorfullhash}{103d7b8c4e0cba32670bd53714101ebf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Global Heart}
+      \field{number}{1}
+      \field{title}{National and Subnational Burden of Cardiovascular Diseases in Iran from 1990 to 2021: Results from Global Burden of Diseases 2021 Study}
+      \field{volume}{20}
+      \field{year}{2025}
+      \field{pages}{43}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5334/gh.1429
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5334/gh.1429
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5334/gh.1429
+      \endverb
+    \endentry
+    \entry{Dibben2021CardiacRehabilitation}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ab0ae450e307881eec9ae5d1c94feb16}{%
+           family={Dibben},
+           familyi={D\bibinitperiod},
+           given={Grace},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2b8382f5b9e0c3136f0405f1c88d28a0}{%
+           family={Faulkner},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=338eb0f0d24bc5d23c2f05af1157a3cc}{%
+           family={Oldridge},
+           familyi={O\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=766fe604161b25d0b11ce5703667e498}{%
+           family={Rees},
+           familyi={R\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5cc4669dcd9bd2879717632245bf3b86}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f4fe03779c32f7f5a38b07be242f5516}{%
+           family={Zwisler},
+           familyi={Z\bibinitperiod},
+           given={Ann-Dorthe},
+           giveni={A\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=3b42727ee501dce296002f553c898076}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Rod\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6d283b3327f887414fa58afcfda36b9}
+      \strng{fullhash}{9a31827f04ae178ae631b38b70b79730}
+      \strng{bibnamehash}{9a31827f04ae178ae631b38b70b79730}
+      \strng{authorbibnamehash}{9a31827f04ae178ae631b38b70b79730}
+      \strng{authornamehash}{a6d283b3327f887414fa58afcfda36b9}
+      \strng{authorfullhash}{9a31827f04ae178ae631b38b70b79730}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cochrane Database of Systematic Reviews}
+      \field{number}{11}
+      \field{title}{Exercise-Based Cardiac Rehabilitation for Coronary Heart Disease}
+      \field{year}{2021}
+      \field{pages}{CD001800}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/14651858.CD001800.pub4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/14651858.CD001800.pub4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/14651858.CD001800.pub4
+      \endverb
+    \endentry
+    \entry{Ek2019PhysicalInactivity}{article}{}
+      \name{author}{6}{}{%
+        {{hash=882a9ee87a7eecaad54b8aa77390eebb}{%
+           family={Ek},
+           familyi={E\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7eb83dabfd6e88f573a161d89b9ccbf2}{%
+           family={Ekblom},
+           familyi={E\bibinitperiod},
+           given={Orjan},
+           giveni={O\bibinitperiod}}}%
+        {{hash=fccafa7ca1051976891824781b8ede49}{%
+           family={Hambraeus},
+           familyi={H\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2f1ad7f98aede81099682a7f4ec9b030}{%
+           family={Cider},
+           familyi={C\bibinitperiod},
+           given={Asa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2b0b79a99f3a200624686d64fa7ebb36}{%
+           family={Kallings},
+           familyi={K\bibinitperiod},
+           given={Lena\bibnamedelima V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=553518f4221e61b9a6a8880855ef05f6}{%
+           family={Borjesson},
+           familyi={B\bibinitperiod},
+           given={Mats},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1244033491c06644e623adb833d9eb04}
+      \strng{fullhash}{e4d2115a57512f1ee195b3b3ea0127d0}
+      \strng{bibnamehash}{e4d2115a57512f1ee195b3b3ea0127d0}
+      \strng{authorbibnamehash}{e4d2115a57512f1ee195b3b3ea0127d0}
+      \strng{authornamehash}{1244033491c06644e623adb833d9eb04}
+      \strng{authorfullhash}{e4d2115a57512f1ee195b3b3ea0127d0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Clinical Research in Cardiology}
+      \field{number}{3}
+      \field{title}{Physical Inactivity and Smoking after Myocardial Infarction as Predictors for Readmission and Survival: Results from the {SWEDEHEART} Registry}
+      \field{volume}{108}
+      \field{year}{2019}
+      \field{pages}{324\bibrangedash 332}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s00392-018-1360-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00392-018-1360-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00392-018-1360-x
+      \endverb
+    \endentry
+    \entry{Visseren2021ESCPrevention}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=352090c9c8c285d6d3ab5340ced10302}{%
+           family={Visseren},
+           familyi={V\bibinitperiod},
+           given={Frank\bibnamedelimb L.\bibnamedelimi J.},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8542e79a60858af2c29afb63740db56a}{%
+           family={Mach},
+           familyi={M\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1fe50e673404e1b18a48c89b82780d5e}{%
+           family={Smulders},
+           familyi={S\bibinitperiod},
+           given={Yvo\bibnamedelima M.},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1a830a67f3e9c460a18f8b67c559ba7}
+      \strng{fullhash}{c1a830a67f3e9c460a18f8b67c559ba7}
+      \strng{bibnamehash}{c1a830a67f3e9c460a18f8b67c559ba7}
+      \strng{authorbibnamehash}{c1a830a67f3e9c460a18f8b67c559ba7}
+      \strng{authornamehash}{c1a830a67f3e9c460a18f8b67c559ba7}
+      \strng{authorfullhash}{c1a830a67f3e9c460a18f8b67c559ba7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Heart Journal}
+      \field{number}{34}
+      \field{title}{2021 {ESC} Guidelines on Cardiovascular Disease Prevention in Clinical Practice}
+      \field{volume}{42}
+      \field{year}{2021}
+      \field{pages}{3227\bibrangedash 3337}
+      \range{pages}{111}
+      \verb{doi}
+      \verb 10.1093/eurheartj/ehab484
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/eurheartj/ehab484
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/eurheartj/ehab484
+      \endverb
+    \endentry
+    \entry{Sulat2018HBM}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6c4b85f16734eeb7719d99b14e4f59f6}{%
+           family={Sulat},
+           familyi={S\bibinitperiod},
+           given={Jaelan\bibnamedelima Sumo},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=647d29ca8ada3d36db9c58788191bf9e}{%
+           family={Prabandari},
+           familyi={P\bibinitperiod},
+           given={Yayi\bibnamedelima Suryo},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7f282d93260351941db2b94f86a726ca}{%
+           family={Sanusi},
+           familyi={S\bibinitperiod},
+           given={Rossi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=faf91865448c3218ba5122ed22f1eaea}{%
+           family={Hapsari},
+           familyi={H\bibinitperiod},
+           given={Elsi\bibnamedelima Dwi},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4fd63cd58054b3ec01c92f4be4c4509d}{%
+           family={Santoso},
+           familyi={S\bibinitperiod},
+           given={Budiono},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{21ddc921ef8e347e7781b4566e3f6d23}
+      \strng{fullhash}{70de53fb061c75bf627687cb2a74e1ad}
+      \strng{bibnamehash}{70de53fb061c75bf627687cb2a74e1ad}
+      \strng{authorbibnamehash}{70de53fb061c75bf627687cb2a74e1ad}
+      \strng{authornamehash}{21ddc921ef8e347e7781b4566e3f6d23}
+      \strng{authorfullhash}{70de53fb061c75bf627687cb2a74e1ad}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Education}
+      \field{number}{6}
+      \field{title}{The Validity of Health Belief Model Variables in Predicting Behavioral Change: A Scoping Review}
+      \field{volume}{118}
+      \field{year}{2018}
+      \field{pages}{499\bibrangedash 512}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1108/HE-05-2018-0027
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1108/HE-05-2018-0027
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1108/HE-05-2018-0027
+      \endverb
+    \endentry
+    \entry{Steinmetz2016TPB}{article}{}
+      \name{author}{5}{}{%
+        {{hash=5087a1e304b003158b5fd1571bf74f22}{%
+           family={Steinmetz},
+           familyi={S\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=34c8911a1d7914234d8a850a38f0791e}{%
+           family={Knappstein},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=12c8413725b85ed91ef550e3139d6e1e}{%
+           family={Ajzen},
+           familyi={A\bibinitperiod},
+           given={Icek},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5cb3b2eebb57853f3c2dfcfb2328deb7}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=02e8f5d41afd256e828a563c8fc3d175}{%
+           family={Kabst},
+           familyi={K\bibinitperiod},
+           given={Rudiger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ddd6b2f00064257fec8d6dddc9c519a}
+      \strng{fullhash}{9aff38c44961526bde3a11738cd7bda8}
+      \strng{bibnamehash}{9aff38c44961526bde3a11738cd7bda8}
+      \strng{authorbibnamehash}{9aff38c44961526bde3a11738cd7bda8}
+      \strng{authornamehash}{6ddd6b2f00064257fec8d6dddc9c519a}
+      \strng{authorfullhash}{9aff38c44961526bde3a11738cd7bda8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift fur Psychologie}
+      \field{number}{3}
+      \field{title}{How Effective Are Behavior Change Interventions Based on the Theory of Planned Behavior? A Three-Level Meta-Analysis}
+      \field{volume}{224}
+      \field{year}{2016}
+      \field{pages}{216\bibrangedash 233}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1027/2151-2604/a000255
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1027/2151-2604/a000255
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1027/2151-2604/a000255
+      \endverb
+    \endentry
+    \entry{Hagger2022PBC}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d234367199d07ce988c5e733d76206e7}{%
+           family={Hagger},
+           familyi={H\bibinitperiod},
+           given={Martin\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=95109594aacecd0678d5f2ddadcaef5f}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Mike\bibnamedelima W.-L.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=12c8413725b85ed91ef550e3139d6e1e}{%
+           family={Ajzen},
+           familyi={A\bibinitperiod},
+           given={Icek},
+           giveni={I\bibinitperiod}}}%
+        {{hash=d4646d9fc58112d1f92ff23c2d8fcf6b}{%
+           family={Hamilton},
+           familyi={H\bibinitperiod},
+           given={Kyra},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cc36919d4676292f9a1663558719610}
+      \strng{fullhash}{d1c618f2b4d0eecd0cc56e932e1422d5}
+      \strng{bibnamehash}{d1c618f2b4d0eecd0cc56e932e1422d5}
+      \strng{authorbibnamehash}{d1c618f2b4d0eecd0cc56e932e1422d5}
+      \strng{authornamehash}{9cc36919d4676292f9a1663558719610}
+      \strng{authorfullhash}{d1c618f2b4d0eecd0cc56e932e1422d5}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Psychology}
+      \field{number}{2}
+      \field{title}{Perceived Behavioral Control Moderating Effects in the Theory of Planned Behavior: A Meta-Analysis}
+      \field{volume}{41}
+      \field{year}{2022}
+      \field{pages}{155\bibrangedash 167}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/hea0001153
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1037/hea0001153
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1037/hea0001153
+      \endverb
+    \endentry
+    \entry{Jalali2024Pender}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f38ae33efc47d30dcaccd9c86aaf8348}{%
+           family={Jalali},
+           familyi={J\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=366d3536957b1844b5b55eb58d573211}{%
+           family={Ziapour},
+           familyi={Z\bibinitperiod},
+           given={Arash},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91e8e3a5c61d61e17d6daeeda616bbb8}{%
+           family={Ezzati},
+           familyi={E\bibinitperiod},
+           given={Ebrahim},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c28546435fffde7a4763b46e5db8ea9a}{%
+           family={Kazemi},
+           familyi={K\bibinitperiod},
+           given={Shahrokh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6ea5d2a99d07f215757dd3058e14ef4d}{%
+           family={Kazeminia},
+           familyi={K\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e4941aab899ead200069c04e55b64de}
+      \strng{fullhash}{ef6bc4523edd73d3f87f3ff92320d0a3}
+      \strng{bibnamehash}{ef6bc4523edd73d3f87f3ff92320d0a3}
+      \strng{authorbibnamehash}{ef6bc4523edd73d3f87f3ff92320d0a3}
+      \strng{authornamehash}{1e4941aab899ead200069c04e55b64de}
+      \strng{authorfullhash}{ef6bc4523edd73d3f87f3ff92320d0a3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Health Promotion}
+      \field{number}{7}
+      \field{title}{The Impact of Training Based on the Pender Health Promotion Model on Self-Efficacy: A Systematic Review and Meta-Analysis}
+      \field{volume}{38}
+      \field{year}{2024}
+      \field{pages}{918\bibrangedash 929}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1177/08901171231224101
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/08901171231224101
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/08901171231224101
+      \endverb
+    \endentry
+    \entry{Hagger2017CSM}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d234367199d07ce988c5e733d76206e7}{%
+           family={Hagger},
+           familyi={H\bibinitperiod},
+           given={Martin\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ecf8e0cefabd05e5a1543337bdd214ff}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Severine},
+           giveni={S\bibinitperiod}}}%
+        {{hash=63f291517b3269d4ea481c703e2c7989}{%
+           family={Chatzisarantis},
+           familyi={C\bibinitperiod},
+           given={Nikos\bibnamedelimb L.\bibnamedelimi D.},
+           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=54ba9f6f7a64d3db509c4c06ac1287b6}{%
+           family={Orbell},
+           familyi={O\bibinitperiod},
+           given={Sheina},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cc36919d4676292f9a1663558719610}
+      \strng{fullhash}{65fc8b00a950273af4fa4c5009dc82ab}
+      \strng{bibnamehash}{65fc8b00a950273af4fa4c5009dc82ab}
+      \strng{authorbibnamehash}{65fc8b00a950273af4fa4c5009dc82ab}
+      \strng{authornamehash}{9cc36919d4676292f9a1663558719610}
+      \strng{authorfullhash}{65fc8b00a950273af4fa4c5009dc82ab}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{11}
+      \field{title}{The Common Sense Model of Self-Regulation: Meta-Analysis and Test of a Process Model}
+      \field{volume}{143}
+      \field{year}{2017}
+      \field{pages}{1117\bibrangedash 1154}
+      \range{pages}{38}
+      \verb{doi}
+      \verb 10.1037/bul0000118
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1037/bul0000118
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1037/bul0000118
+      \endverb
+    \endentry
+    \entry{HaggerOrbell2022CSM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d234367199d07ce988c5e733d76206e7}{%
+           family={Hagger},
+           familyi={H\bibinitperiod},
+           given={Martin\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=54ba9f6f7a64d3db509c4c06ac1287b6}{%
+           family={Orbell},
+           familyi={O\bibinitperiod},
+           given={Sheina},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ff7ba675e4621c6665efffaa9d658e5}
+      \strng{fullhash}{2ff7ba675e4621c6665efffaa9d658e5}
+      \strng{bibnamehash}{2ff7ba675e4621c6665efffaa9d658e5}
+      \strng{authorbibnamehash}{2ff7ba675e4621c6665efffaa9d658e5}
+      \strng{authornamehash}{2ff7ba675e4621c6665efffaa9d658e5}
+      \strng{authorfullhash}{2ff7ba675e4621c6665efffaa9d658e5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Health Psychology Review}
+      \field{number}{3}
+      \field{title}{The Common Sense Model of Illness Self-Regulation: A Conceptual Review and Proposed Extended Model}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{347\bibrangedash 377}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1080/17437199.2021.1878050
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/17437199.2021.1878050
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/17437199.2021.1878050
+      \endverb
+    \endentry
+    \entry{Thomson2020CardiacBeliefs}{article}{}
+      \name{author}{6}{}{%
+        {{hash=81dc14532381f81c2c0a2b321678a2f0}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+        {{hash=806c8c66793a615df0a68973b70dc0a4}{%
+           family={Rushworth},
+           familyi={R\bibinitperiod},
+           given={Gordon\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=33fef266fb6d07756965410cf238e037}{%
+           family={Andreis},
+           familyi={A\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a9f874d0098414a70771913d371cf254}{%
+           family={Angus},
+           familyi={A\bibinitperiod},
+           given={Neil\bibnamedelima J.},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2d9f7fd8ca0704e4f9c1a193c410ebff}{%
+           family={Mohan},
+           familyi={M\bibinitperiod},
+           given={Andrea\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=8b3449c8389c2f161f8021ea54243b29}{%
+           family={Leslie},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dad0ba0d17039c9403010844bfadacef}
+      \strng{fullhash}{6dab13ca459f9ae86f26b3ebdb91bea4}
+      \strng{bibnamehash}{6dab13ca459f9ae86f26b3ebdb91bea4}
+      \strng{authorbibnamehash}{6dab13ca459f9ae86f26b3ebdb91bea4}
+      \strng{authornamehash}{dad0ba0d17039c9403010844bfadacef}
+      \strng{authorfullhash}{6dab13ca459f9ae86f26b3ebdb91bea4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Cardiovascular Disorders}
+      \field{number}{1}
+      \field{title}{Longitudinal Study of the Relationship between Patients' Medication Adherence and Quality of Life Outcomes and Illness Perceptions and Beliefs about Cardiac Rehabilitation}
+      \field{volume}{20}
+      \field{year}{2020}
+      \field{pages}{71}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12872-020-01378-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12872-020-01378-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12872-020-01378-4
+      \endverb
+    \endentry
+    \entry{Thagizadeh2022IllnessPerception}{article}{}
+      \name{author}{6}{}{%
+        {{hash=6bd3dd224614353828bbbb93fd455d8b}{%
+           family={Thagizadeh},
+           familyi={T\bibinitperiod},
+           given={Aysan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9bc597862e3e54e101294d5e11249f29}{%
+           family={Ghahramanian},
+           familyi={G\bibinitperiod},
+           given={Akram},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3062156c5c980de5a067b08d712c885e}{%
+           family={Zamanzadeh},
+           familyi={Z\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9dcecd9e431187996e69785061f34319}{%
+           family={Aslanabadi},
+           familyi={A\bibinitperiod},
+           given={Naser},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7501bf92a9178f84ec2cb1c629cdec1c}{%
+           family={Onyeka},
+           familyi={O\bibinitperiod},
+           given={Tonia\bibnamedelima C.},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d192e887c3f08bda4bc27274fef4dd64}{%
+           family={Ramazanzadeh},
+           familyi={R\bibinitperiod},
+           given={Nargess},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{785cb8ce0a01410a02ce35a955774fc8}
+      \strng{fullhash}{38c5a156e49132994fdc8a883361b15a}
+      \strng{bibnamehash}{38c5a156e49132994fdc8a883361b15a}
+      \strng{authorbibnamehash}{38c5a156e49132994fdc8a883361b15a}
+      \strng{authornamehash}{785cb8ce0a01410a02ce35a955774fc8}
+      \strng{authorfullhash}{38c5a156e49132994fdc8a883361b15a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Cardiovascular Disorders}
+      \field{number}{1}
+      \field{title}{Illness Perception and Cardiovascular Risk Factors in Patients with Myocardial Infarction Undergoing Percutaneous Coronary Intervention in Iran}
+      \field{volume}{22}
+      \field{year}{2022}
+      \field{pages}{245}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12872-022-02684-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12872-022-02684-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12872-022-02684-9
+      \endverb
+    \endentry
+    \entry{Amini2021SelfManagement}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f0ffad66856ce2b9ff31d05b0c1e5a0b}{%
+           family={Amini},
+           familyi={A\bibinitperiod},
+           given={Roya},
+           giveni={R\bibinitperiod}}}%
+        {{hash=98fd3b1afd1d25535cad5e402f0413aa}{%
+           family={Rajabi},
+           familyi={R\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=444305453945a282d49e364c2fa05b0f}{%
+           family={Azami},
+           familyi={A\bibinitperiod},
+           given={Hiva},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ce6109f04004d1688f8df65fd29326fb}{%
+           family={Soltanian},
+           familyi={S\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8086db2422fe34f798c9cbcd525977ac}
+      \strng{fullhash}{8cb41eca36c775e8d04d3d18fb10c2c6}
+      \strng{bibnamehash}{8cb41eca36c775e8d04d3d18fb10c2c6}
+      \strng{authorbibnamehash}{8cb41eca36c775e8d04d3d18fb10c2c6}
+      \strng{authornamehash}{8086db2422fe34f798c9cbcd525977ac}
+      \strng{authorfullhash}{8cb41eca36c775e8d04d3d18fb10c2c6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Education and Health Promotion}
+      \field{title}{The Effect of Self-Management Intervention Program on the Lifestyle of Postmyocardial Infarction Patients}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{145}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.4103/jehp.jehp_902_20
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4103/jehp.jehp_902_20
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4103/jehp.jehp_902_20
+      \endverb
+    \endentry
+    \entry{Najafi2024Gender}{article}{}
+      \name{author}{8}{}{%
+        {{hash=5c9e71693364974107fc27d2c1c98903}{%
+           family={Najafi},
+           familyi={N\bibinitperiod},
+           given={Marzieh},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4b13b5c3636d3836b7042a68a5a28d00}{%
+           family={Teimouri-Jervekani},
+           familyi={T\bibinithyphendelim J\bibinitperiod},
+           given={Zahra},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=94264feef58bacb3cc8ddab2a18cefce}{%
+           family={Jamalian},
+           familyi={J\bibinitperiod},
+           given={Marjan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8cc89dd10a57478addd40b4ed1e096c9}{%
+           family={Roohafza},
+           familyi={R\bibinitperiod},
+           given={Hamidreza},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9546a3529034ccd0cd20d203a36b28b2}{%
+           family={Paknahad},
+           familyi={P\bibinitperiod},
+           given={Mohammad\bibnamedelima Hossein},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=3f66c80e2aa790e0b1ddf23e5a94058b}{%
+           family={Hadavi},
+           familyi={H\bibinitperiod},
+           given={Mohammad\bibnamedelima Mahdi},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5223180059cb3f7fff6815dbb3c120f8}{%
+           family={Dorostkar},
+           familyi={D\bibinitperiod},
+           given={Neda},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f3a638bba2dc21104b757c45c4912d8a}{%
+           family={Sadeghi},
+           familyi={S\bibinitperiod},
+           given={Masoumeh},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b8aedf280f5f8974ec3066bf7a02aba}
+      \strng{fullhash}{d64bb7daf15fd80e0118bc8b982b34aa}
+      \strng{bibnamehash}{d64bb7daf15fd80e0118bc8b982b34aa}
+      \strng{authorbibnamehash}{d64bb7daf15fd80e0118bc8b982b34aa}
+      \strng{authornamehash}{3b8aedf280f5f8974ec3066bf7a02aba}
+      \strng{authorfullhash}{d64bb7daf15fd80e0118bc8b982b34aa}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Egyptian Heart Journal}
+      \field{number}{1}
+      \field{title}{Gender Differences in Cardiac Rehabilitation Participation and Outcomes: An 18-Year Retrospective Study in Iran}
+      \field{volume}{76}
+      \field{year}{2024}
+      \field{pages}{133}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s43044-024-00565-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s43044-024-00565-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s43044-024-00565-4
+      \endverb
+    \endentry
+    \entry{Arman2025FamilySupported}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ec22464696d9dcf9ade7f956329d4e7c}{%
+           family={Arman},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c73884d2dcaffb8dd47ef97e5a41f10}{%
+           family={Attar},
+           familyi={A\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=01448a6ff26f2ca188101e45220a000f}{%
+           family={Izadpanah},
+           familyi={I\bibinitperiod},
+           given={Peyman},
+           giveni={P\bibinitperiod}}}%
+        {{hash=37effdb35c001118706e82915ab79a9e}{%
+           family={Bahja},
+           familyi={B\bibinitperiod},
+           given={Hasan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0f28f3c98401bbd38926241c23f475f9}{%
+           family={Jeihooni},
+           familyi={J\bibinitperiod},
+           given={Ali\bibnamedelima Khani},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{495119ef50fbe27067b99d742bc1cff6}
+      \strng{fullhash}{3da2061719b132294d6f6ae2360bbe8f}
+      \strng{bibnamehash}{3da2061719b132294d6f6ae2360bbe8f}
+      \strng{authorbibnamehash}{3da2061719b132294d6f6ae2360bbe8f}
+      \strng{authornamehash}{495119ef50fbe27067b99d742bc1cff6}
+      \strng{authorfullhash}{3da2061719b132294d6f6ae2360bbe8f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Cardiovascular Disorders}
+      \field{number}{1}
+      \field{title}{Enhancing Self-Care in Post-{MI} Patients: A Family-Supported Educational Intervention Based on the Theory of Planned Behavior}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{pages}{511}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12872-025-04960-w
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12872-025-04960-w
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12872-025-04960-w
+      \endverb
+    \endentry
+    \entry{Solomon2020CumulativeAdherence}{article}{}
+      \name{author}{10}{}{%
+        {{hash=bf3cc7bce280ff35eaecf0f614fcd685}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=127712310abb46d7bbcf288a7613b150}{%
+           family={Leong},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6e789b0a7be2ec2a1bd70b93ee455ea7}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Eleanor},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f4ccb1f43592de20a1bbdcf1888514a7}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={Jamal\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d330591bad41b5a8c5aa8e6fc8e98436}{%
+           family={Jaffe},
+           familyi={J\bibinitperiod},
+           given={Marc\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=c90e67f9c04a1b98436a45117d41fa0a}{%
+           family={Sidney},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5a423d781a5b0e87e0abaa049623c637}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Sue\bibnamedelima Hee},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=95b91e62e1795a21165dbb44c8e22864}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2daaa45e8a6a448a23f968a81dfe4d4f}{%
+           family={DeMaria},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=272281da127a675406c5ba1f7b591aaf}{%
+           family={Go},
+           familyi={G\bibinitperiod},
+           given={Alan\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{09860a26a5ffa66ac65227c353054942}
+      \strng{fullhash}{4c58219eea0adddb49bc60a018df67b1}
+      \strng{bibnamehash}{4c58219eea0adddb49bc60a018df67b1}
+      \strng{authorbibnamehash}{4c58219eea0adddb49bc60a018df67b1}
+      \strng{authornamehash}{09860a26a5ffa66ac65227c353054942}
+      \strng{authorfullhash}{4c58219eea0adddb49bc60a018df67b1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Heart Association}
+      \field{number}{6}
+      \field{title}{Cumulative Adherence to Secondary Prevention Guidelines and Mortality after Acute Myocardial Infarction}
+      \field{volume}{9}
+      \field{year}{2020}
+      \field{pages}{e014415}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1161/JAHA.119.014415
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1161/JAHA.119.014415
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1161/JAHA.119.014415
+      \endverb
+    \endentry
+    \entry{Sibhatu2025CADPrevention}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3c4009b5c38df624e022174aca986fee}{%
+           family={Sibhatu},
+           familyi={S\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=db6617bb7e7ff024faccf9a65cb00446}{%
+           family={Gebretensaye},
+           familyi={G\bibinitperiod},
+           given={TG},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d579bea5ff3ea840584d23c7f23227e6}{%
+           family={Kassa},
+           familyi={K\bibinitperiod},
+           given={WA},
+           giveni={W\bibinitperiod}}}%
+        {{hash=aa3d2c44a2530aff2e47290da2fd0c2d}{%
+           family={Lemlem},
+           familyi={L\bibinitperiod},
+           given={SB},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1737c58140126f757969f12e7de9606}
+      \strng{fullhash}{ae80ec4ed881bf9b57d21f02b2406137}
+      \strng{bibnamehash}{ae80ec4ed881bf9b57d21f02b2406137}
+      \strng{authorbibnamehash}{ae80ec4ed881bf9b57d21f02b2406137}
+      \strng{authornamehash}{c1737c58140126f757969f12e7de9606}
+      \strng{authorfullhash}{ae80ec4ed881bf9b57d21f02b2406137}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAGE Open Nursing}
+      \field{title}{Knowledge, Attitude, and Practice Toward Coronary Artery Disease Prevention among Cardiac Patients in the Cardiac Clinic at Tikur Anbessa Specialized Hospital, 2022}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{pages}{23779608251402994}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/23779608251402994
+      \endverb
+    \endentry
+    \entry{Najafi2016TelephoneFollowUp}{article}{}
+      \name{author}{4}{}{%
+        {{hash=59428177393117cf72a2f741ad269bf9}{%
+           family={Najafi},
+           familyi={N\bibinitperiod},
+           given={SS},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4ef453e0e22325cadf3dfa2679db21a4}{%
+           family={Shaabani},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4cc9b21e6d1cff14418f6b40a7b496fa}{%
+           family={Momennassab},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=42539781ab12bf7338b7a3036ccd1cf0}{%
+           family={Aghasadeghi},
+           familyi={A\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9f641596a269c75546ac258cd6d8d11}
+      \strng{fullhash}{9df56b8745fc473537c80529c75e45c2}
+      \strng{bibnamehash}{9df56b8745fc473537c80529c75e45c2}
+      \strng{authorbibnamehash}{9df56b8745fc473537c80529c75e45c2}
+      \strng{authornamehash}{f9f641596a269c75546ac258cd6d8d11}
+      \strng{authorfullhash}{9df56b8745fc473537c80529c75e45c2}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Community Based Nursing and Midwifery}
+      \field{number}{3}
+      \field{title}{The Nurse-Led Telephone Follow-Up on Medication and Dietary Adherence among Patients after Myocardial Infarction: A Randomized Controlled Clinical Trial}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{199\bibrangedash 208}
+      \range{pages}{10}
+    \endentry
+    \entry{Bazzazian2010BriefIPQ}{article}{}
+      \name{author}{2}{}{%
+        {{hash=71e523dc5d88e8b38e55d8f4bda7cb99}{%
+           family={Bazzazian},
+           familyi={B\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=653804221524f580f1385f8337c131a8}{%
+           family={Besharat},
+           familyi={B\bibinitperiod},
+           given={MA},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d152057bdd9788cc220b3fb76bbdff2e}
+      \strng{fullhash}{d152057bdd9788cc220b3fb76bbdff2e}
+      \strng{bibnamehash}{d152057bdd9788cc220b3fb76bbdff2e}
+      \strng{authorbibnamehash}{d152057bdd9788cc220b3fb76bbdff2e}
+      \strng{authornamehash}{d152057bdd9788cc220b3fb76bbdff2e}
+      \strng{authorfullhash}{d152057bdd9788cc220b3fb76bbdff2e}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia - Social and Behavioral Sciences}
+      \field{title}{Reliability and Validity of a Farsi Version of the Brief Illness Perception Questionnaire}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{962\bibrangedash 965}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.sbspro.2010.07.217
+      \endverb
+    \endentry
+    \entry{Mehrabi2023Morisky}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2751d6b300d310ccf1c64bba6bbe26c9}{%
+           family={Mehrabi},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=626af62857407bb5bd0142c5cdb35898}{%
+           family={Shahryari},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{16286a949a27120dbd63a013e307fe41}
+      \strng{fullhash}{16286a949a27120dbd63a013e307fe41}
+      \strng{bibnamehash}{16286a949a27120dbd63a013e307fe41}
+      \strng{authorbibnamehash}{16286a949a27120dbd63a013e307fe41}
+      \strng{authornamehash}{16286a949a27120dbd63a013e307fe41}
+      \strng{authorfullhash}{16286a949a27120dbd63a013e307fe41}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Shiraz E-Medical Journal}
+      \field{number}{5}
+      \field{title}{Reliability and Validity of Persian Translation of Morisky Medication Adherence Scale (4-Item Version) in Asthmatic Patients}
+      \field{volume}{24}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.5812/semj-135491
+      \endverb
+    \endentry
+    \entry{MahdaviRoshan2018MEDAS}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c8aac22e4d443281e9ff56529d51097a}{%
+           family={Mahdavi-Roshan},
+           familyi={M\bibinithyphendelim R\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7c16d4552d9a76fd63ec05ba6cf61e94}{%
+           family={Salari},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=128f25736c14b7b3a5dee9884aca8966}{%
+           family={Soltanipour},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0808882e5d0929c5ac8677f0cc01d50d}
+      \strng{fullhash}{0808882e5d0929c5ac8677f0cc01d50d}
+      \strng{bibnamehash}{0808882e5d0929c5ac8677f0cc01d50d}
+      \strng{authorbibnamehash}{0808882e5d0929c5ac8677f0cc01d50d}
+      \strng{authornamehash}{0808882e5d0929c5ac8677f0cc01d50d}
+      \strng{authorfullhash}{0808882e5d0929c5ac8677f0cc01d50d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mediterranean Journal of Nutrition and Metabolism}
+      \field{number}{3}
+      \field{title}{Reliability and Validity of the 14-Point Mediterranean Diet Adherence Screener among the Iranian High Risk Population}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{pages}{323\bibrangedash 329}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.3233/MNM-18205
+      \endverb
+    \endentry
+    \entry{KarimiGhasemabad2021BriefIPQ}{article}{}
+      \name{author}{5}{}{%
+        {{hash=70c8650f6993c705e74365bb96cb2fd0}{%
+           family={Karimi-Ghasemabad},
+           familyi={K\bibinithyphendelim G\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ce3b1e785d1196814e8518a3d0c8ea6d}{%
+           family={Akhbari},
+           familyi={A\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bebd917a1c460808beacfa5028ea8e5b}{%
+           family={Saeedi},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a36190fd829b5892abb14dcff24bd755}{%
+           family={Talebian\bibnamedelima Moghaddam},
+           familyi={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f73f6db48b98af1ab5bae0e7d8b02806}{%
+           family={Nakhostin\bibnamedelima Ansari},
+           familyi={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{46a7bd432c86cc225dbe93d432c8ec93}
+      \strng{fullhash}{8912bcd5854f793da539dbe4eec76eaa}
+      \strng{bibnamehash}{8912bcd5854f793da539dbe4eec76eaa}
+      \strng{authorbibnamehash}{8912bcd5854f793da539dbe4eec76eaa}
+      \strng{authornamehash}{46a7bd432c86cc225dbe93d432c8ec93}
+      \strng{authorfullhash}{8912bcd5854f793da539dbe4eec76eaa}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Scientific World Journal}
+      \field{title}{The Persian Brief Illness Perception Questionnaire: Validation in Patients with Chronic Nonspecific Low Back Pain}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \field{pages}{3348011}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2021/3348011
+      \endverb
+    \endentry
+    \entry{VasheghaniFarahani2011IPAQ}{article}{}
+      \name{author}{6}{}{%
+        {{hash=918ddb9c08b4eec78e79d0a5284a277c}{%
+           family={Vasheghani-Farahani},
+           familyi={V\bibinithyphendelim F\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1cdf4e08b767272182e9dd4d1b876edd}{%
+           family={Tahmasbi},
+           familyi={T\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5f28aba15609ef2c37b593494890a4b1}{%
+           family={Asheri},
+           familyi={A\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=942d70459d213f042fd9290ea8df67d0}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f6644b6c4f3043b81fa95320ad32b654}{%
+           family={Nedjat},
+           familyi={N\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=73307c9db2c8aae094083ca6bf1d0e8b}{%
+           family={Kordi},
+           familyi={K\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d743a61e4ff392b3c07c698b9c1bfe3}
+      \strng{fullhash}{a29dea595f63347c74bb52f86dc19b9b}
+      \strng{bibnamehash}{a29dea595f63347c74bb52f86dc19b9b}
+      \strng{authorbibnamehash}{a29dea595f63347c74bb52f86dc19b9b}
+      \strng{authornamehash}{0d743a61e4ff392b3c07c698b9c1bfe3}
+      \strng{authorfullhash}{a29dea595f63347c74bb52f86dc19b9b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asian Journal of Sports Medicine}
+      \field{number}{2}
+      \field{title}{The Persian, Last 7-Day, Long Form of the International Physical Activity Questionnaire: Translation and Validation Study}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{pages}{106\bibrangedash 116}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.5812/asjsm.34781
+      \endverb
+    \endentry
+    \entry{Rao2025ACS}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=cc7d820625634d8450396939dc8c8130}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={SV},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f819a9f93457824c5e96c5266072ecca}{%
+           family={O'Donoghue},
+           familyi={O\bibinitperiod},
+           given={ML},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5dee8a13f3499482f05485b4515eebce}{%
+           family={Ruel},
+           familyi={R\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=54c76314a3748a53b6cfae0f24c3a212}{%
+           family={Rab},
+           familyi={R\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a4513ea65ed17b15541cb5b631d4ea2e}{%
+           family={Tamis-Holland},
+           familyi={T\bibinithyphendelim H\bibinitperiod},
+           given={JE},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7ab255a2a40642c4d0a6e80a94a6dbc2}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={JH},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{082085800a49c45aec45abc18f98d29f}
+      \strng{fullhash}{8fdccdcac24c8ea7aab63cbb6f53bfac}
+      \strng{bibnamehash}{8fdccdcac24c8ea7aab63cbb6f53bfac}
+      \strng{authorbibnamehash}{8fdccdcac24c8ea7aab63cbb6f53bfac}
+      \strng{authornamehash}{082085800a49c45aec45abc18f98d29f}
+      \strng{authorfullhash}{8fdccdcac24c8ea7aab63cbb6f53bfac}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American College of Cardiology}
+      \field{number}{22}
+      \field{title}{2025 {ACC}/{AHA}/{ACEP}/{NAEMSP}/{SCAI} Guideline for the Management of Patients With Acute Coronary Syndromes}
+      \field{volume}{85}
+      \field{year}{2025}
+      \field{pages}{2135\bibrangedash 2237}
+      \range{pages}{103}
+      \verb{doi}
+      \verb 10.1016/j.jacc.2024.11.009
+      \endverb
+    \endentry
+    \entry{Smith2011SecondaryPrevention}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=16ec2445ef4d73792f67d2bde9fc1f60}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={SC},
+           giveni={S\bibinitperiod}}}%
+        {{hash=41be8554590e063645412b3a8c2752da}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={EJ},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2e198c0e9d6e3a9cb9c044d3c0e25b07}{%
+           family={Bonow},
+           familyi={B\bibinitperiod},
+           given={RO},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f3530ff1a63038dda23284fc9f077243}{%
+           family={Braun},
+           familyi={B\bibinitperiod},
+           given={LT},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5bb2a8c03ad1a3b09aecc7093452682f}{%
+           family={Creager},
+           familyi={C\bibinitperiod},
+           given={MA},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0ec2954615d130055b1485f4c76a98bd}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={BA},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c186847d061d91c760ccade96bb071f}
+      \strng{fullhash}{decf8e0d86e693ad5c0763c3d4a1cb90}
+      \strng{bibnamehash}{decf8e0d86e693ad5c0763c3d4a1cb90}
+      \strng{authorbibnamehash}{decf8e0d86e693ad5c0763c3d4a1cb90}
+      \strng{authornamehash}{6c186847d061d91c760ccade96bb071f}
+      \strng{authorfullhash}{decf8e0d86e693ad5c0763c3d4a1cb90}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Circulation}
+      \field{number}{22}
+      \field{title}{{AHA}/{ACCF} Secondary Prevention and Risk Reduction Therapy for Patients With Coronary and Other Atherosclerotic Vascular Disease: 2011 Update: A Guideline From the American Heart Association and American College of Cardiology Foundation}
+      \field{volume}{124}
+      \field{year}{2011}
+      \field{pages}{2458\bibrangedash 2473}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1161/CIR.0b013e318235eb4d
+      \endverb
+    \endentry
+    \entry{Hayrumyan2023SmokingCessation}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9528d42e4afb3b9ed5ca66567fcfb3f5}{%
+           family={Hayrumyan},
+           familyi={H\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a2f3597f8208559ddedf6d7c9dfde0ea}{%
+           family={Harutyunyan},
+           familyi={H\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dec285bf51c9461efeef891af80fbec1}{%
+           family={Harutyunyan},
+           familyi={H\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd908f9b8260d9e46e444e3de2038424}
+      \strng{fullhash}{bd908f9b8260d9e46e444e3de2038424}
+      \strng{bibnamehash}{bd908f9b8260d9e46e444e3de2038424}
+      \strng{authorbibnamehash}{bd908f9b8260d9e46e444e3de2038424}
+      \strng{authornamehash}{bd908f9b8260d9e46e444e3de2038424}
+      \strng{authorfullhash}{bd908f9b8260d9e46e444e3de2038424}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tobacco Prevention \& Cessation}
+      \field{number}{December}
+      \field{title}{Smoking Cessation after Myocardial Infarction: Findings from a Cross-Sectional Survey in Armenia}
+      \field{volume}{9}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.18332/tpc/174359
+      \endverb
+    \endentry
+    \entry{Yudi2017SmokingCessation}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=c8589691cb067aab18aec58d5ee1e648}{%
+           family={Yudi},
+           familyi={Y\bibinitperiod},
+           given={MB},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0f67ec441ce9e44c1b95423b7c3ded12}{%
+           family={Farouque},
+           familyi={F\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c81e5c675ae1d00f38fb3afd0cca2788}{%
+           family={Andrianopoulos},
+           familyi={A\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=854a1d64e32d4f47379ba7cd73e046a2}{%
+           family={Ajani},
+           familyi={A\bibinitperiod},
+           given={AE},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6b0374f2417ac07af98ad26db4295576}{%
+           family={Kalten},
+           familyi={K\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5c8569c1de1b4ecb4eb324dc35dcf302}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={AL},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5489d6f2e3afedd075ae1be113f10946}
+      \strng{fullhash}{cb4f3f2be294df729329021738086633}
+      \strng{bibnamehash}{cb4f3f2be294df729329021738086633}
+      \strng{authorbibnamehash}{cb4f3f2be294df729329021738086633}
+      \strng{authornamehash}{5489d6f2e3afedd075ae1be113f10946}
+      \strng{authorfullhash}{cb4f3f2be294df729329021738086633}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMJ Open}
+      \field{number}{10}
+      \field{title}{The Prognostic Significance of Smoking Cessation after Acute Coronary Syndromes: An Observational, Multicentre Study from the Melbourne Interventional Group Registry}
+      \field{volume}{7}
+      \field{year}{2017}
+      \field{pages}{e016874}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1136/bmjopen-2017-016874
+      \endverb
+    \endentry
+    \entry{HutchinsWiese2022Mediterranean}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2cbae1dd1825cba1e1469dc2c0b468fd}{%
+           family={Hutchins-Wiese},
+           familyi={H\bibinithyphendelim W\bibinitperiod},
+           given={HL},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5487aeaefa65c22591c244e15db95bb6}{%
+           family={Bales},
+           familyi={B\bibinitperiod},
+           given={CW},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8ed49e0a8e1aa4c60869e8573e9f3c5b}{%
+           family={Porter\bibnamedelima Starr},
+           familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={KN},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bb2716af12ca769ea45cbd788fe24ea}
+      \strng{fullhash}{1bb2716af12ca769ea45cbd788fe24ea}
+      \strng{bibnamehash}{1bb2716af12ca769ea45cbd788fe24ea}
+      \strng{authorbibnamehash}{1bb2716af12ca769ea45cbd788fe24ea}
+      \strng{authornamehash}{1bb2716af12ca769ea45cbd788fe24ea}
+      \strng{authorfullhash}{1bb2716af12ca769ea45cbd788fe24ea}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Nutrition}
+      \field{number}{7}
+      \field{title}{Mediterranean Diet Scoring Systems: Understanding the Evolution and Applications for Mediterranean and Non-Mediterranean Countries}
+      \field{volume}{128}
+      \field{year}{2022}
+      \field{pages}{1371\bibrangedash 1392}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1017/S0007114521002476
+      \endverb
+    \endentry
+    \entry{Dadfar2025PHQ4}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d8cf26760ca65798f55edf20fb64b77a}{%
+           family={Dadfar},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3061960d0d69f5fc16a059b652964a04}{%
+           family={Turan},
+           familyi={T\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2fd1987204d2b805dfb57eed6ea6731e}{%
+           family={Askari},
+           familyi={A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c00819555e685b89132c5547007883be}
+      \strng{fullhash}{c00819555e685b89132c5547007883be}
+      \strng{bibnamehash}{c00819555e685b89132c5547007883be}
+      \strng{authorbibnamehash}{c00819555e685b89132c5547007883be}
+      \strng{authornamehash}{c00819555e685b89132c5547007883be}
+      \strng{authorfullhash}{c00819555e685b89132c5547007883be}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mank Quarterly}
+      \field{number}{4}
+      \field{title}{The Patient Health Questionnaire-4 ({PHQ-4}) as a Brief Screening Tool for Anxiety and Depression: A Study of Iranian Samples}
+      \field{volume}{65}
+      \field{year}{2025}
+      \field{pages}{429\bibrangedash 440}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.46469/mq.2025.65.4.4
+      \endverb
+    \endentry
+    \entry{Ahmadi2020PHQ4}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bf29fb6108656e5bc784fe5877197779}{%
+           family={Ahmadi},
+           familyi={A\bibinitperiod},
+           given={SM},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bac5bc3d4ebe5518b83ae14d81d79d45}{%
+           family={Masjedi\bibnamedelima Arani},
+           familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=68f3b26e2df5586314aafbe80f46ff91}{%
+           family={Bakhtiari},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6286c6862ebcfe432f465e58fa1f624d}{%
+           family={Davazdah\bibnamedelima Emamy},
+           familyi={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={MH},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd012918ad2c3297c950e4c57c2eb571}
+      \strng{fullhash}{e39a13173150749c5b666603ecc2be4c}
+      \strng{bibnamehash}{e39a13173150749c5b666603ecc2be4c}
+      \strng{authorbibnamehash}{e39a13173150749c5b666603ecc2be4c}
+      \strng{authornamehash}{fd012918ad2c3297c950e4c57c2eb571}
+      \strng{authorfullhash}{e39a13173150749c5b666603ecc2be4c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Iranian Journal of Psychiatry and Behavioral Sciences}
+      \field{number}{4}
+      \field{title}{Psychometric Properties of Persian Version of Patient Health Questionnaires-4 ({PHQ-4}) in Coronary Heart Disease Patients}
+      \field{volume}{13}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.5812/ijpbs.85820
+      \endverb
+    \endentry
+    \entry{Ghaheri2020PHQ4}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7c657af10ae7b117e9b8a0379566d275}{%
+           family={Ghaheri},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9476b561abe7df9261165e90a330a37f}{%
+           family={Omani-Samani},
+           familyi={O\bibinithyphendelim S\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=309b9055ab427bb3975d1f5ae735123d}{%
+           family={Sepidarkish},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3faff5bb67797c0d12a2e4396f30faae}{%
+           family={Hosseini},
+           familyi={H\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae829fa9ba1b43a8309be3e9b10f4808}{%
+           family={Maroufizadeh},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2637d806874fcbbb756406f1c68f4810}
+      \strng{fullhash}{ac7f63ff38bd11c2e06a8c00c39ab120}
+      \strng{bibnamehash}{ac7f63ff38bd11c2e06a8c00c39ab120}
+      \strng{authorbibnamehash}{ac7f63ff38bd11c2e06a8c00c39ab120}
+      \strng{authornamehash}{2637d806874fcbbb756406f1c68f4810}
+      \strng{authorfullhash}{ac7f63ff38bd11c2e06a8c00c39ab120}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Fertility and Sterility}
+      \field{number}{3}
+      \field{title}{The Four-Item Patient Health Questionnaire for Anxiety and Depression: A Validation Study in Infertile Patients}
+      \field{volume}{14}
+      \field{year}{2020}
+      \field{pages}{234\bibrangedash 239}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.22074/ijfs.2020.44412
+      \endverb
+    \endentry
+    \entry{Moreno2024NonAdherence}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3ef2aa80ad1c3c3c52c70cf72c1db7ff}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={Guillermo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=95b377e23aaa66fb3ec29f4f7eaa81e1}{%
+           family={Vicent},
+           familyi={V\bibinitperiod},
+           given={Lourdes},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6d6776ef2106c4b32e06ff093496819f}{%
+           family={Rosillo},
+           familyi={R\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=28b0a4363c0ab2753fa3e20f56e7391c}{%
+           family={Delgado},
+           familyi={D\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=514af6a7d834dce094762b864ed42a31}{%
+           family={Cerro},
+           familyi={C\bibinitperiod},
+           given={Enrique\bibnamedelimb Pacheco\bibnamedelima Del},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=0da234cb7cad6ccf1757e8e1fa2193c5}{%
+           family={Bueno},
+           familyi={B\bibinitperiod},
+           given={Hector},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f35c827087dd6bdbed51ce50076aca4}
+      \strng{fullhash}{fed087c58d2cbb9a2419e089095c8c0c}
+      \strng{bibnamehash}{fed087c58d2cbb9a2419e089095c8c0c}
+      \strng{authorbibnamehash}{fed087c58d2cbb9a2419e089095c8c0c}
+      \strng{authornamehash}{0f35c827087dd6bdbed51ce50076aca4}
+      \strng{authorfullhash}{fed087c58d2cbb9a2419e089095c8c0c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Preventive Cardiology}
+      \field{title}{Do Sex and Gender Aspects Influence Non-Adherence to Secondary Prevention Measures after Myocardial Infarction?}
+      \field{volume}{19}
+      \field{year}{2024}
+      \field{pages}{100713}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ajpc.2024.100713
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ajpc.2024.100713
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ajpc.2024.100713
+      \endverb
+    \endentry
+    \entry{DeBacquer2022Lifestyle}{article}{}
+      \name{author}{9}{}{%
+        {{hash=0d22918f6eccbf6fa292042bb886d5f1}{%
+           family={De\bibnamedelima Bacquer},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e21d908d0906183014036ea4669944f2}{%
+           family={Astin},
+           familyi={A\bibinitperiod},
+           given={Felicity},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d732d1858a57ad4b9c733bb05988d42}{%
+           family={Kotseva},
+           familyi={K\bibinitperiod},
+           given={Kornelia},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5e6cc51235cf9c0d6c8afc1a8c9b422c}{%
+           family={Pogosova},
+           familyi={P\bibinitperiod},
+           given={Nana},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3135361c16f0293cd516d886921b1cc7}{%
+           family={De\bibnamedelima Smedt},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Delphine},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0a8a343630131ae69af54c2020b1beb0}{%
+           family={De\bibnamedelima Backer},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Guy},
+           giveni={G\bibinitperiod}}}%
+        {{hash=11e992fa1672607f9b05790d54a44b59}{%
+           family={Ryden},
+           familyi={R\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ad0aae768a1174aba9738b6d2719985b}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f3772d6a5772749e0f17b0a32630b992}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={Catriona},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{89610c2c4e47ffb0e30c40fff0101c38}
+      \strng{fullhash}{25df067baad18437b1114cf7d60065f0}
+      \strng{bibnamehash}{25df067baad18437b1114cf7d60065f0}
+      \strng{authorbibnamehash}{25df067baad18437b1114cf7d60065f0}
+      \strng{authornamehash}{89610c2c4e47ffb0e30c40fff0101c38}
+      \strng{authorfullhash}{25df067baad18437b1114cf7d60065f0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Preventive Cardiology}
+      \field{number}{2}
+      \field{title}{Poor Adherence to Lifestyle Recommendations in Patients with Coronary Heart Disease: Results from the {EUROASPIRE} Surveys}
+      \field{volume}{29}
+      \field{year}{2022}
+      \field{pages}{383\bibrangedash 395}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/eurjpc/zwab115
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/eurjpc/zwab115
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/eurjpc/zwab115
+      \endverb
+    \endentry
+    \entry{DibaoDina2018Adherence}{article}{}
+      \name{author}{6}{}{%
+        {{hash=ff50207b019455ad1e6172023325dbaf}{%
+           family={Dibao-Dina},
+           familyi={D\bibinithyphendelim D\bibinitperiod},
+           given={Clarisse},
+           giveni={C\bibinitperiod}}}%
+        {{hash=df9076659ee2699054ce75f6079cb4b8}{%
+           family={Angoulvant},
+           familyi={A\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bd21b72025245216645ee8f6ed9f3ff2}{%
+           family={Lebeau},
+           familyi={L\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=376c04ce1a007258f428e39ac8d3fd5d}{%
+           family={Peurois},
+           familyi={P\bibinitperiod},
+           given={Jean-Eudes},
+           giveni={J\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=3b25fc2af117e3c18f4fe2fed8e5b792}{%
+           family={Abdallah\bibnamedelimb El\bibnamedelima Hirtsi},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod}}}%
+        {{hash=005d3fe5ba05b1a5234e24febd7b433b}{%
+           family={Lehr-Drylewicz},
+           familyi={L\bibinithyphendelim D\bibinitperiod},
+           given={Anne-Marie},
+           giveni={A\bibinithyphendelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{271a399c14c1b3f8329942038ff9b0be}
+      \strng{fullhash}{ea3e2e3e2a2fc7462f24298ea9eb8dcc}
+      \strng{bibnamehash}{ea3e2e3e2a2fc7462f24298ea9eb8dcc}
+      \strng{authorbibnamehash}{ea3e2e3e2a2fc7462f24298ea9eb8dcc}
+      \strng{authornamehash}{271a399c14c1b3f8329942038ff9b0be}
+      \strng{authorfullhash}{ea3e2e3e2a2fc7462f24298ea9eb8dcc}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{9}
+      \field{title}{Patients' Adherence to Optimal Therapeutic, Lifestyle and Risk Factors Recommendations after Myocardial Infarction: Six Years Follow-Up in Primary Care}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{pages}{e0202986}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0202986
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0202986
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0202986
+      \endverb
+    \endentry
+    \entry{Urbinati2015BLITZ4}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=e1a2fd04b49c2bbbdab60f9d81a59646}{%
+           family={Urbinati},
+           familyi={U\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2e1f7e0821357f844d9366891aa8a04b}{%
+           family={Olivari},
+           familyi={O\bibinitperiod},
+           given={Zoran},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=39bd10eda992515fcefaac6a4bbd4718}{%
+           family={Gonzini},
+           familyi={G\bibinitperiod},
+           given={Lucio},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e9dfeb2cffa615524abdfbb07a13645d}{%
+           family={Savonitto},
+           familyi={S\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d3710dfb808a6e38bf2bb195c05c417f}{%
+           family={Farina},
+           familyi={F\bibinitperiod},
+           given={Rosario},
+           giveni={R\bibinitperiod}}}%
+        {{hash=20e99203c8b60389d56ac0eadd000e18}{%
+           family={Del\bibnamedelima Pinto},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b32c3b4164594f00b635b902fd9dce3d}
+      \strng{fullhash}{3c7dfc35fe92bbe40db2b5ac6ee5add8}
+      \strng{bibnamehash}{3c7dfc35fe92bbe40db2b5ac6ee5add8}
+      \strng{authorbibnamehash}{3c7dfc35fe92bbe40db2b5ac6ee5add8}
+      \strng{authornamehash}{b32c3b4164594f00b635b902fd9dce3d}
+      \strng{authorfullhash}{3c7dfc35fe92bbe40db2b5ac6ee5add8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Preventive Cardiology}
+      \field{number}{12}
+      \field{title}{Secondary Prevention after Acute Myocardial Infarction: Drug Adherence, Treatment Goals, and Predictors of Health Lifestyle Habits. The {BLITZ-4} Registry}
+      \field{volume}{22}
+      \field{year}{2015}
+      \field{pages}{1548\bibrangedash 1556}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1177/2047487314561876
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/2047487314561876
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/2047487314561876
+      \endverb
+    \endentry
+    \entry{Zeymer2024PatientKnowledge}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=2cbef468e7504b26bb9b153ceb96089d}{%
+           family={Zeymer},
+           familyi={Z\bibinitperiod},
+           given={Uwe},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3ab7611c7cde642d75ae7559bcd405fc}{%
+           family={Goss},
+           familyi={G\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=97e85388c39d5cc9e007312974e41d97}{%
+           family={Kunadt},
+           familyi={K\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8893119b2d1cb3ad636121224f5c469d}{%
+           family={Oldenburg},
+           familyi={O\bibinitperiod},
+           given={Susanne},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c979ae90ecef8396da075e2b6b42c6c6}{%
+           family={Hochadel},
+           familyi={H\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d9b9512c584ab39704e5c52f641f2295}{%
+           family={Thiele},
+           familyi={T\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4d190f2b68fb463ddb6b0afab190809}
+      \strng{fullhash}{96e08cf0624eefb3644a60df45d65dbd}
+      \strng{bibnamehash}{96e08cf0624eefb3644a60df45d65dbd}
+      \strng{authorbibnamehash}{96e08cf0624eefb3644a60df45d65dbd}
+      \strng{authornamehash}{b4d190f2b68fb463ddb6b0afab190809}
+      \strng{authorfullhash}{96e08cf0624eefb3644a60df45d65dbd}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Heart Journal: Acute Cardiovascular Care}
+      \field{number}{7}
+      \field{title}{Patient Knowledge about Risk Factors, Achievement of Target Values, and Guideline-Adherent Secondary Prevention Therapies 12 Months after Acute Myocardial Infarction}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{537\bibrangedash 545}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/ehjacc/zuae066
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/ehjacc/zuae066
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/ehjacc/zuae066
+      \endverb
+    \endentry
+    \entry{Krezel2024Nutrition}{article}{}
+      \name{author}{7}{}{%
+        {{hash=573e9c38bf35ff74612baa2fb9a82e89}{%
+           family={Krezel},
+           familyi={K\bibinitperiod},
+           given={Patrycja},
+           giveni={P\bibinitperiod}}}%
+        {{hash=da34c383441d2e6543be7b34601e0668}{%
+           family={Kurek},
+           familyi={K\bibinitperiod},
+           given={Ewa},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6df04aa16b996fa7db5b3b1df9b7741a}{%
+           family={Jurczak},
+           familyi={J\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=56e742fcc09f35bb5eec2e4bb68962c1}{%
+           family={Napieracz-Trzosek},
+           familyi={N\bibinithyphendelim T\bibinitperiod},
+           given={Izabela},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a5c7b1cb0b8eaffd9eae0c23344a6016}{%
+           family={Ilgowska},
+           familyi={I\bibinitperiod},
+           given={Dorota},
+           giveni={D\bibinitperiod}}}%
+        {{hash=067ba0096dbc22a69a8ffd1dbf8d4c90}{%
+           family={Mlynska},
+           familyi={M\bibinitperiod},
+           given={Katarzyna},
+           giveni={K\bibinitperiod}}}%
+        {{hash=33c64aaf32d7b7ddc381e9ab9607b5ee}{%
+           family={Wieder-Huszla},
+           familyi={W\bibinithyphendelim H\bibinitperiod},
+           given={Sylwia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cf2d4710c85373f6f523ed702809478}
+      \strng{fullhash}{f7e39108dd4c63ecb3c9dd11cc5c47b6}
+      \strng{bibnamehash}{f7e39108dd4c63ecb3c9dd11cc5c47b6}
+      \strng{authorbibnamehash}{f7e39108dd4c63ecb3c9dd11cc5c47b6}
+      \strng{authornamehash}{5cf2d4710c85373f6f523ed702809478}
+      \strng{authorfullhash}{f7e39108dd4c63ecb3c9dd11cc5c47b6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nutrients}
+      \field{number}{18}
+      \field{title}{Analysis of Compliance with Proper Nutrition Principles in Patients with a History of Myocardial Infarction}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{3091}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/nu16183091
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/nu16183091
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/nu16183091
+      \endverb
+    \endentry
+    \entry{Deslippe2023Barriers}{article}{}
+      \name{author}{7}{}{%
+        {{hash=1d1688f07e7a083b246718301950c338}{%
+           family={Deslippe},
+           familyi={D\bibinitperiod},
+           given={Alysha\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a4de35396e74bf7fcaafb142432e3a87}{%
+           family={Soanes},
+           familyi={S\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3d528903e6706290b3aa5169225f9a8e}{%
+           family={Bouchaud},
+           familyi={B\bibinitperiod},
+           given={Celeste\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=379427e08e6f0d95897e5044ef72ec50}{%
+           family={Beckenstein},
+           familyi={B\bibinitperiod},
+           given={Hailee},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3d84324997dc3fb2ccc6d3d75317ecae}{%
+           family={Slim},
+           familyi={S\bibinitperiod},
+           given={May},
+           giveni={M\bibinitperiod}}}%
+        {{hash=28b2094b59850c70c1b296b8eeafe777}{%
+           family={Plourde},
+           familyi={P\bibinitperiod},
+           given={Hugues},
+           giveni={H\bibinitperiod}}}%
+        {{hash=266f0a746f43e562f400104aae85bd26}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Tamara\bibnamedelima R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f0492ddb028a68e067f7bf8d6ab06e}
+      \strng{fullhash}{6af56c0a314577cd9fa99336903b234f}
+      \strng{bibnamehash}{6af56c0a314577cd9fa99336903b234f}
+      \strng{authorbibnamehash}{6af56c0a314577cd9fa99336903b234f}
+      \strng{authornamehash}{37f0492ddb028a68e067f7bf8d6ab06e}
+      \strng{authorfullhash}{6af56c0a314577cd9fa99336903b234f}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Behavioral Nutrition and Physical Activity}
+      \field{number}{1}
+      \field{title}{Barriers and Facilitators to Diet, Physical Activity and Lifestyle Behavior Intervention Adherence: A Qualitative Systematic Review of the Literature}
+      \field{volume}{20}
+      \field{year}{2023}
+      \field{pages}{14}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12966-023-01424-2
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s12966-023-01424-2
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s12966-023-01424-2
+      \endverb
+    \endentry
+    \entry{Katsi2025Diet}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c1b3fbdff57d40057240e694905db200}{%
+           family={Katsi},
+           familyi={K\bibinitperiod},
+           given={Vasiliki},
+           giveni={V\bibinitperiod}}}%
+        {{hash=37967446e8fb77fe83dfa27970b47455}{%
+           family={Giannoudi},
+           familyi={G\bibinitperiod},
+           given={Marilena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=75c4395daad9cab91ddb85a5c0913527}{%
+           family={Kordalis},
+           familyi={K\bibinitperiod},
+           given={Vasilios},
+           giveni={V\bibinitperiod}}}%
+        {{hash=eb99908fa6989eea973afc213abf015d}{%
+           family={Tsioufis},
+           familyi={T\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a52a5350a764011d1eef379c01e9c003}
+      \strng{fullhash}{a11ddb3d0120fa7c69fbbd2fb7af067d}
+      \strng{bibnamehash}{a11ddb3d0120fa7c69fbbd2fb7af067d}
+      \strng{authorbibnamehash}{a11ddb3d0120fa7c69fbbd2fb7af067d}
+      \strng{authornamehash}{a52a5350a764011d1eef379c01e9c003}
+      \strng{authorfullhash}{a11ddb3d0120fa7c69fbbd2fb7af067d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nutrients}
+      \field{number}{1}
+      \field{title}{Diet after Acute Coronary Artery Syndrome}
+      \field{volume}{18}
+      \field{year}{2025}
+      \field{pages}{5}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/nu18010005
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/nu18010005
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/nu18010005
+      \endverb
+    \endentry
+    \entry{AlFaraj2025MentalHealth}{article}{}
+      \name{author}{6}{}{%
+        {{hash=aa8ae618931ce4300eb7f3d309348ad7}{%
+           family={Al-Faraj},
+           familyi={A\bibinithyphendelim F\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=74d7e105174de5037ea3163fc71e645a}{%
+           family={Kum},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=94cfa90e41b8aa9e46995d798e327074}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5955daf4380823f432ee30e03010c35a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c9ea92a036d23b7c730184d767ede2e8}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7c39987b6ea5c4a9d49f6831446eab7d}{%
+           family={Bakas},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6ddbe44db08fbecc0762219234e1bed}
+      \strng{fullhash}{7a8eb65f8e6372e29e9f3c0c435bd385}
+      \strng{bibnamehash}{7a8eb65f8e6372e29e9f3c0c435bd385}
+      \strng{authorbibnamehash}{7a8eb65f8e6372e29e9f3c0c435bd385}
+      \strng{authornamehash}{e6ddbe44db08fbecc0762219234e1bed}
+      \strng{authorfullhash}{7a8eb65f8e6372e29e9f3c0c435bd385}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Western Journal of Nursing Research}
+      \field{number}{6}
+      \field{title}{Mental Health Factors and Lifestyle Adherence after Myocardial Infarction: An Integrative Review}
+      \field{volume}{47}
+      \field{year}{2025}
+      \field{pages}{544\bibrangedash 554}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1177/01939459251326816
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/01939459251326816
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/01939459251326816
+      \endverb
+    \endentry
+    \entry{Nachshol2020Psychosocial}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cb9bafc783e3460e7476500b8ca1db3a}{%
+           family={Nachshol},
+           familyi={N\bibinitperiod},
+           given={Michal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5f16773f8216cb5ffe142385fdfbdce3}{%
+           family={Lurie},
+           familyi={L\bibinitperiod},
+           given={Ido},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3571840a4ec3d5f400e5557a204b82fc}{%
+           family={Benyamini},
+           familyi={B\bibinitperiod},
+           given={Yael},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=548b21ae0f8c84ff775b3a760fce6872}{%
+           family={Goldbourt},
+           familyi={G\bibinitperiod},
+           given={Uri},
+           giveni={U\bibinitperiod}}}%
+        {{hash=0fd9ef766fcad564bde2dfcbfc4787a6}{%
+           family={Gerber},
+           familyi={G\bibinitperiod},
+           given={Yariv},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{09981076c21b5465b39df6921b987455}
+      \strng{fullhash}{8457be046999a3baf07d38141e7cede1}
+      \strng{bibnamehash}{8457be046999a3baf07d38141e7cede1}
+      \strng{authorbibnamehash}{8457be046999a3baf07d38141e7cede1}
+      \strng{authornamehash}{09981076c21b5465b39df6921b987455}
+      \strng{authorfullhash}{8457be046999a3baf07d38141e7cede1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Epidemiology}
+      \field{title}{Role of Psychosocial Factors in Long-Term Adherence to Secondary Prevention Measures after Myocardial Infarction: A Longitudinal Analysis}
+      \field{volume}{52}
+      \field{year}{2020}
+      \field{pages}{35\bibrangedash 41}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.annepidem.2020.09.016
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.annepidem.2020.09.016
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.annepidem.2020.09.016
+      \endverb
+    \endentry
+    \entry{Flagtvedt2025Gender}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=46bd2b1aeb68428435520310abefe2ea}{%
+           family={Flagtvedt},
+           familyi={F\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8390de3455a4fa529e8c3c6338ac2a14}{%
+           family={Kringeland},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=15fd9ee3cab2b7ed1dab3e5e7b4e653b}{%
+           family={Moltu},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=65ab72e002bf7bdb201be37c2e3f7169}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b60d993f2693308a63caab95db3381a1}{%
+           family={Helmark},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d0a92f43e52bf7d65d0ce4eb6b4023ca}{%
+           family={Gerds},
+           familyi={G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ad7ad3fdb751f5f8fac7cf50aae09aa}
+      \strng{fullhash}{121820a3ed14cb31465b6fa863399831}
+      \strng{bibnamehash}{121820a3ed14cb31465b6fa863399831}
+      \strng{authorbibnamehash}{121820a3ed14cb31465b6fa863399831}
+      \strng{authornamehash}{7ad7ad3fdb751f5f8fac7cf50aae09aa}
+      \strng{authorfullhash}{121820a3ed14cb31465b6fa863399831}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Cardiovascular Nursing}
+      \field{number}{Supplement 1}
+      \field{title}{Gender Differences in Cardiovascular Risk Factors and Mental Health: Results from 3 417 Patients in the {CONCARDPCI} Study}
+      \field{volume}{24}
+      \field{year}{2025}
+      \field{pages}{zvaf122.137}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/eurjcn/zvaf122.137
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/eurjcn/zvaf122.137
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/eurjcn/zvaf122.137
+      \endverb
+    \endentry
+    \entry{Sullivan2022GenderDisparities}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=5f25beae3e6c64a7b60997d62a490663}{%
+           family={Sullivan},
+           familyi={S\bibinitperiod},
+           given={Samaah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8c576368c08b31e2d00673a2e37d5d6b}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd86af2a223eba81ee435a46e277df19}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1acdc4b646befcfcacac91d308cdf2f0}{%
+           family={Almuwaqqat},
+           familyi={A\bibinitperiod},
+           given={Zakaria},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=bf61381ad1cefb1008669e7692678574}{%
+           family={Moazzami},
+           familyi={M\bibinitperiod},
+           given={Kasra},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c6308441633e27caeeac8397aa878d7d}{%
+           family={Hammadah},
+           familyi={H\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{042fdf0b91fc1a1b569572d81dd1fa36}
+      \strng{fullhash}{779c5c6c43b289ce69edd56eae76a310}
+      \strng{bibnamehash}{779c5c6c43b289ce69edd56eae76a310}
+      \strng{authorbibnamehash}{779c5c6c43b289ce69edd56eae76a310}
+      \strng{authornamehash}{042fdf0b91fc1a1b569572d81dd1fa36}
+      \strng{authorfullhash}{779c5c6c43b289ce69edd56eae76a310}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Women's Health}
+      \field{number}{10}
+      \field{title}{Gender Disparities between Neighborhood Social Vulnerability and Psychological Distress among Patients with Heart Disease}
+      \field{volume}{31}
+      \field{year}{2022}
+      \field{pages}{1440\bibrangedash 1449}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1089/jwh.2021.0505
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1089/jwh.2021.0505
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1089/jwh.2021.0505
+      \endverb
+    \endentry
+    \entry{Serpytis2018Gender}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=aa262d04dde836a477103bd744c885bd}{%
+           family={Serpytis},
+           familyi={S\bibinitperiod},
+           given={Pranas},
+           giveni={P\bibinitperiod}}}%
+        {{hash=689d5d72d9b8dc9fbd3d37f3923bbe44}{%
+           family={Navickas},
+           familyi={N\bibinitperiod},
+           given={Petras},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d6db96c1fa1e842e19f9467fd0dfd874}{%
+           family={Lukaviciute},
+           familyi={L\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=30c02166eaf4c612af236c05aedf0a1a}{%
+           family={Navickas},
+           familyi={N\bibinitperiod},
+           given={Alvydas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c400223d94047b659fe2baf2deca1f1e}{%
+           family={Aranauskas},
+           familyi={A\bibinitperiod},
+           given={Ramunas},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4c9c3bfe155109694ad5d7a17ed6f029}{%
+           family={Serpytis},
+           familyi={S\bibinitperiod},
+           given={Rokas},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a0494899825412029fd122464dd9441}
+      \strng{fullhash}{153ad32ef56a5eb315a123fbcd10a278}
+      \strng{bibnamehash}{153ad32ef56a5eb315a123fbcd10a278}
+      \strng{authorbibnamehash}{153ad32ef56a5eb315a123fbcd10a278}
+      \strng{authornamehash}{3a0494899825412029fd122464dd9441}
+      \strng{authorfullhash}{153ad32ef56a5eb315a123fbcd10a278}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Arquivos Brasileiros de Cardiologia}
+      \field{title}{Gender-Based Differences in Anxiety and Depression Following Acute Myocardial Infarction}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.5935/abc.20180161
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.5935/abc.20180161
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.5935/abc.20180161
+      \endverb
+    \endentry
+    \entry{Lu2020HealthLiteracy}{article}{}
+      \name{author}{7}{}{%
+        {{hash=974865e58a7a963a08e19d6553aa1856}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Minmin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fb68a1ddee22bd2ce709acdda538fc85}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Haiou},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7556442c3564243d5b171e92a06ebf60}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Jianying},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f87a48871351b84c2d8c427cf7ace9d8}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=14965f6d4ea10e6654fac59edf0decb4}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xian},
+           giveni={X\bibinitperiod}}}%
+        {{hash=938ffd5dd2ae613a821bac447da8e529}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Yunzhi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fdcd2467ecb2050c9ee1a8f6e2dcd551}{%
+           family={Hravnak},
+           familyi={H\bibinitperiod},
+           given={Marilyn},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2ce4b2a049ee3e2b4416bfd9edebcba}
+      \strng{fullhash}{1516db3dd8c5a2fb1370d7b83f290b08}
+      \strng{bibnamehash}{1516db3dd8c5a2fb1370d7b83f290b08}
+      \strng{authorbibnamehash}{1516db3dd8c5a2fb1370d7b83f290b08}
+      \strng{authornamehash}{c2ce4b2a049ee3e2b4416bfd9edebcba}
+      \strng{authorfullhash}{1516db3dd8c5a2fb1370d7b83f290b08}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Cardiovascular Nursing}
+      \field{number}{3}
+      \field{title}{Relationship between Adherence to Secondary Prevention and Health Literacy, Self-Efficacy and Disease Knowledge among Patients with Coronary Artery Disease in China}
+      \field{volume}{19}
+      \field{year}{2020}
+      \field{pages}{230\bibrangedash 237}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1177/1474515119880059
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/1474515119880059
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/1474515119880059
+      \endverb
+    \endentry
+    \entry{Jaim2025APCU}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e04399b3f187271746bfad0309fef4b3}{%
+           family={Jaim},
+           familyi={J\bibinitperiod},
+           given={N.\bibnamedelimi B.},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c9d213247bb723ee3cd506730bb4a4bf}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbc11d31e576a998efcf8a697c7bfc72}
+      \strng{fullhash}{cbc11d31e576a998efcf8a697c7bfc72}
+      \strng{bibnamehash}{cbc11d31e576a998efcf8a697c7bfc72}
+      \strng{authorbibnamehash}{cbc11d31e576a998efcf8a697c7bfc72}
+      \strng{authornamehash}{cbc11d31e576a998efcf8a697c7bfc72}
+      \strng{authorfullhash}{cbc11d31e576a998efcf8a697c7bfc72}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Heart}
+      \field{title}{{APCU 10} Adherence to Risk Factors Modification among Patients with 6-Months Post Myocardial Infarction in Sabah Heart Centre}
+      \field{year}{2025}
+      \field{pages}{A4.3\bibrangedash A5}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1136/openhrt-2024-APCU.10
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1136/openhrt-2024-APCU.10
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1136/openhrt-2024-APCU.10
+      \endverb
+    \endentry
+    \entry{Alhabib2026Saudi}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=cb15ebfa9426485414940102ba9a300a}{%
+           family={Alhabib},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=01c2bf7df1643bcd5a1f636d15a62479}{%
+           family={Kholaif},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1bb71237c676a7c2a001a21c1a9e8aba}{%
+           family={Mahmoud},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6d7757fbf829ce522a97a7989cf6a546}{%
+           family={Alnwiji},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=28b7864578cf8625e2e116720d7f81d2}{%
+           family={Al\bibnamedelima Zubair},
+           familyi={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ae252b6b07d2c31f1066c84930a85f26}{%
+           family={Almir},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7668b71dcfb319539c7dbad363a07d8}
+      \strng{fullhash}{cc02c04da5172027022cb6757bb25be7}
+      \strng{bibnamehash}{cc02c04da5172027022cb6757bb25be7}
+      \strng{authorbibnamehash}{cc02c04da5172027022cb6757bb25be7}
+      \strng{authornamehash}{d7668b71dcfb319539c7dbad363a07d8}
+      \strng{authorfullhash}{cc02c04da5172027022cb6757bb25be7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cardiovascular Development and Disease}
+      \field{number}{2}
+      \field{title}{Saudi Secondary Prevention Survey Study in Patients with Prior Acute Myocardial Infarction ({4S} Registry): Study Design and Pilot Phase Results}
+      \field{volume}{13}
+      \field{year}{2026}
+      \field{pages}{100}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jcdd13020100
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/jcdd13020100
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/jcdd13020100
+      \endverb
+    \endentry
+    \entry{Shi2023Education}{article}{}
+      \name{author}{6}{}{%
+        {{hash=912a43b3957453af94e052366373879e}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=219661d55a31ff1b71fbafcf46e32728}{%
+           family={Ghisi},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi L.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c1864f4d8d9b2ef34868c27100a5cde7}{%
+           family={Hyun},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5495f5c0a61b2794eb1d1fe5832d7c7c}{%
+           family={Pakosh},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=07ada97d6ea46b10ef3bbe944541f9f5}{%
+           family={Gallagher},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{38b77af9040d67ea508262cadca0acfa}
+      \strng{fullhash}{fa83c55b604d5ba5130a7462657b795c}
+      \strng{bibnamehash}{fa83c55b604d5ba5130a7462657b795c}
+      \strng{authorbibnamehash}{fa83c55b604d5ba5130a7462657b795c}
+      \strng{authornamehash}{38b77af9040d67ea508262cadca0acfa}
+      \strng{authorfullhash}{fa83c55b604d5ba5130a7462657b795c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Clinical Nursing}
+      \field{number}{15--16}
+      \field{title}{Systematic Review, Meta-Analysis and Meta-Regression to Determine the Effects of Patient Education on Health Behaviour Change in Adults Diagnosed with Coronary Heart Disease}
+      \field{volume}{32}
+      \field{year}{2023}
+      \field{pages}{5300\bibrangedash 5327}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1111/jocn.16519
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/jocn.16519
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/jocn.16519
+      \endverb
+    \endentry
+    \entry{Ivers2020ISLAND}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=8b1a38ccc0eedd6eaece8abf29a28e4f}{%
+           family={Ivers},
+           familyi={I\bibinitperiod},
+           given={Noah\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=18a35529de3c502b3303fafd5cb8ad9e}{%
+           family={Schwalm},
+           familyi={S\bibinitperiod},
+           given={Jon-David},
+           giveni={J\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=804604393432da34c15204a4b88d6e84}{%
+           family={Bouck},
+           familyi={B\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b04d4892739989d31281fe783a092e91}{%
+           family={McCready},
+           familyi={M\bibinitperiod},
+           given={Tara},
+           giveni={T\bibinitperiod}}}%
+        {{hash=270bed6a42e27366508533298a82e334}{%
+           family={Taljaard},
+           familyi={T\bibinitperiod},
+           given={Monica},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a87beb5aee061a74dc6ad6891d056b61}{%
+           family={Grace},
+           familyi={G\bibinitperiod},
+           given={Sherry\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e047f7679df5130cf28e38e89f223911}
+      \strng{fullhash}{2b50e98673ef729ab0014c2487b7cee2}
+      \strng{bibnamehash}{2b50e98673ef729ab0014c2487b7cee2}
+      \strng{authorbibnamehash}{2b50e98673ef729ab0014c2487b7cee2}
+      \strng{authornamehash}{e047f7679df5130cf28e38e89f223911}
+      \strng{authorfullhash}{2b50e98673ef729ab0014c2487b7cee2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMJ}
+      \field{title}{Interventions Supporting Long Term Adherence and Decreasing Cardiovascular Events after Myocardial Infarction ({ISLAND}): Pragmatic Randomised Controlled Trial}
+      \field{volume}{369}
+      \field{year}{2020}
+      \field{pages}{m1731}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1136/bmj.m1731
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1136/bmj.m1731
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1136/bmj.m1731
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

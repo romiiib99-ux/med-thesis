@@ -1,0 +1,199 @@
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=0.99\textwidth,
+            height=0.62\textwidth,
+            xmin=0.2,
+            xmax=14.8,
+            ymin=0,
+            ymax=108,
+            axis x line*=bottom,
+            axis y line*=left,
+            axis line style={
+                draw=Ink,
+                line width=0.8pt
+            },
+            tick style={
+                draw=none
+            },
+            axis background/.style={
+                fill=Canvas
+            },
+            ymajorgrids=true,
+            xmajorgrids=false,
+            major grid style={
+                draw=Border,
+                line width=0.45pt
+            },
+            ytick={0,20,40,60,80,100},
+            yticklabels={۰,۲۰,۴۰,۶۰,۸۰,۱۰۰},
+            yticklabel style={
+                font=\footnotesize,
+                text=Ink
+            },
+            ylabel={\rl{درصد}},
+            ylabel style={
+                font=\small\bfseries,
+                text=Ink,
+                yshift=-2pt
+            },
+            title={
+                \rl{پایبندی به رژیم غذایی}
+                \lr{(n=90)}
+            },
+            title style={
+                font=\large\bfseries,
+                text=Ink,
+                yshift=7pt
+            },
+            xtick={1,2,4,5,7,8,10,11,13,14},
+            xticklabels={
+                {\makecell[c]{\rl{پایه}}},
+                {\makecell[c]{\rl{دانشگاهی}}},
+                {\makecell[c]{\rl{روستایی}}},
+                {\makecell[c]{\rl{شهری}}},
+                {\makecell[c]{\rl{ضعیف}}},
+                {\makecell[c]{\rl{متوسط/خوب}}},
+                {\makecell[c]{\rl{سطح}\\\rl{کافی}}},
+                {\makecell[c]{\rl{سطح}\\\rl{ناکافی}}},
+                {\makecell[c]{\rl{بالا}}},
+                {\makecell[c]{\rl{پایین}}}
+            },
+            xticklabel style={
+                font=\scriptsize,
+                text=Ink,
+                align=center,
+                yshift=-2pt
+            },
+            extra x ticks={1.5,4.5,7.5,10.5,13.5},
+            extra x tick labels={
+                {
+                    \makecell[c]{
+                        \rl{تحصیلات}\\
+                        \lr{$p<0.001$}
+                    }
+                },
+                {
+                    \makecell[c]{
+                        \rl{سکونت}\\
+                        \lr{$p<0.001$}
+                    }
+                },
+                {
+                    \makecell[c]{
+                        \rl{وضعیت اقتصادی}\\
+                        \lr{$p<0.001$}
+                    }
+                },
+                {
+                    \makecell[c]{
+                        \rl{سواد سلامت}\\
+                        \lr{$p=0.001$}
+                    }
+                },
+                {
+                    \makecell[c]{
+                        \rl{پایبندی دارویی}\\
+                        \lr{$p=0.009$}
+                    }
+                }
+            },
+            extra x tick style={
+                tick style={
+                    draw=none
+                },
+                grid=none,
+                ticklabel style={
+                    font=\footnotesize,
+                    text=Ink,
+                    align=center,
+                    yshift=-20mm
+                }
+            },
+            bar width=12pt,
+            clip=false,
+            legend columns=2,
+            legend image code/.code={
+                \draw[#1]
+                    (0cm,-0.10cm)
+                    rectangle
+                    (0.34cm,0.10cm);
+            },
+            legend cell align={right},
+            legend style={
+                at={(0.5,0.965)},
+                anchor=north,
+                draw=Border,
+                fill=SurfaceOne,
+                rounded corners=2pt,
+                font=\footnotesize,
+                text=Ink,
+                inner xsep=7pt,
+                inner ysep=4pt,
+                /tikz/every even column/.append style={
+                    column sep=10pt
+                }
+            },
+            nodes near coords={\pgfplotspointmeta},
+            point meta=explicit symbolic,
+            every node near coord/.append style={
+                font=\footnotesize\bfseries,
+                text=Ink,
+                yshift=2pt
+            }
+        ]
+        % First category in every group: primary purple
+        \addplot+[
+            ybar,
+            draw=PrimaryPurple,
+            fill=PrimaryPurple,
+            mark=none
+        ]
+        table[
+            x=x,
+            y=y,
+            meta=label,
+            row sep=\\
+        ] {
+            x   y     label\\
+            1   52.1  {۵۲٫۱٪}\\
+            4   41.0  {۴۱٪}\\
+            7   35.4  {۳۵٫۴٪}\\
+            10  74.6  {۷۴٫۶٪}\\
+            13  67.3  {۶۷٫۳٪}\\
+        };
+        \addlegendentry{\rl{رده نخست هر گروه}}
+        % Second category in every group: secondary teal
+        \addplot+[
+            ybar,
+            draw=SecondaryTeal,
+            fill=SecondaryTeal,
+            mark=none
+        ]
+        table[
+            x=x,
+            y=y,
+            meta=label,
+            row sep=\\
+        ] {
+            x   y     label\\
+            2   90.3  {۹۰٫۳٪}\\
+            5   73.0  {۷۳٪}\\
+            8   78.8  {۷۸٫۸٪}\\
+            11  48.2  {۴۸٫۲٪}\\
+            14  44.9  {۴۴٫۹٪}\\
+        };
+        \addlegendentry{\rl{رده دوم هر گروه}}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{
+        مقایسه درصد پایبندی به رژیم غذایی بر حسب تحصیلات،
+        محل سکونت، وضعیت اقتصادی، سواد سلامت و پایبندی دارویی
+        در ۹۰ شرکت‌کننده. مقدار دقیق درصد در بالای هر ستون و
+        مقدار \lr{p} زیر نام هر متغیر مستقل نشان داده شده است.
+        ستون بنفش رده نخست و ستون فیروزه‌ای رده دوم هر مقایسه
+        را نشان می‌دهد.
+    }
+    \label{fig:diet-adherence-grouped-bar}
+\end{figure}

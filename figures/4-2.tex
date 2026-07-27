@@ -1,0 +1,316 @@
+\begin{figure}[H]
+    \centering
+
+    % TikZ is placed in an LTR environment to keep its coordinate system stable.
+    % Individual Persian text elements are restored with \faText.
+    \begin{latin}
+    \begin{tikzpicture}
+
+        \begin{axis}[
+            width=0.95\textwidth,
+            height=12.2cm,
+            % Axis ranges
+            ymin=0,
+            ymax=112,
+            xmin=0.15,
+            xmax=21.85,
+            % Background and axis lines
+            axis background/.style={
+                fill=Canvas
+            },
+            axis x line*=bottom,
+            axis y line*=left,
+            axis line style={
+                draw=Ink,
+                line width=0.75pt
+            },
+            tick style={
+                draw=InkMuted,
+                line width=0.55pt
+            },
+            % Y-axis
+            ytick={0,20,40,60,80,100},
+            yticklabels={
+                \faText{۰},
+                \faText{۲۰},
+                \faText{۴۰},
+                \faText{۶۰},
+                \faText{۸۰},
+                \faText{۱۰۰}
+            },
+            ylabel={\faText{درصد}},
+            ylabel style={
+                font=\bfseries\large,
+                text=Ink,
+                yshift=-2pt
+            },
+            yticklabel style={
+                font=\small,
+                text=InkMuted
+            },
+            % Grid
+            xmajorgrids=false,
+            ymajorgrids=true,
+            grid style={
+                draw=Border,
+                line width=0.55pt
+            },
+            % One tick beneath every individual bar
+            xtick={
+                1,2,
+                4,5,
+                7,8,
+                10,11,
+                13,14,15,
+                17,18,
+                20,21
+            },
+            xticklabels={
+                \faText{مرد},
+                \faText{زن},
+                \faText{مجرد},
+                \faText{متاهل},
+                \faText{شاغل},
+                \faText{غیر شاغل},
+                \faText{پایه},
+                \faText{دانشگاهی},
+                \faText{آنژیوپلاستی},
+                \faText{جراحی},
+                \faText{دارویی},
+                \faText{سطح کافی},
+                \faText{سطح ناکافی},
+                \faText{بالا},
+                \faText{پایین}
+            },
+            xticklabel style={
+                font=\footnotesize,
+                text=Ink,
+                rotate=52,
+                anchor=east,
+                align=right,
+                yshift=-2pt
+            },
+            tick align=outside,
+            % Bars and exact percentage labels
+            bar width=13pt,
+            clip=false,
+            point meta=explicit symbolic,
+            nodes near coords={\pgfplotspointmeta},
+            every node near coord/.append style={
+                font=\bfseries\scriptsize,
+                text=Ink,
+                anchor=south,
+                yshift=2pt,
+                inner sep=0.5pt
+            },
+            % Chart header
+            title={
+                \faText{فعالیت بدنی کافی}
+                \lr{(n=104)}
+            },
+            title style={
+                font=\bfseries\Large,
+                text=Ink,
+                yshift=47pt,
+                fill=SurfaceOne,
+                draw=Border,
+                rounded corners=3pt,
+                inner xsep=18pt,
+                inner ysep=5pt
+            },
+            % Legend
+            legend style={
+                at={(0.5,1.035)},
+                anchor=south,
+                legend columns=3,
+                draw=Border,
+                fill=Canvas,
+                rounded corners=2pt,
+                font=\footnotesize,
+                text=Ink,
+                /tikz/every even column/.append style={
+                    column sep=10pt
+                },
+                inner xsep=7pt,
+                inner ysep=4pt,
+                legend image code/.code={
+                    \draw[##1]
+                        (0cm,-0.10cm)
+                        rectangle
+                        (0.34cm,0.18cm);
+                }
+            }
+        ]
+        %--------------------------------------------------------------
+        % First category of every independent variable
+        %--------------------------------------------------------------
+        \addplot+[
+            ybar,
+            mark=none,
+            draw=PrimaryPurple,
+            fill=PrimaryPurple
+        ] coordinates {
+            (1,90.5)  [\faText{۹۰٫۵٪}]
+            (4,40)    [\faText{۴۰٪}]
+            (7,100)   [\faText{۱۰۰٪}]
+            (10,65.5) [\faText{۶۵٫۵٪}]
+            (13,78.1) [\faText{۷۸٫۱٪}]
+            (17,86.6) [\faText{۸۶٫۶٪}]
+            (20,77.8) [\faText{۷۷٫۸٪}]
+        };
+        \addlegendentry{\faText{رده نخست}}
+        %--------------------------------------------------------------
+        % Second category of every independent variable
+        %--------------------------------------------------------------
+        \addplot+[
+            ybar,
+            mark=none,
+            draw=SecondaryTeal,
+            fill=SecondaryTeal
+        ] coordinates {
+            (2,20)    [\faText{۲۰٪}]
+            (5,76.7)  [\faText{۷۶٫۷٪}]
+            (8,45.2)  [\faText{۴۵٫۲٪}]
+            (11,83.9) [\faText{۸۳٫۹٪}]
+            (14,75)   [\faText{۷۵٪}]
+            (18,55.4) [\faText{۵۵٫۴٪}]
+            (21,52.9) [\faText{۵۲٫۹٪}]
+        };
+        \addlegendentry{\faText{رده دوم}}
+        %--------------------------------------------------------------
+        % Third category, used only for the three-level treatment group
+        %--------------------------------------------------------------
+        \addplot+[
+            ybar,
+            mark=none,
+            draw=AccentMagenta,
+            fill=AccentMagenta
+        ] coordinates {
+            (15,34.5) [\faText{۳۴٫۵٪}]
+        };
+        \addlegendentry{\faText{رده سوم (نوع درمان)}}
+        %--------------------------------------------------------------
+        % Independent-variable names and p-values
+        %--------------------------------------------------------------
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:1.5,-28) {
+            \faText{جنسیت}\\[-1pt]
+            \lr{$p<0.001$}
+        };
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:4.5,-28) {
+            \faText{تاهل}\\[-1pt]
+            \lr{$p<0.001$}
+        };
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:7.5,-28) {
+            \faText{اشتغال}\\[-1pt]
+            \lr{$p<0.001$}
+        };
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:10.5,-28) {
+            \faText{تحصیلات}\\[-1pt]
+            \lr{$p=0.049$}
+        };
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:14,-28) {
+            \faText{نوع درمان}\\[-1pt]
+            \lr{$p<0.001$}
+        };
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:17.5,-28) {
+            \faText{سواد سلامت}\\[-1pt]
+            \lr{$p<0.001$}
+        };
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:20.5,-28) {
+            \faText{پایبندی دارویی}\\[-1pt]
+            \lr{$p=0.002$}
+        };
+        %--------------------------------------------------------------
+        % Subtle separators between independent-variable groups
+        %--------------------------------------------------------------
+        \draw[
+            Border,
+            line width=0.45pt,
+            densely dashed
+        ]
+        (axis cs:3,0) -- (axis cs:3,103);
+        \draw[
+            Border,
+            line width=0.45pt,
+            densely dashed
+        ]
+        (axis cs:6,0) -- (axis cs:6,103);
+        \draw[
+            Border,
+            line width=0.45pt,
+            densely dashed
+        ]
+        (axis cs:9,0) -- (axis cs:9,103);
+
+        \draw[
+            Border,
+            line width=0.45pt,
+            densely dashed
+        ]
+        (axis cs:12,0) -- (axis cs:12,103);
+        \draw[
+            Border,
+            line width=0.45pt,
+            densely dashed
+        ]
+        (axis cs:16,0) -- (axis cs:16,103);
+        \draw[
+            Border,
+            line width=0.45pt,
+            densely dashed
+        ]
+        (axis cs:19,0) -- (axis cs:19,103);
+        \end{axis}
+    \end{tikzpicture}
+    \end{latin}
+    \caption{
+        درصد برخورداری از فعالیت بدنی کافی در ۱۰۴ شرکت‌کننده،
+        به تفکیک متغیرهای جمعیت‌شناختی و بالینی.
+        مقدار دقیق درصد بالای هر ستون و مقدار
+        \lr{p}
+        مربوط به مقایسه آماری زیر نام هر متغیر ارائه شده است.
+    }
+    \label{fig:sufficient-physical-activity}
+\end{figure}

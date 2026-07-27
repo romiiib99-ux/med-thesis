@@ -1,0 +1,71 @@
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[
+    x=1.75cm,
+    y=1.7cm,
+    font=\fontsize{11pt}{14pt}\selectfont,
+    box/.style={
+      draw=black,
+      line width=0.7pt,
+      fill=white,
+      minimum height=1.05cm,
+      inner xsep=5pt,
+      inner ysep=3pt,
+      align=center
+    },
+    perception/.style={box,minimum width=3.45cm},
+    coping/.style={box,minimum width=2.35cm},
+    outcome/.style={box,minimum width=2.55cm},
+    disease/.style={box,minimum width=2.65cm},
+    flow/.style={line width=0.85pt,-{Latex[length=2.2mm,width=1.7mm]}}
+  ]
+    \node[disease] (disease) at (0,0)
+      {\shortstack{\TikzRTL{ویژگی‌های}\\\TikzRTL{بیماری}}};
+
+    \node[perception] (cognitive) at (2.55,1.25)
+      {\shortstack{\TikzRTL{ادراک‌های شناختی}\\\TikzRTL{بیماری}}};
+    \node[perception] (emotional-perception) at (2.55,-1.25)
+      {\shortstack{\TikzRTL{ادراک‌های هیجانی}\\\TikzRTL{بیماری}}};
+
+    \node[coping] (cognitive-coping) at (5.25,1.25)
+      {\shortstack{\TikzRTL{راهبردهای}\\\TikzRTL{مقابله‌ای}}};
+    \node[coping] (emotional-coping) at (5.25,-1.25)
+      {\shortstack{\TikzRTL{راهبردهای}\\\TikzRTL{مقابله‌ای}}};
+
+    \node[outcome] (illness-outcome) at (7.75,1.25)
+      {\shortstack{\TikzRTL{پیامدهای}\\\TikzRTL{بیماری}}};
+    \node[outcome] (emotional-outcome) at (7.75,-1.25)
+      {\shortstack{\TikzRTL{پیامدهای}\\\TikzRTL{هیجانی}}};
+
+    % Two principal causal paths.
+    \draw[flow] (disease.north east) -- (cognitive.west);
+    \draw[flow] (disease.south east) -- (emotional-perception.west);
+    \draw[flow] (cognitive.east) -- (cognitive-coping.west);
+    \draw[flow] (cognitive-coping.east) -- (illness-outcome.west);
+    \draw[flow] (emotional-perception.east) -- (emotional-coping.west);
+    \draw[flow] (emotional-coping.east) -- (emotional-outcome.west);
+
+    % Reciprocal relation between illness and emotional outcomes.
+    \draw[
+      line width=0.85pt,
+      {Latex[length=2.2mm,width=1.7mm]}-{Latex[length=2.2mm,width=1.7mm]}
+    ] (illness-outcome.south) -- (emotional-outcome.north);
+
+    % Upper feedback route from illness outcomes.
+    \draw[line width=0.85pt]
+      (illness-outcome.north) -- (7.75,2.10) -- (0,2.10);
+    \draw[flow] (0,2.10) -- (disease.north);
+    \draw[flow] (2.55,2.10) -- (cognitive.north);
+    \draw[flow] (5.25,2.10) -- (cognitive-coping.north);
+
+    % Lower feedback route from emotional outcomes.
+    \draw[line width=0.85pt]
+      (emotional-outcome.south) -- (7.75,-2.10) -- (0,-2.10);
+    \draw[flow] (0,-2.10) -- (disease.south);
+    \draw[flow] (2.55,-2.10) -- (emotional-perception.south);
+    \draw[flow] (5.25,-2.10) -- (emotional-coping.south);
+  \end{tikzpicture}
+  \caption{مدل خودتنظیمی لونتال}
+  \label{fig:illness-perception-model-fa}
+\end{figure}

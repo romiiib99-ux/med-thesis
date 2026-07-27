@@ -1,0 +1,176 @@
+\begin{figure}[H]
+    \centering
+    % The LTR environment prevents RTL transformations
+    % from affecting the PGFPlots coordinate system.
+    \begin{latin}
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=0.98\textwidth,
+            height=12.2cm,
+            ybar,
+            bar width=13pt,
+            ymin=0,
+            ymax=105,
+            ytick={0,20,40,60,80,100},
+            ylabel={\rl{درصد}},
+            ylabel style={
+                font=\bfseries,
+                text=Ink,
+                yshift=-2pt
+            },
+            title={\rl{\bfseries پایبندی کلی} \lr{(n=26)}},
+            title style={
+                font=\Large,
+                text=Ink,
+                yshift=7pt
+            },
+            axis background/.style={
+                fill=Canvas
+            },
+            axis x line*=bottom,
+            axis y line*=left,
+            axis line style={
+                draw=Ink,
+                line width=0.8pt
+            },
+            tick style={
+                draw=Ink,
+                line width=0.7pt
+            },
+            ymajorgrids=true,
+            xmajorgrids=false,
+            major grid style={
+                draw=Border,
+                line width=0.65pt
+            },
+            xtick={
+                1,2,
+                4,5,
+                7,8,
+                10,11,
+                13,14
+            },
+            xticklabels={
+                \rl{مرد},
+                \rl{زن},
+                \rl{مجرد},
+                \rl{متاهل},
+                \rl{پایه},
+                \rl{دانشگاهی},
+                \rl{سطح کافی},
+                \rl{سطح ناکافی},
+                \rl{بالا},
+                \rl{پایین}
+            },
+            x tick label style={
+                font=\scriptsize,
+                text=Ink,
+                align=right,
+                rotate=35,
+                anchor=north east,
+                yshift=-1pt
+            },
+            y tick label style={
+                font=\small,
+                text=InkMuted
+            },
+            enlarge x limits=0.065,
+            clip=false,
+            legend columns=1,
+            legend style={
+                at={(0.98,0.97)},
+                anchor=north east,
+                draw=Border,
+                fill=SurfaceOne,
+                rounded corners=2pt,
+                inner xsep=8pt,
+                inner ysep=5pt,
+                row sep=2pt,
+                font=\small,
+                text=Ink
+            },
+            nodes near coords,
+            point meta=explicit symbolic,
+            every node near coord/.append style={
+                font=\small,
+                text=Ink,
+                anchor=south,
+                yshift=2pt
+            }
+        ]
+        % First category in every pair:
+        % primary purple, #7B2FBE.
+        \addplot+[
+            draw=PrimaryPurple,
+            fill=PrimaryPurple,
+            line width=0.8pt
+        ] coordinates {
+            (1,21.9)  [\PercentLabel{21.9}]
+            (4,3.3)   [\PercentLabel{3.3}]
+            (7,10.1)  [\PercentLabel{10.1}]
+            (10,26.1) [\PercentLabel{26.1}]
+            (13,23.2) [\PercentLabel{23.2}]
+        };
+        \addlegendentry{\rl{دسته نخست هر جفت}}
+        % Second category in every pair:
+        % secondary teal, #00C4CC.
+        \addplot+[
+            draw=SecondaryTeal,
+            fill=SecondaryTeal,
+            line width=0.8pt
+        ] coordinates {
+            (2,6.7)   [\PercentLabel{6.7}]
+            (5,20.8)  [\PercentLabel{20.8}]
+            (8,45.2)  [\PercentLabel{45.2}]
+            (11,10.6) [\PercentLabel{10.6}]
+            (14,5.9)  [\PercentLabel{5.9}]
+        };
+        \addlegendentry{\rl{دسته دوم هر جفت}}
+        % Variable names and p-values centered
+        % below the corresponding pairs of bars.
+        \node[
+            font=\small,
+            text=Ink,
+            align=center,
+            anchor=north
+        ] at (axis cs:1.5,-18) {
+            \GenderGroupLabel
+        };
+        \node[
+            font=\small,
+            text=Ink,
+            align=center,
+            anchor=north
+        ] at (axis cs:4.5,-18) {
+            \MaritalGroupLabel
+        };
+        \node[
+            font=\small,
+            text=Ink,
+            align=center,
+            anchor=north
+        ] at (axis cs:7.5,-18) {
+            \EducationGroupLabel
+        };
+        \node[
+            font=\small,
+            text=Ink,
+            align=center,
+            anchor=north
+        ] at (axis cs:10.5,-18) {
+            \LiteracyGroupLabel
+        };
+        \node[
+            font=\small,
+            text=Ink,
+            align=center,
+            anchor=north
+        ] at (axis cs:13.5,-18) {
+            \MedicationGroupLabel
+        };
+        \end{axis}
+    \end{tikzpicture}
+    \end{latin}
+    \caption{مقایسه درصد پایبندی کلی برحسب جنسیت، وضعیت تاهل، سطح تحصیلات، سواد سلامت و پایبندی دارویی در ۲۶ شرکت‌کننده. مقدار دقیق درصد بالای هر میله و مقدار \lr{\textit{p}} زیر نام هر متغیر گزارش شده است.}
+    \label{fig:overall-adherence-grouped-bar}
+\end{figure}
