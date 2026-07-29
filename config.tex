@@ -33,6 +33,8 @@
 \usepackage[
   backend=biber,
   style=vancouver,
+  citestyle=numeric-comp,
+  sortcites=true,
   sorting=none,
   maxbibnames=99,
   giveninits=true,
@@ -55,11 +57,20 @@
   ItalicFont=IRNazanin-Italic
 ]{IRNazanin-Regular}
 
+\setlatintextfont[
+  Path=fonts/,
+  Extension=.ttf,
+  Script=Latin,
+  Scale=0.8,
+  BoldFont=timesbd,
+  ItalicFont=timesi
+]{times}
+
 \setmathdigitfont[
   Path=fonts/,
   Extension=.ttf,
   Script=Arabic,
-  Scale=1,
+  Scale=0.9,
   BoldFont=IRNazanin-Bold,
   ItalicFont=IRNazanin-Italic
 ]{IRNazanin-Regular}
@@ -244,7 +255,7 @@
   \node[anchor=east,align=center,text width=2.4cm,font=\bfseries\fontsize{9.0}{9.5}\selectfont]
     at ([xshift=-6.1cm]axis cs:0.02,#1) {#2};
 }
-
+\newcommand{\checkbox}{$\square$}
 
 
 
@@ -260,3 +271,4 @@
 
 % Enforce right-to-left typesetting independently on every line in a node.
 \newcommand{\TikzRTL}[1]{\beginR#1\endR}
+\raggedbottom
