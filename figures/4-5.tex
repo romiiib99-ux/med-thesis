@@ -12,13 +12,21 @@
             ymin=0,
             ymax=105,
             ytick={0,20,40,60,80,100},
+            yticklabels={
+                \rl{۰},
+                \rl{۲۰},
+                \rl{۴۰},
+                \rl{۶۰},
+                \rl{۸۰},
+                \rl{۱۰۰}
+            },
             ylabel={\rl{درصد}},
             ylabel style={
                 font=\bfseries,
                 text=Ink,
                 yshift=-2pt
             },
-            title={\rl{\bfseries پایبندی کلی} \lr{(n=26)}},
+            title={\rl{\bfseries پایبندی کلی}},
             title style={
                 font=\Large,
                 text=Ink,
@@ -80,14 +88,15 @@
             legend style={
                 at={(0.98,0.97)},
                 anchor=north east,
-                draw=Border,
+                draw=none,
                 fill=SurfaceOne,
-                rounded corners=2pt,
-                inner xsep=8pt,
-                inner ysep=5pt,
-                row sep=2pt,
+                rounded corners=6pt,
+                inner xsep=10pt,
+                inner ysep=6pt,
+                row sep=3pt,
                 font=\small,
-                text=Ink
+                text=Ink,
+                /tikz/every even column/.append style={column sep=6pt}
             },
             nodes near coords,
             point meta=explicit symbolic,
@@ -105,13 +114,13 @@
             fill=PrimaryPurple,
             line width=0.8pt
         ] coordinates {
-            (1,21.9)  [\PercentLabel{21.9}]
-            (4,3.3)   [\PercentLabel{3.3}]
-            (7,10.1)  [\PercentLabel{10.1}]
-            (10,26.1) [\PercentLabel{26.1}]
-            (13,23.2) [\PercentLabel{23.2}]
+            (1,21.9) [\rl{۲۱٫۹٪}]
+            (4,3.3)  [\rl{۳٫۳٪}]
+            (7,10.1) [\rl{۱۰٫۱٪}]
+            (10,26.1)[\rl{۲۶٫۱٪}]
+            (13,23.2)[\rl{۲۳٫۲٪}]
         };
-        \addlegendentry{\rl{دسته نخست هر جفت}}
+        \addlegendentry{\rl{ردهٔ نخست هر گروه}}
         % Second category in every pair:
         % secondary teal, #00C4CC.
         \addplot+[
@@ -119,22 +128,26 @@
             fill=SecondaryTeal,
             line width=0.8pt
         ] coordinates {
-            (2,6.7)   [\PercentLabel{6.7}]
-            (5,20.8)  [\PercentLabel{20.8}]
-            (8,45.2)  [\PercentLabel{45.2}]
-            (11,10.6) [\PercentLabel{10.6}]
-            (14,5.9)  [\PercentLabel{5.9}]
+            (2,6.7)  [\rl{۶٫۷٪}]
+            (5,20.8) [\rl{۲۰٫۸٪}]
+            (8,45.2) [\rl{۴۵٫۲٪}]
+            (11,10.6)[\rl{۱۰٫۶٪}]
+            (14,5.9) [\rl{۵٫۹٪}]
         };
-        \addlegendentry{\rl{دسته دوم هر جفت}}
+        \addlegendentry{\rl{ردهٔ دوم هر گروه}}
         % Variable names and p-values centered
-        % below the corresponding pairs of bars.
+        % below the corresponding pairs of bars
+        % (Persian digits).
         \node[
             font=\small,
             text=Ink,
             align=center,
             anchor=north
         ] at (axis cs:1.5,-18) {
-            \GenderGroupLabel
+            \shortstack[c]{%
+                \rl{جنسیت}\\[-1pt]
+                {\lr{\textit{p} = ۰٫۰۲۴}}%
+            }
         };
         \node[
             font=\small,
@@ -142,7 +155,10 @@
             align=center,
             anchor=north
         ] at (axis cs:4.5,-18) {
-            \MaritalGroupLabel
+            \shortstack[c]{%
+                \rl{تاهل}\\[-1pt]
+                {\lr{\textit{p} = ۰٫۰۲۴}}%
+            }
         };
         \node[
             font=\small,
@@ -150,7 +166,10 @@
             align=center,
             anchor=north
         ] at (axis cs:7.5,-18) {
-            \EducationGroupLabel
+            \shortstack[c]{%
+                \rl{تحصیلات}\\[-1pt]
+                {\lr{\textit{p} < ۰٫۰۰۱}}%
+            }
         };
         \node[
             font=\small,
@@ -158,7 +177,10 @@
             align=center,
             anchor=north
         ] at (axis cs:10.5,-18) {
-            \LiteracyGroupLabel
+            \shortstack[c]{%
+                \rl{سواد سلامت}\\[-1pt]
+                {\lr{\textit{p} = ۰٫۰۱۶}}%
+            }
         };
         \node[
             font=\small,
@@ -166,11 +188,14 @@
             align=center,
             anchor=north
         ] at (axis cs:13.5,-18) {
-            \MedicationGroupLabel
+            \shortstack[c]{%
+                \rl{پایبندی دارویی}\\[-1pt]
+                {\lr{\textit{p} = ۰٫۰۰۸}}%
+            }
         };
         \end{axis}
     \end{tikzpicture}
     \end{latin}
-    \caption{مقایسه درصد پایبندی کلی برحسب جنسیت، وضعیت تاهل، سطح تحصیلات، سواد سلامت و پایبندی دارویی}
+    \caption{مقایسه پایبندی کلی و پایبندی دارویی}
     \label{fig:overall-adherence-grouped-bar}
 \end{figure}

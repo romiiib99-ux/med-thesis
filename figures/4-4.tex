@@ -18,7 +18,7 @@
         text=Ink,
         yshift=-2pt
     },
-    title={\rl{سلامت روانشناختی} \lr{(n=69)}},
+    title={\rl{سلامت روانشناختی}},
     title style={
         font=\bfseries\large,
         text=Ink,
@@ -43,13 +43,13 @@
         text=Ink
     },
     scaled ticks=false,
+    set layers=standard,
     ymajorgrids=true,
     xmajorgrids=false,
     grid style={
         draw=Border,
         line width=0.55pt
     },
-    axis on top,
     clip=false,
     xtick={1,2,4,5,7,8,10,11,13,14},
     xticklabels={
@@ -107,6 +107,7 @@
     },
     point meta=y
 ]
+
 % ردهٔ نخست هر گروه
 \addplot+[
     draw=PrimaryPurple,
@@ -120,6 +121,7 @@ coordinates {
     (13,59.1)
 };
 \addlegendentry{\rl{ردهٔ نخست هر گروه}}
+
 % ردهٔ دوم هر گروه
 \addplot+[
     draw=SecondaryTeal,
@@ -133,73 +135,72 @@ coordinates {
     (14,35.7)
 };
 \addlegendentry{\rl{ردهٔ دوم هر گروه}}
-% جداکننده‌های ظریف میان متغیرهای مستقل
-\draw[
-    Border,
-    line width=0.6pt
-]
-    (axis cs:3,0) -- (axis cs:3,103);
-\draw[
-    Border,
-    line width=0.6pt
-]
-    (axis cs:6,0) -- (axis cs:6,103);
-\draw[
-    Border,
-    line width=0.6pt
-]
-    (axis cs:9,0) -- (axis cs:9,103);
-\draw[
-    Border,
-    line width=0.6pt
-]
-    (axis cs:12,0) -- (axis cs:12,103);
-% نام گروه‌ها و مقادیر p در ردیف دوم محور افقی
+
+% نام گروه‌ها و مقادیر p
 \node[
     anchor=north,
     align=center,
     font=\small,
     text=Ink
 ]
-    at (axis cs:1.5,-15)
-    {\rl{جنسیت}\\[-1pt]\lr{$p<0.001$}};
+at (axis cs:1.5,-15)
+{
+    \rl{جنسیت}\\[-1pt]
+    \lr{$p<$}\rl{۰٫۰۰۱}
+};
+
 \node[
     anchor=north,
     align=center,
     font=\small,
     text=Ink
 ]
-    at (axis cs:4.5,-15)
-    {\rl{تاهل}\\[-1pt]\lr{$p=0.005$}};
+at (axis cs:4.5,-15)
+{
+    \rl{تاهل}\\[-1pt]
+    \lr{$p=$}\rl{۰٫۰۰۵}
+};
+
 \node[
     anchor=north,
     align=center,
     font=\small,
     text=Ink
 ]
-    at (axis cs:7.5,-15)
-    {\rl{اشتغال}\\[-1pt]\lr{$p=0.029$}};
+at (axis cs:7.5,-15)
+{
+    \rl{اشتغال}\\[-1pt]
+    \lr{$p=$}\rl{۰٫۰۲۹}
+};
+
 \node[
     anchor=north,
     align=center,
     font=\small,
     text=Ink
 ]
-    at (axis cs:10.5,-15)
-    {\rl{تحصیلات}\\[-1pt]\lr{$p=0.003$}};
+at (axis cs:10.5,-15)
+{
+    \rl{تحصیلات}\\[-1pt]
+    \lr{$p=$}\rl{۰٫۰۰۳}
+};
+
 \node[
     anchor=north,
     align=center,
     font=\small,
     text=Ink
 ]
-    at (axis cs:13.5,-15)
-    {\rl{سواد سلامت}\\[-1pt]\lr{$p=0.007$}};
+at (axis cs:13.5,-15)
+{
+    \rl{سواد سلامت}\\[-1pt]
+    \lr{$p=$}\rl{۰٫۰۰۷}
+};
+
 \end{axis}
 \end{tikzpicture}
 \end{LTR}
-\caption{
-مقایسهٔ درصد سلامت روانشناختی بر حسب جنسیت، تاهل، اشتغال،
-تحصیلات و سواد سلامت}
+
+\caption{مقایسه درصد سلامت روانشناختی و سواد سلامت}
 \label{fig:psychological-health-grouped-bar-chart}
 \end{figure}

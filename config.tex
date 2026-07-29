@@ -57,6 +57,13 @@
   ItalicFont=IRNazanin-Italic
 ]{IRNazanin-Regular}
 
+\settextdigitfont[
+  Path=fonts/,
+  Extension=.ttf,
+  Script=Arabic,
+  Scale=1
+]{IRNazanin-Regular}
+
 \setlatintextfont[
   Path=fonts/,
   Extension=.ttf,
@@ -80,6 +87,7 @@
   Extension=.ttf,
   Script=Arabic
 ]{IRTitr}
+
 \setstretch{1.15}
 \setlength{\parindent}{1cm}
 \setlength{\parskip}{0pt}
@@ -136,7 +144,7 @@
 \renewcommand{\listtablename}{فهرست جدول‌ها}
 \renewcommand{\listfigurename}{فهرست شکل‌ها و نمودارها}
 \renewcommand{\bibname}{فهرست منابع و مأخذ}
-\newcommand{\ThesisTitleFA}{بررسی میزان پایبندی به اقدامات پیشگیری ثانویه غیردارویی و عوامل مرتبط با آن در بیماران سکته قلبی مراجعه کننده به درمانگاه قلب شهید مدنی شهر خرم آباد در نیمسال دوم 1404}
+\newcommand{\ThesisTitleFA}{بررسی میزان پایبندی به اقدامات پیشگیری ثانویه غیردارویی و عوامل مرتبط با آن در بیماران سکته قلبی مراجعه کننده به درمانگاه قلب شهید مدنی شهر خرم آباد در نیمسال دوم ۱۴۰۵}
 \newcommand{\ThesisTitleEN}{Investigating Adherence Rate to Non-pharmacological Secondary Prevention Measures and Associated Factors Among Myocardial Infarction Patients at Shahid Madani Cardiology Clinic, Khorramabad, Iran, in the Second Half of 2025}
 \newcommand{\StudentNameFA}{رومینا بیاطی}
 \newcommand{\StudentNameEN}{Romina Bayati}
@@ -257,16 +265,32 @@
 }
 \newcommand{\checkbox}{$\square$}
 
+\let\oldcite\cite
+\renewcommand{\cite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldcite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
+\let\oldparencite\parencite
+\renewcommand{\parencite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldparencite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
-
-
-
-
-
-
-
-
+\let\oldtextcite\textcite
+\renewcommand{\textcite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldtextcite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
 
 % Enforce right-to-left typesetting independently on every line in a node.
