@@ -57,6 +57,12 @@
   ItalicFont=IRNazanin-Italic
 ]{IRNazanin-Regular}
 
+\settextdigitfont[
+  Path=fonts/,
+  Extension=.ttf,
+  Script=Arabic,
+  Scale=1
+]{IRNazanin-Regular}
 
 \setlatintextfont[
   Path=fonts/,
@@ -259,16 +265,32 @@
 }
 \newcommand{\checkbox}{$\square$}
 
+\let\oldcite\cite
+\renewcommand{\cite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldcite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
+\let\oldparencite\parencite
+\renewcommand{\parencite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldparencite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
-
-
-
-
-
-
-
-
+\let\oldtextcite\textcite
+\renewcommand{\textcite}[1]{%
+  \renewcommand{\bibopenbracket}{]}%
+  \renewcommand{\bibclosebracket}{[}%
+  \LRE{\oldtextcite{#1}}%
+  \renewcommand{\bibopenbracket}{[}%
+  \renewcommand{\bibclosebracket}{]}%
+}
 
 
 % Enforce right-to-left typesetting independently on every line in a node.

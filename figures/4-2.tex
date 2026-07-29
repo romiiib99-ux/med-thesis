@@ -1,11 +1,9 @@
 \begin{figure}[H]
     \centering
-
     % TikZ is placed in an LTR environment to keep its coordinate system stable.
     % Individual Persian text elements are restored with \faText.
     \begin{latin}
     \begin{tikzpicture}
-
         \begin{axis}[
             width=0.95\textwidth,
             height=12.2cm,
@@ -106,7 +104,6 @@
             % Chart header
             title={
                 \faText{فعالیت بدنی کافی}
-                \lr{(n=104)}
             },
             title style={
                 font=\bfseries\Large,
@@ -150,9 +147,9 @@
             draw=PrimaryPurple,
             fill=PrimaryPurple
         ] coordinates {
-            (1,90.5)  [\faText{۹۰٫۵٪}]
-            (4,40)    [\faText{۴۰٪}]
-            (7,100)   [\faText{۱۰۰٪}]
+            (1,90.5) [\faText{۹۰٫۵٪}]
+            (4,40) [\faText{۴۰٪}]
+            (7,100) [\faText{۱۰۰٪}]
             (10,65.5) [\faText{۶۵٫۵٪}]
             (13,78.1) [\faText{۷۸٫۱٪}]
             (17,86.6) [\faText{۸۶٫۶٪}]
@@ -168,11 +165,11 @@
             draw=SecondaryTeal,
             fill=SecondaryTeal
         ] coordinates {
-            (2,20)    [\faText{۲۰٪}]
-            (5,76.7)  [\faText{۷۶٫۷٪}]
-            (8,45.2)  [\faText{۴۵٫۲٪}]
+            (2,20) [\faText{۲۰٪}]
+            (5,76.7) [\faText{۷۶٫۷٪}]
+            (8,45.2) [\faText{۴۵٫۲٪}]
             (11,83.9) [\faText{۸۳٫۹٪}]
-            (14,75)   [\faText{۷۵٪}]
+            (14,75) [\faText{۷۵٪}]
             (18,55.4) [\faText{۵۵٫۴٪}]
             (21,52.9) [\faText{۵۲٫۹٪}]
         };
@@ -262,46 +259,6 @@
             \faText{پایبندی دارویی}\\[-1pt]
             \lr{$p=0.002$}
         };
-        %--------------------------------------------------------------
-        % Subtle separators between independent-variable groups
-        %--------------------------------------------------------------
-        \draw[
-            Border,
-            line width=0.45pt,
-            densely dashed
-        ]
-        (axis cs:3,0) -- (axis cs:3,103);
-        \draw[
-            Border,
-            line width=0.45pt,
-            densely dashed
-        ]
-        (axis cs:6,0) -- (axis cs:6,103);
-        \draw[
-            Border,
-            line width=0.45pt,
-            densely dashed
-        ]
-        (axis cs:9,0) -- (axis cs:9,103);
-
-        \draw[
-            Border,
-            line width=0.45pt,
-            densely dashed
-        ]
-        (axis cs:12,0) -- (axis cs:12,103);
-        \draw[
-            Border,
-            line width=0.45pt,
-            densely dashed
-        ]
-        (axis cs:16,0) -- (axis cs:16,103);
-        \draw[
-            Border,
-            line width=0.45pt,
-            densely dashed
-        ]
-        (axis cs:19,0) -- (axis cs:19,103);
         \end{axis}
     \end{tikzpicture}
     \end{latin}
