@@ -7,7 +7,7 @@
   log basis x=10,
   xmin=0.02,xmax=100,
   ymin=0.35,ymax=30.45,
-  width=8.6cm,height=10.4cm,
+  width=8.6cm,height=13.5cm,
   scale only axis,
   axis y line=none,
   axis x line*=bottom,
@@ -16,28 +16,28 @@
   xticklabels={0.02,0.05,0.1,0.2,0.5,1,2,5,10,20,50,100},
   tick label style={font=\scriptsize},
   xlabel={\rl{نسبت شانس (مقیاس لگاریتمی)} },
-  xlabel style={font=\fontsize{8.7}{9.2}\selectfont,yshift=-1mm},
+  xlabel style={font=\fontsize{10.0}{10.0}\selectfont,yshift=-1mm},
   xmajorgrids,
   major grid style={gray!25,line width=0.3pt},
   tick style={black,line width=0.5pt},
   clip=false
 ]
 \draw[densely dashed,line width=0.9pt] (axis cs:1,0.5) -- (axis cs:1,29.5);
-\node[anchor=south,fill=white,inner sep=1pt,font=\fontsize{7.8}{8.2}\selectfont]
+\node[anchor=south,fill=white,inner sep=1pt,font=\fontsize{9.0}{9.0}\selectfont]
   at (axis cs:1,29.55) {\rl{خط عدم اثر}};
 \draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,26.5) -- ([xshift=5.0cm]axis cs:100,26.5);
 \draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,18.5) -- ([xshift=5.0cm]axis cs:100,18.5);
 \draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,13.5) -- ([xshift=5.0cm]axis cs:100,13.5);
 \draw[gray!55,line width=0.45pt] ([xshift=-8.0cm]axis cs:0.02,6.5) -- ([xshift=5.0cm]axis cs:100,6.5);
-\node[anchor=south east,align=center,text width=2.4cm,font=\bfseries\fontsize{9.0}{9.5}\selectfont]
+\node[anchor=south east,align=center,text width=2.4cm,font=\bfseries\fontsize{11.0}{11.0}\selectfont]
   at ([xshift=-6.1cm]axis cs:0.02,30.15) {\rl{متغیر وابسته}};
-\node[anchor=south east,align=center,text width=5.6cm,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+\node[anchor=south east,align=center,text width=5.6cm,font=\bfseries\fontsize{11.0}{11.0}\selectfont]
   at ([xshift=-2mm]axis cs:0.02,30.15) {\rl{متغیر مستقل}};
-\node[anchor=south,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+\node[anchor=south,font=\bfseries\fontsize{11.0}{11.0}\selectfont]
   at (axis cs:1,30.15) {\rl{نسبت شانس و فاصله اطمینان ۹۵ درصد}};
-\node[anchor=south west,align=center,text width=3.7cm,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+\node[anchor=south west,align=center,text width=3.7cm,font=\bfseries\fontsize{10.0}{10.0}\selectfont]
   at ([xshift=2mm]axis cs:100,30.15) {\rl{نسبت شانس؛ فاصله اطمینان ۹۵ درصد}};
-\node[anchor=south west,font=\bfseries\fontsize{8.6}{9.0}\selectfont]
+\node[anchor=south west,font=\bfseries\fontsize{13.0}{13.0}\selectfont]
   at ([xshift=4.1cm]axis cs:100,30.15) {\lr{p-value}};
 \addplot[
   only marks,mark=square*,mark size=2.1pt,
@@ -120,7 +120,7 @@
 \ForestRow{1}{\rl{پایبندی دارویی (پایین)}}{0.386}{0.089--1.666}{0.202}
 \end{axis}
 \end{tikzpicture}
-\caption{نمودار جنگلی نتایج تحلیل رگرسیون لجستیک چندمتغیره}
+\caption{فارست پلات نتایج تحلیل رگرسیون لجستیک چندمتغیره}
 \label{fig:multivariable-forest}
 \end{figure}
 \end{landscape}
