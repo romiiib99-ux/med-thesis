@@ -1,115 +1,159 @@
 \begin{figure}[H]
-  \centering
-  % TikZ is placed in an LTR environment to keep its coordinate system stable.
-  % Individual Persian text elements are restored with \faText.
-  \begin{latin}
-  \begin{tikzpicture}
-    \begin{axis}[
-      width=0.98\textwidth,
-      height=0.68\textwidth,
-      xmin=-0.70,
-      xmax=7.70,
-      ymin=0,
-      ymax=108,
-      ybar,
-      bar width=18pt,
-      axis background/.style={fill=Canvas},
-      axis x line*=bottom,
-      axis y line*=left,
-      axis line style={draw=Ink, line width=0.7pt},
-      tick style={draw=none},
-      ymajorgrids=true,
-      grid style={draw=Border, line width=0.45pt},
-      ytick={0,20,40,60,80,100},
-      yticklabels={
-        \faText{۰},
-        \faText{۲۰},
-        \faText{۴۰},
-        \faText{۶۰},
-        \faText{۸۰},
-        \faText{۱۰۰}
-      },
-      yticklabel style={font=\small, text=Ink},
-      ylabel={\faText{درصد}},
-      ylabel style={font=\normalsize\bfseries, text=Ink, yshift=-2pt},
-      xtick={0,1,3,4,6,7},
-      xticklabels={
-        {\faText{سطح ناکافی}},
-        {\faText{سطح کافی}},
-        {\faText{غیر شاغل}},
-        {\faText{شاغل}},
-        {\faText{زن}},
-        {\faText{مرد}}
-        },
-      xticklabel style={font=\small, text=Ink, align=center, yshift=-2pt},
-      enlarge x limits=false,
-      clip=false,
-      title={\bfseries\faText{عدم مصرف سیگار}},
-      title style={font=\Large, text=Ink, yshift=37pt},
-      legend columns=2,
-      legend style={
-        at={(0.5,1.02)},
-        anchor=south,
-        draw=Border,
-        fill=SurfaceOne,
-        rounded corners=2pt,
-        inner xsep=8pt,
-        inner ysep=4pt,
-        font=\small,
-        text=Ink,
-        /tikz/every even column/.append style={column sep=14pt}
-      },
-      legend cell align={right}
-    ]
-      % In the right-to-left layout, each first category is the purple bar
-      % on the right side of its pair.
-      \addplot+[
-        draw=PrimaryPurple,
-        fill=PrimaryPurple,
-        nodes near coords,
-        point meta=explicit symbolic,
-        every node near coord/.append style={
-          font=\footnotesize\bfseries,
-          text=Ink,
-          anchor=south,
-          yshift=1.5pt
-        }
-      ] coordinates {
-        (1,74.6) [\faText{۷۴٫۶٪}]
-        (4,66.2) [\faText{۶۶٫۲٪}]
-        (7,74.3) [\faText{۷۴٫۳٪}]
-      };
-      \addlegendentry{\faText{رده نخست هر گروه}}
-      \addplot+[
-        draw=SecondaryTeal,
-        fill=SecondaryTeal,
-        nodes near coords,
-        point meta=explicit symbolic,
-        every node near coord/.append style={
-          font=\footnotesize\bfseries,
-          text=Ink,
-          anchor=south,
-          yshift=1.5pt
-        }
-      ] coordinates {
-        (0,88) [\faText{۸۸٪}]
-        (3,95.1) [\faText{۹۵٫۱٪}]
-        (6,100) [\faText{۱۰۰٪}]
-      };
-      \addlegendentry{\faText{رده دوم هر گروه}}
-      % Group names and exact p-values, centered below the category labels.
-      \node[align=center, font=\small\bfseries, text=Ink]
-        at (axis cs:0.5,-17) {\faText{سواد سلامت}\\[-1pt]
-        \textcolor{InkMuted}{\normalfont\lr{$p=0.035$}}};
-      \node[align=center, font=\small\bfseries, text=Ink]
-        at (axis cs:3.5,-17) {\faText{اشتغال}\\[-1pt]
-        \textcolor{InkMuted}{\normalfont\lr{$p<0.001$}}};
-      \node[align=center, font=\small\bfseries, text=Ink]
-        at (axis cs:6.5,-17) {\faText{جنسیت}\\[-1pt]
-        \textcolor{InkMuted}{\normalfont\lr{$p<0.001$}}};
-    \end{axis}
-  \end{tikzpicture}
-  \end{latin}
-  \caption{ارتباط عدم مصرف سیگار و سطح سواد سلامت}
-  \label{fig:no-smoking-grouped-bar}
+    \centering
+    % TikZ is placed in an LTR environment to keep its coordinate system stable.
+    % Individual Persian text elements are restored with \faText.
+    \begin{tikzpicture}
+        \begin{axis}[
+            width=0.7\textwidth,
+            height=8.3cm,
+            % Axis ranges
+            ymin=0,
+            ymax=112,
+            xmin=0.15,
+            xmax=8.85,
+            % Background and axis lines
+            axis background/.style={
+                fill=Canvas
+            },
+            axis x line*=bottom,
+            axis y line*=left,
+            axis line style={
+                draw=Ink,
+                line width=0.75pt
+            },
+            tick style={
+                draw=InkMuted,
+                line width=0.55pt
+            },
+            % Y-axis
+            ytick={0,20,40,60,80,100},
+            yticklabels={
+                \faText{۰},
+                \faText{۲۰},
+                \faText{۴۰},
+                \faText{۶۰},
+                \faText{۸۰},
+                \faText{۱۰۰}
+            },
+            ylabel={\faText{درصد فراوانی}},
+            ylabel style={
+                font=\bfseries\small,
+                text=Ink,
+                yshift=-2pt
+            },
+            yticklabel style={
+                font=\small,
+                text=InkMuted
+            },
+            % Grid
+            xmajorgrids=false,
+            ymajorgrids=true,
+            grid style={
+                draw=Border,
+                line width=0.55pt
+            },
+            % One tick beneath every individual bar
+            xtick={
+                1,2,
+                4,5,
+                7,8
+            },
+            xticklabels={
+                \faText{سطح ناکافی},
+                \faText{سطح کافی},
+                \faText{غیر شاغل},
+                \faText{شاغل},
+                \faText{زن},
+                \faText{مرد}
+            },
+            xticklabel style={
+                font=\footnotesize,
+                text=Ink,
+                rotate=52,
+                anchor=east,
+                align=right,
+                yshift=-2pt
+            },
+            tick align=outside,
+            % Bars and exact percentage labels
+            bar width=13pt,
+            clip=false,
+            point meta=explicit symbolic,
+            nodes near coords={\pgfplotspointmeta},
+            every node near coord/.append style={
+                font=\bfseries\scriptsize,
+                text=Ink,
+                anchor=south,
+                yshift=2pt,
+                inner sep=0.5pt
+            },
+]
+        %--------------------------------------------------------------
+        % Purple bars
+        %--------------------------------------------------------------
+        \addplot+[
+            ybar,
+            mark=none,
+            draw=PrimaryPurple,
+            fill=PrimaryPurple
+        ] coordinates {
+            (2,74.6) [{۷۴٫۶٪}]
+            (5,66.2) [{۶۶٫۲٪}]
+            (8,74.3) [{۷۴٫۳٪}]
+        };
+
+        %--------------------------------------------------------------
+        % Teal bars
+        %--------------------------------------------------------------
+        \addplot+[
+            ybar,
+            mark=none,
+            draw=SecondaryTeal,
+            fill=SecondaryTeal
+        ] coordinates {
+            (1,88) [{۸۸٪}]
+            (4,95.1) [{۹۵٫۱٪}]
+            (7,100) [{۱۰۰٪}]
+        };
+
+        %--------------------------------------------------------------
+        % Independent-variable names and p-values
+        %--------------------------------------------------------------
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:1.5,-29) {
+            \faText{سواد سلامت}\\[-1pt]
+            {$p=0.035$}
+        };
+
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:4.5,-29) {
+            \faText{اشتغال}\\[-1pt]
+            {$p<0.001$}
+        };
+
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:7.5,-29) {
+            \faText{جنسیت}\\[-1pt]
+            {$p<0.001$}
+        };
+
+        \end{axis}
+    \end{tikzpicture}
+    \caption{درصد فراوانی عدم مصرف سیگار}
+    \label{fig:no-smoking-grouped-bar}
 \end{figure}

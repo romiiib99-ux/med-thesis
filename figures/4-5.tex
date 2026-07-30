@@ -1,37 +1,17 @@
 \begin{figure}[H]
     \centering
-    % The LTR environment prevents RTL transformations
-    % from affecting the PGFPlots coordinate system.
-    \begin{latin}
+    % TikZ is placed in an LTR environment to keep its coordinate system stable.
+    % Individual Persian text elements are restored with \faText.
     \begin{tikzpicture}
         \begin{axis}[
-            width=0.98\textwidth,
-            height=12.2cm,
-            ybar,
-            bar width=13pt,
+            width=0.85\textwidth,
+            height=8cm,
+            % Axis ranges
             ymin=0,
-            ymax=105,
-            ytick={0,20,40,60,80,100},
-            yticklabels={
-                \rl{۰},
-                \rl{۲۰},
-                \rl{۴۰},
-                \rl{۶۰},
-                \rl{۸۰},
-                \rl{۱۰۰}
-            },
-            ylabel={\rl{درصد}},
-            ylabel style={
-                font=\bfseries,
-                text=Ink,
-                yshift=-2pt
-            },
-            title={\rl{\bfseries پایبندی کلی}},
-            title style={
-                font=\Large,
-                text=Ink,
-                yshift=7pt
-            },
+            ymax=55,
+            xmin=0.15,
+            xmax=14.85,
+            % Background and axis lines
             axis background/.style={
                 fill=Canvas
             },
@@ -39,18 +19,40 @@
             axis y line*=left,
             axis line style={
                 draw=Ink,
-                line width=0.8pt
+                line width=0.75pt
             },
             tick style={
-                draw=Ink,
-                line width=0.7pt
+                draw=InkMuted,
+                line width=0.55pt
             },
-            ymajorgrids=true,
+            % Y-axis
+            ytick={0,10,20,30,40,50},
+            yticklabels={
+                \faText{0},
+                \faText{10},
+                \faText{20},
+                \faText{30},
+                \faText{40},
+                \faText{50}
+            },
+            ylabel={\faText{درصد فراوانی}},
+            ylabel style={
+                font=\bfseries\small,
+                text=Ink,
+                yshift=-2pt
+            },
+            yticklabel style={
+                font=\small,
+                text=InkMuted
+            },
+            % Grid
             xmajorgrids=false,
-            major grid style={
+            ymajorgrids=true,
+            grid style={
                 draw=Border,
-                line width=0.65pt
+                line width=0.55pt
             },
+            % One tick beneath every individual bar
             xtick={
                 1,2,
                 4,5,
@@ -59,143 +61,131 @@
                 13,14
             },
             xticklabels={
-                \rl{مرد},
-                \rl{زن},
-                \rl{مجرد},
-                \rl{متاهل},
-                \rl{پایه},
-                \rl{دانشگاهی},
-                \rl{سطح کافی},
-                \rl{سطح ناکافی},
-                \rl{بالا},
-                \rl{پایین}
+                \faText{مرد},
+                \faText{زن},
+                \faText{مجرد},
+                \faText{متاهل},
+                \faText{پایه},
+                \faText{دانشگاهی},
+                \faText{سطح کافی},
+                \faText{سطح ناکافی},
+                \faText{بالا},
+                \faText{پایین}
             },
-            x tick label style={
-                font=\scriptsize,
+            xticklabel style={
+                font=\footnotesize,
                 text=Ink,
+                rotate=52,
+                anchor=east,
                 align=right,
-                rotate=35,
-                anchor=north east,
-                yshift=-1pt
+                yshift=-2pt
             },
-            y tick label style={
-                font=\small,
-                text=InkMuted
-            },
-            enlarge x limits=0.065,
+            tick align=outside,
+            % Bars and exact percentage labels
+            bar width=13pt,
             clip=false,
-            legend columns=1,
-            legend style={
-                at={(0.98,0.97)},
-                anchor=north east,
-                draw=none,
-                fill=SurfaceOne,
-                rounded corners=6pt,
-                inner xsep=10pt,
-                inner ysep=6pt,
-                row sep=3pt,
-                font=\small,
-                text=Ink,
-                /tikz/every even column/.append style={column sep=6pt}
-            },
-            nodes near coords,
             point meta=explicit symbolic,
+            nodes near coords={\pgfplotspointmeta},
             every node near coord/.append style={
-                font=\small,
+                font=\bfseries\scriptsize,
                 text=Ink,
                 anchor=south,
-                yshift=2pt
-            }
-        ]
-        % First category in every pair:
-        % primary purple, #7B2FBE.
+                yshift=2pt,
+                inner sep=0.5pt
+            },
+]
+        %--------------------------------------------------------------
+        % First category of every independent variable
+        %--------------------------------------------------------------
         \addplot+[
+            ybar,
+            mark=none,
             draw=PrimaryPurple,
-            fill=PrimaryPurple,
-            line width=0.8pt
+            fill=PrimaryPurple
         ] coordinates {
-            (1,21.9) [\rl{۲۱٫۹٪}]
-            (4,3.3)  [\rl{۳٫۳٪}]
-            (7,10.1) [\rl{۱۰٫۱٪}]
-            (10,26.1)[\rl{۲۶٫۱٪}]
-            (13,23.2)[\rl{۲۳٫۲٪}]
+            (1,21.9) [{۲۱٫۹٪}]
+            (4,3.3) [{۳٫۳٪}]
+            (7,10.1) [{۱۰٫۱٪}]
+            (10,26.1) [{۲۶٫۱٪}]
+            (13,23.2) [{۲۳٫۲٪}]
         };
-        \addlegendentry{\rl{ردهٔ نخست هر گروه}}
-        % Second category in every pair:
-        % secondary teal, #00C4CC.
+
+        %--------------------------------------------------------------
+        % Second category of every independent variable
+        %--------------------------------------------------------------
         \addplot+[
+            ybar,
+            mark=none,
             draw=SecondaryTeal,
-            fill=SecondaryTeal,
-            line width=0.8pt
+            fill=SecondaryTeal
         ] coordinates {
-            (2,6.7)  [\rl{۶٫۷٪}]
-            (5,20.8) [\rl{۲۰٫۸٪}]
-            (8,45.2) [\rl{۴۵٫۲٪}]
-            (11,10.6)[\rl{۱۰٫۶٪}]
-            (14,5.9) [\rl{۵٫۹٪}]
+            (2,6.7) [{۶٫۷٪}]
+            (5,20.8) [{۲۰٫۸٪}]
+            (8,45.2) [{۴۵٫۲٪}]
+            (11,10.6) [{۱۰٫۶٪}]
+            (14,5.9) [{۵٫۹٪}]
         };
-        \addlegendentry{\rl{ردهٔ دوم هر گروه}}
-        % Variable names and p-values centered
-        % below the corresponding pairs of bars
-        % (Persian digits).
+
+        %--------------------------------------------------------------
+        % Independent-variable names and p-values
+        %--------------------------------------------------------------
         \node[
-            font=\small,
+            font=\bfseries\scriptsize,
             text=Ink,
             align=center,
-            anchor=north
-        ] at (axis cs:1.5,-18) {
-            \shortstack[c]{%
-                \rl{جنسیت}\\[-1pt]
-                {\lr{\textit{p} = ۰٫۰۲۴}}%
-            }
+            text width=1.9cm
+        ]
+        at (axis cs:1.5,-18) {
+            \faText{جنسیت}\\[-1pt]
+            {$p=0.024$}
         };
+
         \node[
-            font=\small,
+            font=\bfseries\scriptsize,
             text=Ink,
             align=center,
-            anchor=north
-        ] at (axis cs:4.5,-18) {
-            \shortstack[c]{%
-                \rl{تاهل}\\[-1pt]
-                {\lr{\textit{p} = ۰٫۰۲۴}}%
-            }
+            text width=1.9cm
+        ]
+        at (axis cs:4.5,-18) {
+            \faText{تاهل}\\[-1pt]
+            {$p=0.024$}
         };
+
         \node[
-            font=\small,
+            font=\bfseries\scriptsize,
             text=Ink,
             align=center,
-            anchor=north
-        ] at (axis cs:7.5,-18) {
-            \shortstack[c]{%
-                \rl{تحصیلات}\\[-1pt]
-                {\lr{\textit{p} < ۰٫۰۰۱}}%
-            }
+            text width=1.9cm
+        ]
+        at (axis cs:7.5,-18) {
+            \faText{تحصیلات}\\[-1pt]
+            {$p<0.001$}
         };
+
         \node[
-            font=\small,
+            font=\bfseries\scriptsize,
             text=Ink,
             align=center,
-            anchor=north
-        ] at (axis cs:10.5,-18) {
-            \shortstack[c]{%
-                \rl{سواد سلامت}\\[-1pt]
-                {\lr{\textit{p} = ۰٫۰۱۶}}%
-            }
+            text width=1.9cm
+        ]
+        at (axis cs:10.5,-18) {
+            \faText{سواد سلامت}\\[-1pt]
+            {$p=0.016$}
         };
+
         \node[
-            font=\small,
+            font=\bfseries\scriptsize,
             text=Ink,
             align=center,
-            anchor=north
-        ] at (axis cs:13.5,-18) {
-            \shortstack[c]{%
-                \rl{پایبندی دارویی}\\[-1pt]
-                {\lr{\textit{p} = ۰٫۰۰۸}}%
-            }
+            text width=1.9cm
+        ]
+        at (axis cs:13.5,-18) {
+            \faText{پایبندی دارویی}\\[-1pt]
+            {$p=0.008$}
         };
+
         \end{axis}
     \end{tikzpicture}
-    \end{latin}
-    \caption{مقایسه پایبندی کلی و پایبندی دارویی}
+    \caption{درصد فراوانی پایبندی کلی}
     \label{fig:overall-adherence-grouped-bar}
 \end{figure}

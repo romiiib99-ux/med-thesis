@@ -2,11 +2,10 @@
     \centering
     % TikZ is placed in an LTR environment to keep its coordinate system stable.
     % Individual Persian text elements are restored with \faText.
-    \begin{latin}
     \begin{tikzpicture}
         \begin{axis}[
-            width=0.95\textwidth,
-            height=12.2cm,
+            width=0.99\textwidth,
+            height=10cm,
             % Axis ranges
             ymin=0,
             ymax=112,
@@ -36,9 +35,9 @@
                 \faText{۸۰},
                 \faText{۱۰۰}
             },
-            ylabel={\faText{درصد}},
+            ylabel={\faText{درصد فراوانی}},
             ylabel style={
-                font=\bfseries\large,
+                font=\bfseries\small,
                 text=Ink,
                 yshift=-2pt
             },
@@ -102,42 +101,7 @@
                 inner sep=0.5pt
             },
             % Chart header
-            title={
-                \faText{فعالیت بدنی کافی}
-            },
-            title style={
-                font=\bfseries\Large,
-                text=Ink,
-                yshift=47pt,
-                fill=SurfaceOne,
-                draw=Border,
-                rounded corners=3pt,
-                inner xsep=18pt,
-                inner ysep=5pt
-            },
-            % Legend
-            legend style={
-                at={(0.5,1.035)},
-                anchor=south,
-                legend columns=3,
-                draw=Border,
-                fill=Canvas,
-                rounded corners=2pt,
-                font=\footnotesize,
-                text=Ink,
-                /tikz/every even column/.append style={
-                    column sep=10pt
-                },
-                inner xsep=7pt,
-                inner ysep=4pt,
-                legend image code/.code={
-                    \draw[##1]
-                        (0cm,-0.10cm)
-                        rectangle
-                        (0.34cm,0.18cm);
-                }
-            }
-        ]
+]
         %--------------------------------------------------------------
         % First category of every independent variable
         %--------------------------------------------------------------
@@ -147,15 +111,14 @@
             draw=PrimaryPurple,
             fill=PrimaryPurple
         ] coordinates {
-            (1,90.5) [\faText{۹۰٫۵٪}]
-            (4,40) [\faText{۴۰٪}]
-            (7,100) [\faText{۱۰۰٪}]
-            (10,65.5) [\faText{۶۵٫۵٪}]
-            (13,78.1) [\faText{۷۸٫۱٪}]
-            (17,86.6) [\faText{۸۶٫۶٪}]
-            (20,77.8) [\faText{۷۷٫۸٪}]
+            (1,90.5) [{۹۰٫۵٪}]
+            (4,40) [{۴۰٪}]
+            (7,100) [{۱۰۰٪}]
+            (10,65.5) [{۶۵٫۵٪}]
+            (13,78.1) [{۷۸٫۱٪}]
+            (17,86.6) [{۸۶٫۶٪}]
+            (20,77.8) [{۷۷٫۸٪}]
         };
-        \addlegendentry{\faText{رده نخست}}
         %--------------------------------------------------------------
         % Second category of every independent variable
         %--------------------------------------------------------------
@@ -165,15 +128,14 @@
             draw=SecondaryTeal,
             fill=SecondaryTeal
         ] coordinates {
-            (2,20) [\faText{۲۰٪}]
-            (5,76.7) [\faText{۷۶٫۷٪}]
-            (8,45.2) [\faText{۴۵٫۲٪}]
-            (11,83.9) [\faText{۸۳٫۹٪}]
-            (14,75) [\faText{۷۵٪}]
-            (18,55.4) [\faText{۵۵٫۴٪}]
-            (21,52.9) [\faText{۵۲٫۹٪}]
+            (2,20) [{۲۰٪}]
+            (5,76.7) [{۷۶٫۷٪}]
+            (8,45.2) [{۴۵٫۲٪}]
+            (11,83.9) [{۸۳٫۹٪}]
+            (14,75) [{۷۵٪}]
+            (18,55.4) [{۵۵٫۴٪}]
+            (21,52.9) [{۵۲٫۹٪}]
         };
-        \addlegendentry{\faText{رده دوم}}
         %--------------------------------------------------------------
         % Third category, used only for the three-level treatment group
         %--------------------------------------------------------------
@@ -183,9 +145,8 @@
             draw=AccentMagenta,
             fill=AccentMagenta
         ] coordinates {
-            (15,34.5) [\faText{۳۴٫۵٪}]
+            (15,34.5) [{۳۴٫۵٪}]
         };
-        \addlegendentry{\faText{رده سوم (نوع درمان)}}
         %--------------------------------------------------------------
         % Independent-variable names and p-values
         %--------------------------------------------------------------
@@ -197,7 +158,7 @@
         ]
         at (axis cs:1.5,-28) {
             \faText{جنسیت}\\[-1pt]
-            \lr{$p<0.001$}
+            {$p<0.001$}
         };
         \node[
             font=\bfseries\scriptsize,
@@ -207,7 +168,7 @@
         ]
         at (axis cs:4.5,-28) {
             \faText{تاهل}\\[-1pt]
-            \lr{$p<0.001$}
+            {$p<0.001$}
         };
         \node[
             font=\bfseries\scriptsize,
@@ -217,7 +178,7 @@
         ]
         at (axis cs:7.5,-28) {
             \faText{اشتغال}\\[-1pt]
-            \lr{$p<0.001$}
+            {$p<0.001$}
         };
         \node[
             font=\bfseries\scriptsize,
@@ -227,7 +188,7 @@
         ]
         at (axis cs:10.5,-28) {
             \faText{تحصیلات}\\[-1pt]
-            \lr{$p=0.049$}
+            {$p=0.049$}
         };
         \node[
             font=\bfseries\scriptsize,
@@ -237,7 +198,7 @@
         ]
         at (axis cs:14,-28) {
             \faText{نوع درمان}\\[-1pt]
-            \lr{$p<0.001$}
+            {$p<0.001$}
         };
         \node[
             font=\bfseries\scriptsize,
@@ -247,7 +208,7 @@
         ]
         at (axis cs:17.5,-28) {
             \faText{سواد سلامت}\\[-1pt]
-            \lr{$p<0.001$}
+            {$p<0.001$}
         };
         \node[
             font=\bfseries\scriptsize,
@@ -257,12 +218,11 @@
         ]
         at (axis cs:20.5,-28) {
             \faText{پایبندی دارویی}\\[-1pt]
-            \lr{$p=0.002$}
+            {$p=0.002$}
         };
         \end{axis}
     \end{tikzpicture}
-    \end{latin}
     \caption{
-        درصد فراوانی برخورداری از فعالیت بدنی کافی}
+        درصد فراوانی پایبندی به فعالیت بدنی کافی}
     \label{fig:sufficient-physical-activity}
 \end{figure}

@@ -1,192 +1,191 @@
 \begin{figure}[H]
     \centering
+    % TikZ is placed in an LTR environment to keep its coordinate system stable.
+    % Individual Persian text elements are restored with \faText.
     \begin{tikzpicture}
         \begin{axis}[
-            width=0.99\textwidth,
-            height=0.62\textwidth,
-            xmin=0.2,
-            xmax=14.8,
+            width=0.85\textwidth,
+            height=9cm,
+            % Axis ranges
             ymin=0,
-            ymax=108,
+            ymax=112,
+            xmin=0.15,
+            xmax=14.85,
+            % Background and axis lines
+            axis background/.style={
+                fill=Canvas
+            },
             axis x line*=bottom,
             axis y line*=left,
             axis line style={
                 draw=Ink,
-                line width=0.8pt
+                line width=0.75pt
             },
             tick style={
-                draw=none
+                draw=InkMuted,
+                line width=0.55pt
             },
-            axis background/.style={
-                fill=Canvas
-            },
-            ymajorgrids=true,
-            xmajorgrids=false,
-            major grid style={
-                draw=Border,
-                line width=0.45pt
-            },
+            % Y-axis
             ytick={0,20,40,60,80,100},
-            yticklabels={۰,۲۰,۴۰,۶۰,۸۰,۱۰۰},
-            yticklabel style={
-                font=\footnotesize,
-                text=Ink
+            yticklabels={
+                \faText{۰},
+                \faText{۲۰},
+                \faText{۴۰},
+                \faText{۶۰},
+                \faText{۸۰},
+                \faText{۱۰۰}
             },
-            ylabel={\rl{درصد}},
+            ylabel={\faText{درصد فراوانی}},
             ylabel style={
-                font=\small\bfseries,
+                font=\bfseries\small,
                 text=Ink,
                 yshift=-2pt
             },
-            title={
-                \rl{پایبندی به رژیم غذایی}
+            yticklabel style={
+                font=\small,
+                text=InkMuted
             },
-            title style={
-                font=\large\bfseries,
-                text=Ink,
-                yshift=7pt
+            % Grid
+            xmajorgrids=false,
+            ymajorgrids=true,
+            grid style={
+                draw=Border,
+                line width=0.55pt
             },
-            xtick={1,2,4,5,7,8,10,11,13,14},
+            % One tick beneath every individual bar
+            xtick={
+                1,2,
+                4,5,
+                7,8,
+                10,11,
+                13,14
+            },
             xticklabels={
-                {\makecell[c]{\rl{پایه}}},
-                {\makecell[c]{\rl{دانشگاهی}}},
-                {\makecell[c]{\rl{روستایی}}},
-                {\makecell[c]{\rl{شهری}}},
-                {\makecell[c]{\rl{ضعیف}}},
-                {\makecell[c]{\rl{متوسط/خوب}}},
-                {\makecell[c]{\rl{سطح}\\\rl{کافی}}},
-                {\makecell[c]{\rl{سطح}\\\rl{ناکافی}}},
-                {\makecell[c]{\rl{بالا}}},
-                {\makecell[c]{\rl{پایین}}}
+                \faText{پایه},
+                \faText{دانشگاهی},
+                \faText{روستایی},
+                \faText{شهری},
+                \faText{ضعیف},
+                \faText{متوسط/خوب},
+                \faText{سطح کافی},
+                \faText{سطح ناکافی},
+                \faText{بالا},
+                \faText{پایین}
             },
             xticklabel style={
-                font=\scriptsize,
-                text=Ink,
-                align=center,
-                yshift=-2pt
-            },
-            extra x ticks={1.5,4.5,7.5,10.5,13.5},
-            extra x tick labels={
-                {
-                    \makecell[c]{
-                        \rl{تحصیلات}\\
-                        \lr{$p<0.001$}
-                    }
-                },
-                {
-                    \makecell[c]{
-                        \rl{سکونت}\\
-                        \lr{$p<0.001$}
-                    }
-                },
-                {
-                    \makecell[c]{
-                        \rl{وضعیت اقتصادی}\\
-                        \lr{$p<0.001$}
-                    }
-                },
-                {
-                    \makecell[c]{
-                        \rl{سواد سلامت}\\
-                        \lr{$p=0.001$}
-                    }
-                },
-                {
-                    \makecell[c]{
-                        \rl{پایبندی دارویی}\\
-                        \lr{$p=0.009$}
-                    }
-                }
-            },
-            extra x tick style={
-                tick style={
-                    draw=none
-                },
-                grid=none,
-                ticklabel style={
-                    font=\footnotesize,
-                    text=Ink,
-                    align=center,
-                    yshift=-20mm
-                }
-            },
-            bar width=12pt,
-            clip=false,
-            legend columns=2,
-            legend image code/.code={
-                \draw[#1]
-                    (0cm,-0.10cm)
-                    rectangle
-                    (0.34cm,0.10cm);
-            },
-            legend cell align={right},
-            legend style={
-                at={(0.5,0.965)},
-                anchor=north,
-                draw=Border,
-                fill=SurfaceOne,
-                rounded corners=2pt,
                 font=\footnotesize,
                 text=Ink,
-                inner xsep=7pt,
-                inner ysep=4pt,
-                /tikz/every even column/.append style={
-                    column sep=10pt
-                }
+                rotate=52,
+                anchor=east,
+                align=right,
+                yshift=-2pt
             },
-            nodes near coords={\pgfplotspointmeta},
+            tick align=outside,
+            % Bars and exact percentage labels
+            bar width=13pt,
+            clip=false,
             point meta=explicit symbolic,
+            nodes near coords={\pgfplotspointmeta},
             every node near coord/.append style={
-                font=\footnotesize\bfseries,
+                font=\bfseries\scriptsize,
                 text=Ink,
-                yshift=2pt
-            }
-        ]
-        % First category in every group: primary purple
+                anchor=south,
+                yshift=2pt,
+                inner sep=0.5pt
+            },
+]
+        %--------------------------------------------------------------
+        % First category of every independent variable
+        %--------------------------------------------------------------
         \addplot+[
             ybar,
+            mark=none,
             draw=PrimaryPurple,
-            fill=PrimaryPurple,
-            mark=none
-        ]
-        table[
-            x=x,
-            y=y,
-            meta=label,
-            row sep=\\
-        ] {
-            x   y     label\\
-            1   52.1  {۵۲٫۱٪}\\
-            4   41.0  {۴۱٪}\\
-            7   35.4  {۳۵٫۴٪}\\
-            10  74.6  {۷۴٫۶٪}\\
-            13  67.3  {۶۷٫۳٪}\\
+            fill=PrimaryPurple
+        ] coordinates {
+            (1,52.1) [{۵۲٫۱٪}]
+            (4,41.0) [{۴۱٪}]
+            (7,35.4) [{۳۵٫۴٪}]
+            (10,74.6) [{۷۴٫۶٪}]
+            (13,67.3) [{۶۷٫۳٪}]
         };
-        \addlegendentry{\rl{رده نخست هر گروه}}
-        % Second category in every group: secondary teal
+
+        %--------------------------------------------------------------
+        % Second category of every independent variable
+        %--------------------------------------------------------------
         \addplot+[
             ybar,
+            mark=none,
             draw=SecondaryTeal,
-            fill=SecondaryTeal,
-            mark=none
-        ]
-        table[
-            x=x,
-            y=y,
-            meta=label,
-            row sep=\\
-        ] {
-            x   y     label\\
-            2   90.3  {۹۰٫۳٪}\\
-            5   73.0  {۷۳٪}\\
-            8   78.8  {۷۸٫۸٪}\\
-            11  48.2  {۴۸٫۲٪}\\
-            14  44.9  {۴۴٫۹٪}\\
+            fill=SecondaryTeal
+        ] coordinates {
+            (2,90.3) [{۹۰٫۳٪}]
+            (5,73.0) [{۷۳٪}]
+            (8,78.8) [{۷۸٫۸٪}]
+            (11,48.2) [{۴۸٫۲٪}]
+            (14,44.9) [{۴۴٫۹٪}]
         };
-        \addlegendentry{\rl{رده دوم هر گروه}}
+
+        %--------------------------------------------------------------
+        % Independent-variable names and p-values
+        %--------------------------------------------------------------
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:1.5,-29) {
+            \faText{تحصیلات}\\[-1pt]
+            {$p<0.001$}
+        };
+
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:4.5,-29) {
+            \faText{سکونت}\\[-1pt]
+            {$p<0.001$}
+        };
+
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:7.5,-29) {
+            \faText{وضعیت اقتصادی}\\[-1pt]
+            {$p<0.001$}
+        };
+
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:10.5,-29) {
+            \faText{سواد سلامت}\\[-1pt]
+            {$p=0.001$}
+        };
+
+        \node[
+            font=\bfseries\scriptsize,
+            text=Ink,
+            align=center,
+            text width=1.9cm
+        ]
+        at (axis cs:13.5,-29) {
+            \faText{پایبندی دارویی}\\[-1pt]
+            {$p=0.009$}
+        };
+
         \end{axis}
     \end{tikzpicture}
-    \caption{
-        مقایسه درصد پایبندی به رژیم غذایی و پایبندی دارویی}
+    \caption{درصد فراوانی پایبندی به رژیم غذایی}
     \label{fig:diet-adherence-grouped-bar}
 \end{figure}
